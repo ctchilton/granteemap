@@ -247,17 +247,67 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
     id: 'mapbox.light'
 }).addTo(map);
 
-    var markers = L.markerClusterGroup();
-    
-    for (var i = 0; i < addressPoints.length; i++) {
-      var a = addressPoints[i];
-      var title = a[2];
-      var marker = L.marker(new L.LatLng(a.Latitude, a.Longitude), { title: a.grantee });
-      marker.bindPopup('<h3>' + a.grantee + '</h3>' + a.blurb);
-      markers.addLayer(marker);
+
+    var fullCount = addressPoints.length;
+    var quarterCount = Math.round(fullCount / 4);
+
+    var granteesLayerGroup = L.markerClusterGroup.layerSupport(),
+        group1 = L.layerGroup(),
+        group2 = L.layerGroup(),
+        group3 = L.layerGroup(),
+        group4 = L.layerGroup(),
+        control = L.control.layers(null, null, { collapsed: false }),
+        i, a, title, marker;
+
+    granteesLayerGroup.addTo(map);
+
+    for (i = 0; i < fullCount; i++) {
+        a = addressPoints[i];
+        title = a.granteeAcronym;
+        marker = L.marker([a.Latitude, a.Longitude], { title: title });
+        marker.bindPopup(title);
+
+        marker.addTo(a.granteeAcronym == 'ybu-1' ? group1 : a.granteeAcronym == 'ybu-2' ? group2 : a.granteeAcronym == 'ybu-3' ? group3 : group4);
     }
 
-    map.addLayer(markers);
+    granteesLayerGroup.checkIn([group1, group2, group3, group4]);
+
+    control.addOverlay(group1, 'ybu-1');
+    control.addOverlay(group2, 'ybu-2');
+    control.addOverlay(group3, 'ybu-3');
+    control.addOverlay(group4, 'ybu-4');
+    control.addTo(map);
+
+    group1.addTo(map); // Adding to map or to AutoMCG are now equivalent.
+    group2.addTo(map);
+    group3.addTo(map);
+    group4.addTo(map);
+
+    // Set-up buttons.
+    var getOption = $('#getOption');
+
+    for (i = 0; i < getOption.length; i++) {
+        getOption[i].addEventListener("change", toggleGroup);
+    }
+
+    function toggleGroup(event) {
+        var data = event.currentTarget.selectedOptions[0].dataset,
+            op = data.op,
+            groupNo = data.group,
+            group = groupNo == 'ybu-1' ? group1 : groupNo == 'ybu-2' ? group2 : groupNo == 'ybu-3' ? group3 : group4;
+
+        //granteesLayerGroup[op](group);
+        granteesLayerGroup['clearLayers'](group);
+        granteesLayerGroup[op](group);
+        //granteesLayerGroup.refreshClusters();
+        //console.log(granteesLayerGroup.refreshClusters());
+        //console.log(op + " " + groupNo);
+    }
+
+
+        //group = groupNo == 'ybu' ? group1 : groupNo == 'ybu-1' ? group2 : groupNo == 'ybu-2' ? group3 : group4;
+
+
 
 
 /*********************************************************************************************
