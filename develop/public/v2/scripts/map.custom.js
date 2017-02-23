@@ -211,7 +211,7 @@ function showAllGrantees() {
 
     var granteesUl = '';
     for (var key in granteeData) {
-        granteesUl = granteesUl + '<option value="'+key+'" data-key="'+key+'">' + granteeData[key]['name'] + '</option>';
+        granteesUl = granteesUl + '<option value="'+key+'" data-group="'+key+'" data-key="'+key+'" data-op="addLayer">' + granteeData[key]['name'] + '  </option>';
     }     
     $("#stateGrantees").html('<option value="all">All Grantees</option>'+granteesUl);
     $("#stateInfo").show();
@@ -239,52 +239,104 @@ if ($(window).width() < 700) zoomLevel = 3;
 var map = L.map('map').setView([37.8, -96], zoomLevel);
 //map.doubleClickZoom.disable();
 
-L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpandmbXliNDBjZWd2M2x6bDk3c2ZtOTkifQ._QA7i5Mpkd_m30IGElHziw', {
-    //maxZoom: 4,
-    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
-        '<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
-        'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-    id: 'mapbox.light'
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            //maxZoom: 18,
+            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, Points &copy 2012 LINZ'
 }).addTo(map);
 
 
     var fullCount = addressPoints.length;
-    var quarterCount = Math.round(fullCount / 4);
+    //var quarterCount = Math.round(fullCount / 4);
+
 
     var granteesLayerGroup = L.markerClusterGroup.layerSupport(),
-        group1 = L.layerGroup(),
-        group2 = L.layerGroup(),
-        group3 = L.layerGroup(),
-        group4 = L.layerGroup(),
         control = L.control.layers(null, null, { collapsed: false }),
         i, a, title, marker;
 
     granteesLayerGroup.addTo(map);
 
+    var group = [];
+    var arryGroups = []; //need to push to array?
+
+    var granteeKeyCount = Object.keys(granteeData).length;
+   // for(i=0; i < granteeKeyCount; i++){
+    for(i=1; i < granteeKeyCount; i++){
+        group[i] = L.layerGroup();
+        arryGroups.push(group[i]);//push to array
+    }
+    
+    //fullCount
     for (i = 0; i < fullCount; i++) {
         a = addressPoints[i];
         title = a.granteeAcronym;
         marker = L.marker([a.Latitude, a.Longitude], { title: title });
         marker.bindPopup(title);
 
-        marker.addTo(a.granteeAcronym == 'ybu-1' ? group1 : a.granteeAcronym == 'ybu-2' ? group2 : a.granteeAcronym == 'ybu-3' ? group3 : group4);
+        //marker.addTo( a.granteeAcronym == 'aap' ? group[1] : group[4] );
+        //getGranteeAcronym();
+
+        marker.addTo(
+                    a.granteeAcronym == 'aap'   ? group[1] : 
+                    a.granteeAcronym == 'bhsb'  ? group[2] : 
+                    a.granteeAcronym == 'cafp'  ? group[3] : 
+                    a.granteeAcronym == 'ccf'   ? group[4] : 
+                    a.granteeAcronym == 'csi'   ? group[5] : 
+                    a.granteeAcronym == 'cdcf'  ? group[6] : 
+                    a.granteeAcronym == 'chcs'  ? group[7] : 
+                    a.granteeAcronym == 'chc'   ? group[8] : 
+                    a.granteeAcronym == 'cadca' ? group[9] : 
+                    a.granteeAcronym == 'ccat'  ? group[10] : 
+                    a.granteeAcronym == 'facadd'? group[11] : 
+                    a.granteeAcronym == 'fract' ? group[12] : 
+                    a.granteeAcronym == 'fin'   ? group[13] : 
+                    a.granteeAcronym == 'gih'   ? group[14] : 
+                    a.granteeAcronym == 'kfri'  ? group[15] : 
+                    a.granteeAcronym == 'lac'   ? group[16] : 
+                    a.granteeAcronym == 'mfu'   ? group[17] : 
+                    a.granteeAcronym == 'mgr'   ? group[18] : 
+                    a.granteeAcronym == 'nas'   ? group[19] : 
+                    a.granteeAcronym == 'ncbh'  ? group[20] : 
+                    a.granteeAcronym == 'norc'  ? group[21] : 
+                    a.granteeAcronym == 'nhcf'  ? group[22] : 
+                    a.granteeAcronym == 'osu'   ? group[23] : 
+                    a.granteeAcronym == 'pdfk'  ? group[24] : 
+                    a.granteeAcronym == 'pri'  ? group[25] : 
+                    a.granteeAcronym == 'psurf'  ? group[26] : 
+                    a.granteeAcronym == 'phope'  ? group[27] : 
+                    a.granteeAcronym == 'sbha'  ? group[28] : 
+                    a.granteeAcronym == 'abamf'  ? group[29] : 
+                    a.granteeAcronym == 'csjksu'  ? group[30] : 
+                    a.granteeAcronym == 'tyr'  ? group[31] : 
+                    a.granteeAcronym == 'tri'  ? group[32] : 
+                    a.granteeAcronym == 'tah'  ? group[33] : 
+                    a.granteeAcronym == 'uisap'  ? group[34] : 
+                    //a.granteeAcronym == 'uom'  ? group[35] : 
+                    //a.granteeAcronym == 'uonm'  ? group[36] : 
+                    a.granteeAcronym == 'ybu'  ? group[35] : group[36]
+                    );
     }
 
-    granteesLayerGroup.checkIn([group1, group2, group3, group4]);
+/*
+function getGranteeAcronym(){
+    var granteeKeyCount = Object.keys(granteeData).length;
 
-    control.addOverlay(group1, 'ybu-1');
-    control.addOverlay(group2, 'ybu-2');
-    control.addOverlay(group3, 'ybu-3');
-    control.addOverlay(group4, 'ybu-4');
-    control.addTo(map);
+    for(i=0; i < granteeKeyCount; i++)
+    {
+       if('aap' == Object.keys(granteeData)[i]){ break; }
+        return console.log(Object.keys(granteeData)[i]);  
+    }
+}
+*/
 
-    group1.addTo(map); // Adding to map or to AutoMCG are now equivalent.
-    group2.addTo(map);
-    group3.addTo(map);
-    group4.addTo(map);
+    granteesLayerGroup.checkIn(arryGroups);
+    
+    // Adding to map.
+    for(i=1; i < granteeKeyCount; i++){
+        group[i].addTo(map);
+    }  
 
-    // Set-up buttons.
-    var getOption = $('#getOption');
+    // Set-up options.
+    var getOption = $('#stateGrantees');
 
     for (i = 0; i < getOption.length; i++) {
         getOption[i].addEventListener("change", toggleGroup);
@@ -294,19 +346,52 @@ L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=p
         var data = event.currentTarget.selectedOptions[0].dataset,
             op = data.op,
             groupNo = data.group,
-            group = groupNo == 'ybu-1' ? group1 : groupNo == 'ybu-2' ? group2 : groupNo == 'ybu-3' ? group3 : group4;
+            group2 = 
+                    groupNo == 'aap'   ? group[1] : 
+                    groupNo == 'bhsb'  ? group[2] : 
+                    groupNo == 'cafp'  ? group[3] : 
+                    groupNo == 'ccf'   ? group[4] : 
+                    groupNo == 'csi'   ? group[5] : 
+                    groupNo == 'cdcf'  ? group[6] : 
+                    groupNo == 'chcs'  ? group[7] : 
+                    groupNo == 'chc'   ? group[8] : 
+                    groupNo == 'cadca' ? group[9] : 
+                    groupNo == 'ccat'  ? group[10] : 
+                    groupNo == 'facadd'? group[11] : 
+                    groupNo == 'fract' ? group[12] : 
+                    groupNo == 'fin'   ? group[13] : 
+                    groupNo == 'gih'   ? group[14] : 
+                    groupNo == 'kfri'  ? group[15] : 
+                    groupNo == 'lac'   ? group[16] : 
+                    groupNo == 'mfu'   ? group[17] : 
+                    groupNo == 'mgr'   ? group[18] : 
+                    groupNo == 'nas'   ? group[19] : 
+                    groupNo == 'ncbh'  ? group[20] : 
+                    groupNo == 'norc'  ? group[21] : 
+                    groupNo == 'nhcf'  ? group[22] : 
+                    groupNo == 'osu'  ? group[23] : 
+                    groupNo == 'pdfk'  ? group[23] : 
+                    groupNo == 'pri'  ? group[24] : 
+                    groupNo == 'psurf'  ? group[25] : 
+                    groupNo == 'phope'  ? group[26] : 
+                    groupNo == 'sbha'  ? group[27] : 
+                    groupNo == 'abamf'  ? group[28] : 
+                    groupNo == 'csjksu'  ? group[29] : 
+                    groupNo == 'tyr'  ? group[30] : 
+                    groupNo == 'tri'  ? group[31] : 
+                    groupNo == 'tah'  ? group[32] : 
+                    groupNo == 'uisap'  ? group[33] : 
+                    groupNo == 'uom'  ? group[34] : 
+                    groupNo == 'uonm'  ? group[35] : 
+                    groupNo == 'ybu'  ? group[36] : group[37];
 
         //granteesLayerGroup[op](group);
-        granteesLayerGroup['clearLayers'](group);
-        granteesLayerGroup[op](group);
-        //granteesLayerGroup.refreshClusters();
+        granteesLayerGroup['clearLayers'](group2);
+        granteesLayerGroup[op](group2);
+        //granteesLayerGroup.refreshClusters(); 
         //console.log(granteesLayerGroup.refreshClusters());
         //console.log(op + " " + groupNo);
     }
-
-
-        //group = groupNo == 'ybu' ? group1 : groupNo == 'ybu-1' ? group2 : groupNo == 'ybu-2' ? group3 : group4;
-
 
 
 
