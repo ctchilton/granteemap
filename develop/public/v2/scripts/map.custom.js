@@ -268,9 +268,8 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     //fullCount
     for (i = 0; i < fullCount; i++) {
         a = addressPoints[i];
-        title = a.granteeAcronym;
-        marker = L.marker([a.Latitude, a.Longitude], { title: title });
-        marker.bindPopup(title);
+        marker = L.marker([a.Latitude, a.Longitude], { title: a.grantee });
+        marker.bindPopup('<h3>' + a.grantee +'</h3>' + a.blurb + '<br> ('+ a.granteeAcronym +')');
 
         //marker.addTo( a.granteeAcronym == 'aap' ? group[1] : group[4] );
         //getGranteeAcronym();
@@ -370,20 +369,20 @@ function getGranteeAcronym(){
                     groupNo == 'norc'  ? group[21] : 
                     groupNo == 'nhcf'  ? group[22] : 
                     groupNo == 'osu'  ? group[23] : 
-                    groupNo == 'pdfk'  ? group[23] : 
-                    groupNo == 'pri'  ? group[24] : 
-                    groupNo == 'psurf'  ? group[25] : 
-                    groupNo == 'phope'  ? group[26] : 
-                    groupNo == 'sbha'  ? group[27] : 
-                    groupNo == 'abamf'  ? group[28] : 
-                    groupNo == 'csjksu'  ? group[29] : 
-                    groupNo == 'tyr'  ? group[30] : 
-                    groupNo == 'tri'  ? group[31] : 
-                    groupNo == 'tah'  ? group[32] : 
-                    groupNo == 'uisap'  ? group[33] : 
-                    groupNo == 'uom'  ? group[34] : 
-                    groupNo == 'uonm'  ? group[35] : 
-                    groupNo == 'ybu'  ? group[36] : group[37];
+                    groupNo == 'pdfk'  ? group[24] : 
+                    groupNo == 'pri'  ? group[25] : 
+                    groupNo == 'psurf'  ? group[26] : 
+                    groupNo == 'phope'  ? group[27] : 
+                    groupNo == 'sbha'  ? group[28] : 
+                    groupNo == 'abamf'  ? group[29] : 
+                    groupNo == 'csjksu'  ? group[30] : 
+                    groupNo == 'tyr'  ? group[31] : 
+                    groupNo == 'tri'  ? group[32] : 
+                    groupNo == 'tah'  ? group[33] : 
+                    groupNo == 'uisap'  ? group[34] : 
+                    groupNo == 'uom'  ? group[35] : 
+                    groupNo == 'uonm'  ? group[36] : 
+                    groupNo == 'ybu'  ? group[37] : group[38];
 
         //granteesLayerGroup[op](group);
         granteesLayerGroup['clearLayers'](group2);
