@@ -4,7 +4,7 @@
 
   var mapSettings = {
     colors: {
-        default: '#033069',
+        //default: '#033069',
         useDefault: true,
         grayhighlight: '#858585'
     },
@@ -145,7 +145,6 @@ $(document).ready(function(){
             $("#granteeInfo .description").html(granteeData[key]['description']);
             $("#programInfo").hide();
             $("#granteeInfo").show();
-            $(".info.legend.leaflet-control").hide(); // hide legend
            
 
             // highlight states that contain this grantee
@@ -240,155 +239,164 @@ var map = L.map('map').setView([37.8, -96], zoomLevel);
 //map.doubleClickZoom.disable();
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-            //maxZoom: 18,
-            attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, Points &copy 2012 LINZ'
+        //maxZoom: 18,
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, Points &copy 2012 LINZ'
 }).addTo(map);
 
 
-    var fullCount = addressPoints.length;
-    //var quarterCount = Math.round(fullCount / 4);
+var fullCount = addressPoints.length;
+//var quarterCount = Math.round(fullCount / 4);
 
 
 
-    var granteesLayerGroup = L.markerClusterGroup.layerSupport({
-        // Options: see https://github.com/Leaflet/Leaflet.markercluster#all-options
-        showCoverageOnHover: false,
-    });
+var granteesLayerGroup = L.markerClusterGroup.layerSupport({
+    // Options: see https://github.com/Leaflet/Leaflet.markercluster#all-options
+    showCoverageOnHover: false,
+});
 
-    var control = L.control.layers(null, null, { collapsed: false }),
-        i, a, title, marker;
+var control = L.control.layers(null, null, { collapsed: false }),
+    i, a, title, marker;
 
 
-    granteesLayerGroup.addTo(map);
+granteesLayerGroup.addTo(map);
 
-    var group = [];
-    var arryGroups = []; //need to push to array?
+var group = [];
+var arryGroups = []; //need to push to array?
 
-    var granteeKeyCount = Object.keys(granteeData).length;
-   // for(i=0; i < granteeKeyCount; i++){
-    for(i=1; i < granteeKeyCount; i++){
-        group[i] = L.layerGroup();
-        arryGroups.push(group[i]);//push to array
-    }
-    
-    //fullCount
-    for (i = 0; i < fullCount; i++) {
-        a = addressPoints[i];
-        marker = L.marker([a.Latitude, a.Longitude], { title: a.grantee });
-        marker.bindPopup('<h3>' + a.grantee +'</h3>' + a.blurb + '<br> ('+ a.granteeAcronym +')');
+var granteeKeyCount = Object.keys(granteeData).length;
+// for(i=0; i < granteeKeyCount; i++){
+for(i=1; i < granteeKeyCount; i++){
+    group[i] = L.layerGroup();
+    arryGroups.push(group[i]);//push to array
+}
 
-        //marker.addTo( a.granteeAcronym == 'aap' ? group[1] : group[4] );
-        //getGranteeAcronym();
+//fullCount
+for (i = 0; i < fullCount; i++) {
+    a = addressPoints[i];
+    marker = L.marker([a.Latitude, a.Longitude], { title: a.grantee });
+    marker.bindPopup('<h3>' + a.grantee +'</h3>' + a.blurb + '<br> ('+ a.granteeAcronym +')');
 
-        marker.addTo(
-                    a.granteeAcronym == 'aap'   ? group[1] : 
-                    a.granteeAcronym == 'bhsb'  ? group[2] : 
-                    a.granteeAcronym == 'cafp'  ? group[3] : 
-                    a.granteeAcronym == 'ccf'   ? group[4] : 
-                    a.granteeAcronym == 'csi'   ? group[5] : 
-                    a.granteeAcronym == 'cdcf'  ? group[6] : 
-                    a.granteeAcronym == 'chcs'  ? group[7] : 
-                    a.granteeAcronym == 'chc'   ? group[8] : 
-                    a.granteeAcronym == 'cadca' ? group[9] : 
-                    a.granteeAcronym == 'ccat'  ? group[10] : 
-                    a.granteeAcronym == 'facadd'? group[11] : 
-                    a.granteeAcronym == 'fract' ? group[12] : 
-                    a.granteeAcronym == 'fin'   ? group[13] : 
-                    a.granteeAcronym == 'gih'   ? group[14] : 
-                    a.granteeAcronym == 'kfri'  ? group[15] : 
-                    a.granteeAcronym == 'lac'   ? group[16] : 
-                    a.granteeAcronym == 'mfu'   ? group[17] : 
-                    a.granteeAcronym == 'mgr'   ? group[18] : 
-                    a.granteeAcronym == 'nas'   ? group[19] : 
-                    a.granteeAcronym == 'ncbh'  ? group[20] : 
-                    a.granteeAcronym == 'norc'  ? group[21] : 
-                    a.granteeAcronym == 'nhcf'  ? group[22] : 
-                    a.granteeAcronym == 'osu'   ? group[23] : 
-                    a.granteeAcronym == 'pdfk'  ? group[24] : 
-                    a.granteeAcronym == 'pri'  ? group[25] : 
-                    a.granteeAcronym == 'psurf'  ? group[26] : 
-                    a.granteeAcronym == 'phope'  ? group[27] : 
-                    a.granteeAcronym == 'sbha'  ? group[28] : 
-                    a.granteeAcronym == 'abamf'  ? group[29] : 
-                    a.granteeAcronym == 'csjksu'  ? group[30] : 
-                    a.granteeAcronym == 'tyr'  ? group[31] : 
-                    a.granteeAcronym == 'tri'  ? group[32] : 
-                    a.granteeAcronym == 'tah'  ? group[33] : 
-                    a.granteeAcronym == 'uisap'  ? group[34] : 
-                    //a.granteeAcronym == 'uom'  ? group[35] : 
-                    //a.granteeAcronym == 'uonm'  ? group[36] : 
-                    a.granteeAcronym == 'ybu'  ? group[35] : group[36]
-                    );
-    }
+    //marker.addTo( a.granteeAcronym == 'aap' ? group[1] : group[4] );
+    //getGranteeAcronym();
+
+    marker.addTo(
+                a.granteeAcronym == 'aap'   ? group[1] : 
+                a.granteeAcronym == 'bhsb'  ? group[2] : 
+                a.granteeAcronym == 'cafp'  ? group[3] : 
+                a.granteeAcronym == 'ccf'   ? group[4] : 
+                a.granteeAcronym == 'csi'   ? group[5] : 
+                a.granteeAcronym == 'cdcf'  ? group[6] : 
+                a.granteeAcronym == 'chcs'  ? group[7] : 
+                a.granteeAcronym == 'chc'   ? group[8] : 
+                a.granteeAcronym == 'cadca' ? group[9] : 
+                a.granteeAcronym == 'ccat'  ? group[10] : 
+                a.granteeAcronym == 'facadd'? group[11] : 
+                a.granteeAcronym == 'fract' ? group[12] : 
+                a.granteeAcronym == 'fin'   ? group[13] : 
+                a.granteeAcronym == 'gih'   ? group[14] : 
+                a.granteeAcronym == 'kfri'  ? group[15] : 
+                a.granteeAcronym == 'lac'   ? group[16] : 
+                a.granteeAcronym == 'mfu'   ? group[17] : 
+                a.granteeAcronym == 'mgr'   ? group[18] : 
+                a.granteeAcronym == 'nas'   ? group[19] : 
+                a.granteeAcronym == 'ncbh'  ? group[20] : 
+                a.granteeAcronym == 'norc'  ? group[21] : 
+                a.granteeAcronym == 'nhcf'  ? group[22] : 
+                a.granteeAcronym == 'osu'   ? group[23] : 
+                a.granteeAcronym == 'pdfk'  ? group[24] : 
+                a.granteeAcronym == 'pri'  ? group[25] : 
+                a.granteeAcronym == 'psurf'  ? group[26] : 
+                a.granteeAcronym == 'phope'  ? group[27] : 
+                a.granteeAcronym == 'sbha'  ? group[28] : 
+                a.granteeAcronym == 'abamf'  ? group[29] : 
+                a.granteeAcronym == 'csjksu'  ? group[30] : 
+                a.granteeAcronym == 'tyr'  ? group[31] : 
+                a.granteeAcronym == 'tri'  ? group[32] : 
+                a.granteeAcronym == 'tah'  ? group[33] : 
+                a.granteeAcronym == 'uisap'  ? group[34] : 
+                //a.granteeAcronym == 'uom'  ? group[35] : 
+                //a.granteeAcronym == 'uonm'  ? group[36] : 
+                a.granteeAcronym == 'ybu'  ? group[35] : group[36]
+                );
+}
+
+
+
+granteesLayerGroup.checkIn(arryGroups);
+
+addGranteeToMap();
+
+function resetMap(){
+    granteesLayerGroup['addLayers'](arryGroups);
+}
 
 /*
-function getGranteeAcronym(){
-    var granteeKeyCount = Object.keys(granteeData).length;
-
-    for(i=0; i < granteeKeyCount; i++)
-    {
-       if('aap' == Object.keys(granteeData)[i]){ break; }
-        return console.log(Object.keys(granteeData)[i]);  
-    }
+function clearMap(){
+    granteesLayerGroup['clearLayers'](arryGroups);
 }
 */
 
-    granteesLayerGroup.checkIn(arryGroups);
-    
-    // Adding to map.
+function addGranteeToMap(){
+        // Adding to map.
     for(i=1; i < granteeKeyCount; i++){
-        group[i].addTo(map);
-    }  
+            group[i].addTo(map);
+    } 
+}
 
-    // Set-up options.
-    var getOption = $('#stateGrantees');
 
-    for (i = 0; i < getOption.length; i++) {
-        getOption[i].addEventListener("change", toggleGroup);
-    }
+// Set-up options.
+var getOption = $('#stateGrantees');
 
-    function toggleGroup(event) {
-        var data = event.currentTarget.selectedOptions[0].dataset,
-            op = data.op,
-            groupNo = data.group,
-            group2 = 
-                    groupNo == 'aap'   ? group[1] : 
-                    groupNo == 'bhsb'  ? group[2] : 
-                    groupNo == 'cafp'  ? group[3] : 
-                    groupNo == 'ccf'   ? group[4] : 
-                    groupNo == 'csi'   ? group[5] : 
-                    groupNo == 'cdcf'  ? group[6] : 
-                    groupNo == 'chcs'  ? group[7] : 
-                    groupNo == 'chc'   ? group[8] : 
-                    groupNo == 'cadca' ? group[9] : 
-                    groupNo == 'ccat'  ? group[10] : 
-                    groupNo == 'facadd'? group[11] : 
-                    groupNo == 'fract' ? group[12] : 
-                    groupNo == 'fin'   ? group[13] : 
-                    groupNo == 'gih'   ? group[14] : 
-                    groupNo == 'kfri'  ? group[15] : 
-                    groupNo == 'lac'   ? group[16] : 
-                    groupNo == 'mfu'   ? group[17] : 
-                    groupNo == 'mgr'   ? group[18] : 
-                    groupNo == 'nas'   ? group[19] : 
-                    groupNo == 'ncbh'  ? group[20] : 
-                    groupNo == 'norc'  ? group[21] : 
-                    groupNo == 'nhcf'  ? group[22] : 
-                    groupNo == 'osu'  ? group[23] : 
-                    groupNo == 'pdfk'  ? group[24] : 
-                    groupNo == 'pri'  ? group[25] : 
-                    groupNo == 'psurf'  ? group[26] : 
-                    groupNo == 'phope'  ? group[27] : 
-                    groupNo == 'sbha'  ? group[28] : 
-                    groupNo == 'abamf'  ? group[29] : 
-                    groupNo == 'csjksu'  ? group[30] : 
-                    groupNo == 'tyr'  ? group[31] : 
-                    groupNo == 'tri'  ? group[32] : 
-                    groupNo == 'tah'  ? group[33] : 
-                    groupNo == 'uisap'  ? group[34] : 
-                    groupNo == 'uom'  ? group[35] : 
-                    groupNo == 'uonm'  ? group[36] : 
-                    groupNo == 'ybu'  ? group[37] : group[38];
+for (i = 0; i < getOption.length; i++) {
+    getOption[i].addEventListener("change", toggleGroup);
+}
+
+function toggleGroup(event) {
+
+    if(event.currentTarget.selectedOptions[0].value == 'all'){
+        resetMap()
+    }else{
+
+        var data = event.currentTarget.selectedOptions[0].dataset;
+        var op      = data.op;
+        var groupNo = data.group;
+        var group2  =   groupNo == 'aap'   ? group[1] : 
+                        groupNo == 'bhsb'  ? group[2] : 
+                        groupNo == 'cafp'  ? group[3] : 
+                        groupNo == 'ccf'   ? group[4] : 
+                        groupNo == 'csi'   ? group[5] : 
+                        groupNo == 'cdcf'  ? group[6] : 
+                        groupNo == 'chcs'  ? group[7] : 
+                        groupNo == 'chc'   ? group[8] : 
+                        groupNo == 'cadca' ? group[9] : 
+                        groupNo == 'ccat'  ? group[10] : 
+                        groupNo == 'facadd'? group[11] : 
+                        groupNo == 'fract' ? group[12] : 
+                        groupNo == 'fin'   ? group[13] : 
+                        groupNo == 'gih'   ? group[14] : 
+                        groupNo == 'kfri'  ? group[15] : 
+                        groupNo == 'lac'   ? group[16] : 
+                        groupNo == 'mfu'   ? group[17] : 
+                        groupNo == 'mgr'   ? group[18] : 
+                        groupNo == 'nas'   ? group[19] : 
+                        groupNo == 'ncbh'  ? group[20] : 
+                        groupNo == 'norc'  ? group[21] : 
+                        groupNo == 'nhcf'  ? group[22] : 
+                        groupNo == 'osu'  ? group[23] : 
+                        groupNo == 'pdfk'  ? group[24] : 
+                        groupNo == 'pri'  ? group[25] : 
+                        groupNo == 'psurf'  ? group[26] : 
+                        groupNo == 'phope'  ? group[27] : 
+                        groupNo == 'sbha'  ? group[28] : 
+                        groupNo == 'abamf'  ? group[29] : 
+                        groupNo == 'csjksu'  ? group[30] : 
+                        groupNo == 'tyr'  ? group[31] : 
+                        groupNo == 'tri'  ? group[32] : 
+                        groupNo == 'tah'  ? group[33] : 
+                        groupNo == 'uisap'  ? group[34] : 
+                        groupNo == 'uom'  ? group[35] : 
+                        groupNo == 'uonm'  ? group[36] : 
+                        groupNo == 'ybu'  ? group[37] : group[38];
 
         //granteesLayerGroup[op](group);
         granteesLayerGroup['clearLayers'](group2);
@@ -397,6 +405,7 @@ function getGranteeAcronym(){
         //console.log(granteesLayerGroup.refreshClusters());
         //console.log(op + " " + groupNo);
     }
+}
 
 
 
@@ -548,27 +557,12 @@ function zoomToFeature(e) {
     }
 }
 
-/*********************************************************************************************
-* FUNCTION | onEachFeature(feature, layer) | Shows additional information for each state on mouseover
-* When the mouse hovers over a state, how a pop box of State name and number if programs.
-*********************************************************************************************/
-function onEachFeature(feature, layer) {
-    layer.setStyle({className: 'state-' + feature.properties.code });
-    // layer.bindTooltip('<b>'+feature.properties.name+' Test </b><p class="programcount">'+feature.properties.density+' programs.</p>');
-    
-    layer.on({
-        mouseover: highlightFeature,
-        mouseout: resetHighlight,
-        click: zoomToFeature
-    });
-}
 
 /*********************************************************************************************
 * Add state borders
 *********************************************************************************************/
 geojson = L.geoJson(statesData, {
     style: style,
-    onEachFeature: onEachFeature // function onEachFeature(feature, layer)
 }).addTo(map);
 
 
