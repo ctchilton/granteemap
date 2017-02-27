@@ -249,9 +249,15 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
     //var quarterCount = Math.round(fullCount / 4);
 
 
-    var granteesLayerGroup = L.markerClusterGroup.layerSupport(),
-        control = L.control.layers(null, null, { collapsed: false }),
+
+    var granteesLayerGroup = L.markerClusterGroup.layerSupport({
+        // Options: see https://github.com/Leaflet/Leaflet.markercluster#all-options
+        showCoverageOnHover: false,
+    });
+
+    var control = L.control.layers(null, null, { collapsed: false }),
         i, a, title, marker;
+
 
     granteesLayerGroup.addTo(map);
 
