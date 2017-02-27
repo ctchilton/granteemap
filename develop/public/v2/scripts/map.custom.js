@@ -451,11 +451,11 @@ function highlightFeature(e) {
     var dataActive = $(".state-"+layer.feature.properties.code).attr('data-active');
     if (dataActive !== "false") {
         layer.setStyle({
-            weight: 2,
-            color: '#fff',
-            dashArray: '',
-            fillOpacity: mapSettings.opacity.active,
-            fillColor: getColor(mapSettings.colors.default)
+            //weight: 2,
+            //color: '#fff',
+            //dashArray: '',
+            //fillOpacity: mapSettings.opacity.active,
+            //fillColor: getColor(mapSettings.colors.default)
         });
 
         if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
