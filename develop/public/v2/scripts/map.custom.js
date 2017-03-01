@@ -255,7 +255,10 @@ var granteesLayerGroup = L.markerClusterGroup.layerSupport({
 });
 
 var control = L.control.layers(null, null, { collapsed: false }),
-    i, a, title, marker;
+    i, 
+    a, 
+    title, 
+    marker;
 
 
 granteesLayerGroup.addTo(map);
@@ -270,15 +273,30 @@ for(i=1; i < granteeKeyCount; i++){
     arryGroups.push(group[i]);//push to array
 }
 
+// Extend markers, add custom maker icon, and option parameters below.
+var LeafIcon = L.Icon.extend({
+    options: {
+        iconSize:     [37, 50],
+        iconAnchor:   [37, 50],
+        popupAnchor:  [-3, -76]
+    }
+});
+
+// init variable for icon image
+    var blueIcon    = new LeafIcon({iconUrl: 'images/blue-marker.png'}),
+        orangeIcon  = new LeafIcon({iconUrl: 'images/orange-marker.png'});
+
+
 //fullCount
 for (i = 0; i < fullCount; i++) {
     a = addressPoints[i];
-    marker = L.marker([a.Latitude, a.Longitude], { title: a.grantee });
-    marker.bindPopup('<h3>' + a.grantee +'</h3>' + a.blurb + '<br> ('+ a.granteeAcronym +')');
 
-    //marker.addTo( a.granteeAcronym == 'aap' ? group[1] : group[4] );
-    //getGranteeAcronym();
+    var setIconColor = a.type == 'headquarters' ?  orangeIcon : blueIcon ;
 
+    marker = L.marker([a.Latitude, a.Longitude], {icon: setIconColor});
+    marker.bindPopup('<h3>' + a.grantee +'</h3>' + a.blurb + '');
+    
+    // add marker to map
     marker.addTo(
                 a.granteeAcronym == 'aap'   ? group[1] : 
                 a.granteeAcronym == 'bhsb'  ? group[2] : 
@@ -417,20 +435,22 @@ function getColor(d) {
     // if #granteeInfo showing, return the uniform color
     // if (mapSettings.colors.useDefault && $('#granteeInfo').is(":visible") ) {
 
-
     if (mapSettings.colors.useDefault && $('#stateName')==='All Grantees' && $('#granteeInfo').is(":visible")) {
         return mapSettings.colors.default;
     }
 
     else {
 
-        return  d > 22 ? '#B51737' :
-                d > 20 ? '#DF5F1B' :
-                d > 18 ? '#227A17' :
-                d > 16 ? '#199DDA' :
-                d > 14 ? '#7CCB00' : 
-                '#858585' ;
-    }
+    // get the state color
+    var statColor = d > 22 ? '#B51737' :
+                    d > 20 ? '#DF5F1B' :
+                    d > 18 ? '#227A17' :
+                    d > 16 ? '#199DDA' :
+                    d > 14 ? '#7CCB00' : 
+                    '#858585' ;
+        }
+
+    return statColor;
 }
 
 /*********************************************************************************************
