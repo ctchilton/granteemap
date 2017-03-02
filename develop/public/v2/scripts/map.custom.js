@@ -214,9 +214,13 @@ showAllGrantees(); // on default load
 /** leaflet */
 // replace density with grantees
 for (var key in statesData.features) {
-    var code = statesData.features[key].properties.code;
-    var granteeCount = stateData[code].grantees.length;
-    statesData.features[key].properties.density = granteeCount;
+
+    if(typeof stateData[code] != 'undefined'){
+        var code = statesData.features[key].properties.code;
+        var granteeCount = stateData[code].grantees.length;
+        statesData.features[key].properties.density = granteeCount; 
+    }
+
 }   
 
 // set zoom level of map
