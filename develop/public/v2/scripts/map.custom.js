@@ -586,11 +586,16 @@ var legend = L.control({position: 'bottomright'});
 legend.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
-        grades = [0, 14, 16, 18, 20, 22],
+        grades = [0, 1, 2, 4, 6, 8],
         labels = [],
         from, to;
 
-    for (var i = 0; i < grades.length; i++) {
+    labels.push(
+        '<i style="background:' + getColor(from) + '"></i> ' +
+        0 );
+    
+
+    for (var i = 1; i < grades.length; i++) {
         from = grades[i];
         to = grades[i + 1];
 
