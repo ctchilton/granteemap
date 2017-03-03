@@ -238,7 +238,7 @@ map.doubleClickZoom.disable();
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
         minZoom: 3,
-        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, Points &copy 2012 LINZ'
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, Points &copy 2017 LINZ'
 }).addTo(map);
 
 
