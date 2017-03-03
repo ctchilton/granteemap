@@ -475,7 +475,7 @@ var addressPoints = [
    "zip": 74103,
    "Latitude": 36.155392,
    "Longitude": -95.994424,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: University of Oklahoma Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Oklahoma Addiction Medicine Fellowship Program",
    "pin_number": 27,
    "FIELD13": "0"
  },

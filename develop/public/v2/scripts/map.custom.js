@@ -97,7 +97,7 @@ stateData = {
     pri: { coords: "780,700", name: "Policy Research Inc.", timeline: "9/1/14 - 8/31/17", description: "PRI is partnering with the National Center for Mental Health and Juvenile Justice to develop and implement an SBIRT approach for youth involved in the juvenile justice system." },
     psurf: { coords: "280,700", name: "Portland State University - Reclaiming Futures", timeline: "9/1/2014 - 6/30/2018", description: "Reclaiming Futures is incorporating SBIRT into the model to expand early intervention and diversion opportunities for court-involved youth." },
     phope: { coords: "780,700", name: "Project Hope", timeline: "3/1/16 - 2/28/17", description: "Health Affairs will conduct a briefing to highlight the issues in the behavioral health journal and discuss how policymakers and other stakeholders can promote behavioral health, health policy, and health systems improvement. This briefing will be held in Washington, DC and will include key stakeholders, including members of Congress and the Administration—as well as other health and health care stakeholders." },
-    sbha: { coords: "280,700", name: "School Based Health Alliance", ended: true, timeline: "6/1/2014 - 5/31/2016", description: "SBHA conducted a two-year pilot project to provide adolescent-specific SBIRT training and technical assistance to 10 school-based health clinics" },
+    sbha: { coords: "280,700", name: "School Based Health Alliance", ended: true, timeline: "6/1/2014 - 5/31/2016", description: "SBHA conducted a two-year pilot project to provide adolescent-specific SBIRT training and technical assistance to 10 school-based health clinics." },
     abamf: { coords: "780,700", name: "The American Board of Addiction Medicine Foundation", timeline: "11/1/13 - 10/31/16", description: " ABAM is establishing the National Center for Physician Training in Addiction Medicine, to educate and train physicians in addiction medicine and prevention/early intervention of adolescent substance use." },
     csjksu: { coords: "280,700", name: "The Center for Sustainable Journalism - Kennesaw State University ", timeline: "4/1/15 - 3/3/16", description: "KSURSF is supporting the Center for Sustainable Journalism to develop media and communication materials to increase awareness among funders, policymakers and practitioners about adolescent substance use prevention and foster care and how the strategic initiative goals can promote opportunities and reduce barriers for these young people." },
     tyr: { coords: "780,700", name: "Transforming Youth Recovery", timeline: "4/1/15 - 3/3/16", description: "TYR is conducting a strategic planning process to launch Facing Addiction by: 1) conducting a public awareness campaign to build a coalition of stakeholders; 2) developing a research-based marketing and fundraising plan to motivate giving using tailored messaging; and 3) creating a social media campaign." },
@@ -138,7 +138,7 @@ $(document).ready(function(){
             $("#stateGrantees a[data-key=" + key + "]").attr('href', '#all');
 
             $("#granteeInfo .name").html(granteeData[key]['name']);
-            $("#granteeInfo .timeline").html(granteeData[key]['timeline']);
+            $("#granteeInfo .timeline").html("Grant period: " + granteeData[key]['timeline']);
             $("#granteeInfo .description").html(granteeData[key]['description']);
             $("#programInfo").hide();
             $("#granteeInfo").show();
@@ -229,11 +229,11 @@ for (var key in statesData.features) {
  
 
 // set zoom level of map
-var zoomLevel = 3; // default size
+var zoomLevel = 4; // default size
 // if move movile screen is below 700pixel, then change zoomLevel
-if ($(window).width() < 700) zoomLevel = 3; 
+if ($(window).width() < 700) zoomLevel = 4; 
 
-var map = L.map('map').setView([50.8, -115], zoomLevel );
+var map = L.map('map').setView([37.8, -96], zoomLevel );
 map.doubleClickZoom.disable();
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
@@ -273,7 +273,7 @@ var LeafIcon = L.Icon.extend({
     options: {
         iconSize:     [37, 50],
         iconAnchor:   [37, 50],
-        popupAnchor:  [-3, -76]
+        popupAnchor:  [-16, -30]
     }
 });
 
@@ -327,8 +327,8 @@ for (i = 0; i < fullCount; i++) {
                 a.granteeAcronym == 'tri'  ? group[32] : 
                 a.granteeAcronym == 'tah'  ? group[33] : 
                 a.granteeAcronym == 'uisap'  ? group[34] : 
-                //a.granteeAcronym == 'uom'  ? group[35] : 
-                //a.granteeAcronym == 'uonm'  ? group[36] : 
+                // a.granteeAcronym == 'uom'  ? group[35] : 
+                // a.granteeAcronym == 'uonm'  ? group[36] : 
                 a.granteeAcronym == 'ybu'  ? group[35] : group[36]
                 );
 }
@@ -594,7 +594,6 @@ legend.onAdd = function (map) {
         '<i style="background:' + getColor(from) + '"></i> ' +
         0 );
     
-
     for (var i = 1; i < grades.length; i++) {
         from = grades[i];
         to = grades[i + 1];
@@ -609,7 +608,7 @@ legend.onAdd = function (map) {
 };
 
 $(document).ready(function(){
-    $('<p class="legend-title">Active Grantees</p>').insertBefore('.info.legend.leaflet-control');
+    $('<p class="legend-title"><strong>Active Grantees</strong></p>').insertBefore('.info.legend.leaflet-control i:nth-child(1)');
 });
 
 
