@@ -601,6 +601,11 @@ legend.onAdd = function (map) {
     return div;
 };
 
+$(document).ready(function(){
+    $('<p class="legend-title">Active Grantees</p>').insertBefore('.info.legend.leaflet-control');
+});
+
+
 legend.addTo(map);
 
 function onOptionClick () {
