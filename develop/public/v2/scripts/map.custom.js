@@ -224,23 +224,20 @@ for (var key in statesData.features) {
 }   
 
 // set zoom level of map
-var zoomLevel = 4; // default size
+var zoomLevel = 3; // default size
 // if move movile screen is below 700pixel, then change zoomLevel
 if ($(window).width() < 700) zoomLevel = 3; 
 
-var map = L.map('map').setView([37.8, -96], zoomLevel);
-//map.doubleClickZoom.disable();
+var map = L.map('map').setView([50.8, -115], zoomLevel );
+map.doubleClickZoom.disable();
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-        //maxZoom: 18,
+        minZoom: 3,
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors, Points &copy 2012 LINZ'
 }).addTo(map);
 
 
 var fullCount = addressPoints.length;
-//var quarterCount = Math.round(fullCount / 4);
-
-
 
 var granteesLayerGroup = L.markerClusterGroup.layerSupport({
     // Options: see https://github.com/Leaflet/Leaflet.markercluster#all-options
