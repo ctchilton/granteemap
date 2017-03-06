@@ -70,7 +70,7 @@ var addressPoints = [
    "zip": 20814,
    "Latitude": 38.985261,
    "Longitude": -77.086562,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>The Addiction Medicine Foundation</a> is establishing the National Center for Physician Training in Addiction Medicine, to educate and train physicians in addiction medicine and prevention/early intervention of adolescent substance use.",
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">The Addiction Medicine Foundation</a> is establishing the National Center for Physician Training in Addiction Medicine, to educate and train physicians in addiction medicine and prevention/early intervention of adolescent substance use.",
    "pin_number": 0,
    "FIELD13": "0"
  },
@@ -85,7 +85,7 @@ var addressPoints = [
    "zip": 92270,
    "Latitude": 33.73974,
    "Longitude": -116.41279,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Betty Ford Center Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Betty Ford Center Addiction Medicine Fellowship Program",
    "pin_number": 1,
    "FIELD13": "0"
  },
@@ -100,7 +100,7 @@ var addressPoints = [
    "zip": 94305,
    "Latitude": 37.42509,
    "Longitude": -122.1675,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Stanford University Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Stanford University Addiction Medicine Fellowship Program",
    "pin_number": 2,
    "FIELD13": "0"
  },
@@ -115,7 +115,7 @@ var addressPoints = [
    "zip": 94110,
    "Latitude": 37.756805,
    "Longitude": -122.406538,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: UCSF Primary Care Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: UCSF Primary Care Addiction Medicine Fellowship Program",
    "pin_number": 3,
    "FIELD13": "0"
  },
@@ -130,7 +130,7 @@ var addressPoints = [
    "zip": 80045,
    "Latitude": 39.746953,
    "Longitude": -104.844816,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: University of Colorado Addiction Medicine Fellowship Prog",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Colorado Addiction Medicine Fellowship Program",
    "pin_number": 4,
    "FIELD13": "0"
  },
@@ -145,7 +145,7 @@ var addressPoints = [
    "zip": 6457,
    "Latitude": 41.550139,
    "Longitude": -72.655357,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Rushford Addiction Medicine Residency Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Rushford Addiction Medicine Residency Fellowship Program",
    "pin_number": 5,
    "FIELD13": "0"
  },
@@ -160,7 +160,7 @@ var addressPoints = [
    "zip": 6504,
    "Latitude": 41.365709,
    "Longitude": -72.927507,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Yale University Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Yale University Addiction Medicine Fellowship Program",
    "pin_number": 6,
    "FIELD13": "0"
  },
@@ -175,7 +175,7 @@ var addressPoints = [
    "zip": 20059,
    "Latitude": 38.893311,
    "Longitude": -77.014647,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Howard University Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Howard University Addiction Medicine Fellowship Program",
    "pin_number": 7,
    "FIELD13": "0"
  },
@@ -190,7 +190,7 @@ var addressPoints = [
    "zip": 33770,
    "Latitude": 27.916998,
    "Longitude": -82.802668,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Largo Medical Center Fellowship Program in Addiction Medicine",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Largo Medical Center Fellowship Program in Addiction Medicine",
    "pin_number": 8,
    "FIELD13": "0"
  },
@@ -205,7 +205,7 @@ var addressPoints = [
    "zip": 32601,
    "Latitude": 29.648993,
    "Longitude": -82.324515,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: University of Florida Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Florida Addiction Medicine Fellowship Program",
    "pin_number": 9,
    "FIELD13": "0"
  },
@@ -220,7 +220,7 @@ var addressPoints = [
    "zip": 30901,
    "Latitude": 33.456687,
    "Longitude": -81.969184,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Addiction medicinMedical College of Georgia Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Addiction medicinMedical College of Georgia Addiction Medicine Fellowship Program",
    "pin_number": 10,
    "FIELD13": "0"
  },
@@ -235,7 +235,7 @@ var addressPoints = [
    "zip": 30458,
    "Latitude": 32.425,
    "Longitude": -81.784956,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Willingway Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Willingway Addiction Medicine Fellowship Program",
    "pin_number": 11,
    "FIELD13": "0"
  },
@@ -250,7 +250,7 @@ var addressPoints = [
    "zip": 60141,
    "Latitude": 41.85364,
    "Longitude": -87.8395,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Loyola University Medical Center Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Loyola University Medical Center Addiction Medicine Fellowship Program",
    "pin_number": 12,
    "FIELD13": "0"
  },
@@ -265,7 +265,7 @@ var addressPoints = [
    "zip": 40502,
    "Latitude": 38.016674,
    "Longitude": -84.486043,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: University of Kentucky Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Kentucky Addiction Medicine Fellowship Program",
    "pin_number": 13,
    "FIELD13": "0"
  },
@@ -280,7 +280,7 @@ var addressPoints = [
    "zip": 2115,
    "Latitude": 42.337961,
    "Longitude": -71.105847,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Boston Children?s Hospital Pediatric Addiction Medicine Fellowship",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Boston Children?s Hospital Pediatric Addiction Medicine Fellowship",
    "pin_number": 14,
    "FIELD13": "1"
  },
@@ -295,7 +295,7 @@ var addressPoints = [
    "zip": 2118,
    "Latitude": 42.333028,
    "Longitude": -71.073036,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Boston University Addiction Medicine Fellowship",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Boston University Addiction Medicine Fellowship",
    "pin_number": 15,
    "FIELD13": "1"
  },
@@ -310,7 +310,7 @@ var addressPoints = [
    "zip": 21204,
    "Latitude": 39.390726,
    "Longitude": -76.620343,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: University of Maryland Sheppard Pratt Training Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Maryland Sheppard Pratt Training Fellowship Program",
    "pin_number": 16,
    "FIELD13": "0"
  },
@@ -325,7 +325,7 @@ var addressPoints = [
    "zip": 48197,
    "Latitude": 42.202139,
    "Longitude": -83.620494,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Saint Joseph Mercy Hospital Ann Arbor Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Saint Joseph Mercy Hospital Ann Arbor Addiction Medicine Fellowship Program",
    "pin_number": 17,
    "FIELD13": "0"
  },
@@ -340,7 +340,7 @@ var addressPoints = [
    "zip": 55404,
    "Latitude": 44.961998,
    "Longitude": -93.261123,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Minnesota Addiction Medicine Residency Fellowship",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Minnesota Addiction Medicine Residency Fellowship",
    "pin_number": 18,
    "FIELD13": "0"
  },
@@ -355,7 +355,7 @@ var addressPoints = [
    "zip": 10019,
    "Latitude": 40.770311,
    "Longitude": -73.987609,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Addiction Institute of New York Fellowship in Addiction Medicine��",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Addiction Institute of New York Fellowship in Addiction Medicine��",
    "pin_number": 19,
    "FIELD13": "1"
  },
@@ -370,7 +370,7 @@ var addressPoints = [
    "zip": 10016,
    "Latitude": 40.742049,
    "Longitude": -73.974486,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: The Addiction Medicine Fellowship Program at NYU School of Medicine",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: The Addiction Medicine Fellowship Program at NYU School of Medicine",
    "pin_number": 20,
    "FIELD13": "1"
  },
@@ -385,7 +385,7 @@ var addressPoints = [
    "zip": 10035,
    "Latitude": 40.807603,
    "Longitude": -73.939678,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Institute for Family Health Fellowship in Addiction Medicine",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Institute for Family Health Fellowship in Addiction Medicine",
    "pin_number": 21,
    "FIELD13": "1"
  },
@@ -400,7 +400,7 @@ var addressPoints = [
    "zip": 14201,
    "Latitude": 42.89606,
    "Longitude": -78.886424,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: University at Buffalo Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University at Buffalo Addiction Medicine Fellowship Program",
    "pin_number": 22,
    "FIELD13": "0"
  },
@@ -415,7 +415,7 @@ var addressPoints = [
    "zip": 14604,
    "Latitude": 43.156612,
    "Longitude": -77.604023,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: University of Rochester Medical Center (URMC) Combined Addiction Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Rochester Medical Center (URMC) Combined Addiction Fellowship Program",
    "pin_number": 23,
    "FIELD13": "0"
  },
@@ -430,7 +430,7 @@ var addressPoints = [
    "zip": 45202,
    "Latitude": 39.109356,
    "Longitude": -84.502584,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Cincinnati Addiction Medicine Research Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Cincinnati Addiction Medicine Research Fellowship Program",
    "pin_number": 24,
    "FIELD13": "0"
  },
@@ -445,7 +445,7 @@ var addressPoints = [
    "zip": 44115,
    "Latitude": 41.496415,
    "Longitude": -81.674097,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: St. Vincent Charity Medical Center Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: St. Vincent Charity Medical Center Addiction Medicine Fellowship Program",
    "pin_number": 25,
    "FIELD13": "0"
  },
@@ -460,7 +460,7 @@ var addressPoints = [
    "zip": 44304,
    "Latitude": 41.078613,
    "Longitude": -81.501238,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Summa Health System Addiction Medicine Fellowship Program ",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Summa Health System Addiction Medicine Fellowship Program ",
    "pin_number": 26,
    "FIELD13": "0"
  },
@@ -490,7 +490,7 @@ var addressPoints = [
    "zip": 97239,
    "Latitude": 45.499077,
    "Longitude": -122.688225,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Oregon Health & Science University Addiction Medicine Fellowship",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Oregon Health & Science University Addiction Medicine Fellowship",
    "pin_number": 28,
    "FIELD13": "0"
  },
@@ -505,7 +505,7 @@ var addressPoints = [
    "zip": 19565,
    "Latitude": 40.33009,
    "Longitude": -76.0805,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Caron?Reading Health System Addiction Medicine�",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Caron?Reading Health System Addiction Medicine�",
    "pin_number": 29,
    "FIELD13": "0"
  },
@@ -520,7 +520,7 @@ var addressPoints = [
    "zip": 18471,
    "Latitude": 41.523812,
    "Longitude": -75.690608,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Geisinger Addiction Medicine Residency",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Geisinger Addiction Medicine Residency",
    "pin_number": 30,
    "FIELD13": "0"
  },
@@ -535,7 +535,7 @@ var addressPoints = [
    "zip": 2903,
    "Latitude": 41.828597,
    "Longitude": -71.423301,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Rhode Island Hospital Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Rhode Island Hospital Addiction Medicine Fellowship Program",
    "pin_number": 31,
    "FIELD13": "0"
  },
@@ -550,7 +550,7 @@ var addressPoints = [
    "zip": 38103,
    "Latitude": 35.154875,
    "Longitude": -90.049631,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: University of Tennessee Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Tennessee Addiction Medicine Fellowship Program",
    "pin_number": 32,
    "FIELD13": "0"
  },
@@ -565,7 +565,7 @@ var addressPoints = [
    "zip": 77002,
    "Latitude": 29.756845,
    "Longitude": -95.365652,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Memorial Hermann Preventive and Recovery Center Cameron Addiction Medicine Fellowship",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Memorial Hermann Preventive and Recovery Center Cameron Addiction Medicine Fellowship",
    "pin_number": 33,
    "FIELD13": "0"
  },
@@ -580,7 +580,7 @@ var addressPoints = [
    "zip": 23284,
    "Latitude": 37.546811,
    "Longitude": -77.453146,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Virginia Commonwealth University Health System Addiction Medicine Fellowship",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Virginia Commonwealth University Health System Addiction Medicine Fellowship",
    "pin_number": 34,
    "FIELD13": "0"
  },
@@ -595,7 +595,7 @@ var addressPoints = [
    "zip": 98371,
    "Latitude": 47.212822,
    "Longitude": -122.317148,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: MultiCare Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: MultiCare Addiction Medicine Fellowship Program",
    "pin_number": 35,
    "FIELD13": "0"
  },
@@ -610,7 +610,7 @@ var addressPoints = [
    "zip": 98101,
    "Latitude": 47.610902,
    "Longitude": -122.336422,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: Swedish Addiction Medicine Fellowship Program",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Swedish Addiction Medicine Fellowship Program",
    "pin_number": 36,
    "FIELD13": "0"
  },
@@ -625,7 +625,7 @@ var addressPoints = [
    "zip": 53703,
    "Latitude": 43.079575,
    "Longitude": -89.378389,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank>Addiction Medicine Foundation</a> site: University of Wisconsin Addiction Medicine Fellowship",
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Wisconsin Addiction Medicine Fellowship",
    "pin_number": 37,
    "FIELD13": "0"
  },
@@ -878,8 +878,8 @@ var addressPoints = [
    "city": "San Francisco",
    "state": "CA",
    "zip": 94109,
-   "Latitude": 37.795371,
-   "Longitude": -122.420374,
+   "Latitude": 37.795269,
+   "Longitude": -122.420375,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.familydocs.org/node/451\" target=\"_blank\">California Academy of Family Physicians (CAFP)</a> is increasing practitioner awareness, competence, and confidence in identifying and addressing youth substance use through partners from five national primary care associations.",
    "pin_number": 0,
    "FIELD13": "0"
