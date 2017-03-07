@@ -128,12 +128,12 @@ $(document).ready(function(){
     $("#granteeInfo").hide();
     $("#programInfo").show();
 
-    resetHomeZoom( zoomLevel );
+    L.Understated.resetZoom( zoomLevel, [37.8, -96] );
 
 
     if (hashAttr == 'all') {
         showAllGrantees();
-        resetStateOpacity();
+        L.Understated.resetStateOpacity(stateData, mapSettings);
         $(".info.legend.leaflet-control").show(); // Show legend
         $(".programcount").show(); // Show programcount
     }
@@ -183,36 +183,8 @@ $(document).ready(function(){
 });
 
 
-function resetHomeZoom( zoomLevel ) {
-    zoomLevel = zoomLevel || 4;
-    map.setView([37.8, -96], zoomLevel );
-}
 
-/*********************************************************************************************
-*
-*********************************************************************************************/
-function resetStateOpacity() {
-    for (var stateKey in stateData) {
-        // loop grantees in each state
-        for (var i = 0, len = stateData[stateKey].grantees.length; i < len; i++) {
-            fillOpacity = mapSettings.opacity.active;
-        }
 
-        $( ".state-" + stateKey  ).attr( 'fill-opacity', fillOpacity );
-        $( ".state-" + stateKey  ).removeAttr( 'data-active' );
-    }   
-}
-
-/**
- * Set the background fill color to the default for all states.  Takes into account the grantees count.
- */
-function resetStateFill() {
-    for (var stateKey in stateData) {
-        var granteeCount = stateData[stateKey].grantees.length;
-        var fillColor = getColor(granteeCount);
-        $( ".state-" + stateKey  ).attr( 'fill', fillColor );
-    }   
-}
 
 /*********************************************************************************************
 *
@@ -226,7 +198,7 @@ function showAllGrantees() {
     }     
     $("#stateGrantees").html('<option value="all">All Grantees</option>'+granteesUl);
     $("#stateInfo").show();
-    resetStateFill();
+    L.Understated.resetStateFill(stateData);
 }
 
 /*********************************************************************************************
@@ -249,7 +221,7 @@ var zoomLevel = 4; // default size
 if ($(window).width() < 700) zoomLevel = 4; 
 
 var map = L.map('map', {zoomControl: false});
-resetHomeZoom( zoomLevel );
+L.Understated.resetZoom( zoomLevel, [37.8, -96] );
 
 // add the Home icon between [-] and [+]
 var zoomHome = L.Control.zoomHome();
@@ -289,7 +261,6 @@ for(i=1; i < granteeKeyCount; i++){
     arryGroups.push(group[i]);//push to array
 }
 
-console.log(group);
 
 // Extend markers, add custom maker icon, and option parameters below.
 var LeafIcon = L.Icon.extend({
@@ -576,8 +547,8 @@ function resetHighlight(e) {
 *********************************************************************************************/
 function zoomToFeature(e) {
 
-    resetStateFill();
-    resetStateOpacity();
+    L.Understated.resetStateFill(stateData);
+    L.Understated.resetStateOpacity(stateData, mapSettings);
     
     if (typeof e.target.feature.properties !== 'undefined') {
       window.location.hash = e.target.feature.properties.code;
