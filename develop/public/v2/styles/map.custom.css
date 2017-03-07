@@ -30,11 +30,18 @@ p.headquarters {
 }
 
 .leaflet-interactive {
-  opacity: 0.8;
+  opacity: 0.67;
 }
 
 .leaflet-marker-icon {
   opacity: 1;
+}
+
+p.legend-note {
+    width: 100px;
+    font-size: 11px;
+    line-height: 12px;
+    margin-top: -7px;
 }
 
 

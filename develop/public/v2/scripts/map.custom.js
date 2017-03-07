@@ -644,7 +644,8 @@ legend.onAdd = function (map) {
 };
 
 $(document).ready(function(){
-    $('<p class="legend-title"><strong>Active Sites</strong></p>').insertBefore('.info.legend.leaflet-control i:nth-child(1)');
+    $('<p class="legend-title"><strong>Active Grantees</strong><p class="legend-note">shading represents # active grantees, rather than a count of each site.</p>').insertBefore('.info.legend.leaflet-control i:nth-child(1)');
+  //  $('<p class="legend-note">grantee note</p>').insertAfter('.info.legend.leaflet-control i:nth-child(12)');
 });
 
 
