@@ -640,7 +640,7 @@ var addressPoints = [
    "zip": 2115,
    "Latitude": 42.336962,
    "Longitude": -71.103403,
-   "blurb": "<p class='headquarters'>Headquarters</p>CHC is conducting a research study to develop outcome measures for real-world clinical settings to assess the short term impact of SBIRT for youth with chronic medical conditions.",
+   "blurb": "<p class='headquarters'>Headquarters</p><a href='http://www.childrenshospital.org/' target='_blank'>CHC</a> is conducting a research study to develop outcome measures for real-world clinical settings to assess the short term impact of SBIRT for youth with chronic medical conditions.",
    "pin_number": 0,
    "FIELD13": "0"
  },
@@ -1435,7 +1435,7 @@ var addressPoints = [
    "zip": 94612,
    "Latitude": 37.810028,
    "Longitude": -122.264428,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.dor.kaiser.org/\" target=\"_blank\">Kaiser Permanente</a> in partnership with UMN, is conducting a randomized controlled study of a four-session intervention model for teens and parents adapted for adolescents referred from schools and pediatric settings, and testing a group intervention format.",
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.dor.kaiser.org/external/dorexternal/index.aspx\" target=\"_blank\">Kaiser Permanente</a> in partnership with UMN, is conducting a randomized controlled study of a four-session intervention model for teens and parents adapted for adolescents referred from schools and pediatric settings, and testing a group intervention format.",
    "pin_number": 0,
    "FIELD13": "1"
  },
@@ -1660,7 +1660,7 @@ var addressPoints = [
    "zip": 20036,
    "Latitude": 38.903312,
    "Longitude": -77.039337,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://nasadad.org/\" target=\"_blank\">NASADAD</a> conducted case studies of five state initiatives directed at identifying and providing interventions to youth that exhibit ?elevated? or ?high? risk for substance use disorders <em>(Grant expired).</em>",
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://nasadad.org/\" target=\"_blank\">NASADAD</a> conducted case studies of five state initiatives directed at identifying and providing interventions to youth that exhibit elevated risk for substance use disorders <em>(Grant expired).</em>",
    "pin_number": 0,
    "FIELD13": "1"
  },
@@ -2635,7 +2635,7 @@ var addressPoints = [
    "zip": 55455,
    "Latitude": 44.971814,
    "Longitude": -93.233696,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.uclaisap.org/\" target=\"_blank\">The University of Minnesota (UMN)</a>, with Kaiser Permanente, conducts a randomized controlled study of a four-session intervention model for teens and parents that has been adapted for adolescents referred from schools and pediatric settings, and a group intervention format.",
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.psychiatry.umn.edu/research/center-adolescent-substance-abuse-research-casar\" target=\"_blank\">The University of Minnesota (UMN)</a>, with Kaiser Permanente, conducts a randomized controlled study of a four-session intervention model for teens and parents that has been adapted for adolescents referred from schools and pediatric settings, and a group intervention format.",
    "pin_number": 0,
    "FIELD13": "0"
  },
@@ -3145,7 +3145,7 @@ var addressPoints = [
    "zip": 5401,
    "Latitude": 44.476622,
    "Longitude": -73.209998,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://casaa.unm.edu/\" target=\"_blank\">The University of Vermont (UVM)</a> is developing an Apple Watch app to monitor health and fitness goals and provide program impact data to support the incentivized behavioral change components of their Wellness Environment (WE).",
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.uvm.edu/we\" target=\"_blank\">The University of Vermont (UVM)</a> is developing an Apple Watch app to monitor health and fitness goals and provide program impact data to support the incentivized behavioral change components of their Wellness Environment (WE).",
    "pin_number": 0,
    "FIELD13": "0"
  },
@@ -3160,7 +3160,7 @@ var addressPoints = [
    "zip": 2143,
    "Latitude": 42.38092,
    "Longitude": -71.098896,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild, USA</a> is implementing a SBIRT model in community-based YouthBuild programs.",
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild, USA</a> is implementing an SBIRT model in community-based YouthBuild programs.",
    "pin_number": 0,
    "FIELD13": "0"
  },
