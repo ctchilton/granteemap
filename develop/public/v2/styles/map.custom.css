@@ -117,44 +117,6 @@ path[data-active="false"] {
   margin-bottom: 10px;
 }
 
-/*.description {
-  font-size: 16px;
-  line-height: 26px;
-  font-weight: 300;
-  color: #444;
-}*/
-
-
-
-
-
-
-
-
-
-
-
-
-/* small screen portrait */
-/*
-@media (max-width: 321px) {
-
-  .pull-right { 
-    float: none!important; 
-  }
-
+#map .leaflet-control-container a {
+    line-height: 25px;
 }
-
-
-/* small screen lanscape */
-/*
-@media (max-width: 480px) {
-
-  .pull-right {
-    float: none!important; 
-  }
-
-}
-
-/* --------------------------------------------------------
-end of the maps */

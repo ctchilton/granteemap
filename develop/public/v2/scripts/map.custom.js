@@ -239,7 +239,12 @@ var zoomLevel = 4; // default size
 // if move movile screen is below 700pixel, then change zoomLevel
 if ($(window).width() < 700) zoomLevel = 4; 
 
-var map = L.map('map').setView([37.8, -96], zoomLevel );
+var map = L.map('map', {zoomControl: false}).setView([37.8, -96], zoomLevel );
+
+// add the Home icon between [-] and [+]
+var zoomHome = L.Control.zoomHome();
+zoomHome.addTo(map);
+
 map.doubleClickZoom.disable();
 
 L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
