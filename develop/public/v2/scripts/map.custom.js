@@ -128,6 +128,9 @@ $(document).ready(function(){
     $("#granteeInfo").hide();
     $("#programInfo").show();
 
+    resetHomeZoom( zoomLevel );
+
+
     if (hashAttr == 'all') {
         showAllGrantees();
         resetStateOpacity();
@@ -178,6 +181,12 @@ $(document).ready(function(){
   window.onhashchange = hashCheck;
 
 });
+
+
+function resetHomeZoom( zoomLevel ) {
+    zoomLevel = zoomLevel || 4;
+    map.setView([37.8, -96], zoomLevel );
+}
 
 /*********************************************************************************************
 *
@@ -239,7 +248,8 @@ var zoomLevel = 4; // default size
 // if move movile screen is below 700pixel, then change zoomLevel
 if ($(window).width() < 700) zoomLevel = 4; 
 
-var map = L.map('map', {zoomControl: false}).setView([37.8, -96], zoomLevel );
+var map = L.map('map', {zoomControl: false});
+resetHomeZoom( zoomLevel );
 
 // add the Home icon between [-] and [+]
 var zoomHome = L.Control.zoomHome();
