@@ -46,6 +46,12 @@ p.legend-note {
     margin-top: -7px;
 }
 
+p#disclaimer {
+  font-size: 12px;
+  text-align: left;
+  margin-left: 16px;
+  color: #858585;
+}
 
 .leaflet-container {
     background: transparent !important;
