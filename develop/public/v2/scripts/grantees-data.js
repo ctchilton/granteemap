@@ -1,4 +1,4 @@
-var addressPoints = [
+﻿var addressPoints = [
  {
    "ID": 1,
    "grantee": "American Academy of Pediatrics (AAP)",
@@ -10,9 +10,8 @@ var addressPoints = [
    "zip": 60007,
    "Latitude": 42.00865,
    "Longitude": -87.99736,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.aap.org/en-us/Pages/Default.aspx\" target=\"_blank\">AAP</a> is increasing SBIRT among pediatric providers serving adolescents with a learning collaborative to design and implement best practices, including quality </a>measures, and an online tool to train pediatric practitioners (EQIPP?).",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.aap.org/en-us/Pages/Default.aspx\" target=\"_blank\">AAP</a> is increasing SBIRT among pediatric providers serving adolescents with a learning collaborative to design and implement best practices, including quality </a>measures, and an online tool to train pediatric practitioners (EQIPP®).",
+   "pin_number": 0
  },
  {
    "ID": 2,
@@ -26,8 +25,7 @@ var addressPoints = [
    "Latitude": 41.766349,
    "Longitude": -72.674636,
    "blurb": "<a href=\"https://www.aap.org/en-us/Pages/Default.aspx\" target=\"_blank\">AAP</a>, Connecticut Chapter: 10 sites",
-   "pin_number": 1,
-   "FIELD13": "0"
+   "pin_number": 1
  },
  {
    "ID": 3,
@@ -41,8 +39,7 @@ var addressPoints = [
    "Latitude": 33.790913,
    "Longitude": -84.388163,
    "blurb": "<a href=\"https://www.aap.org/en-us/Pages/Default.aspx\" target=\"_blank\">AAP</a>, Georgia Chapter: 10 sites",
-   "pin_number": 2,
-   "FIELD13": "0"
+   "pin_number": 2
  },
  {
    "ID": 4,
@@ -56,596 +53,10 @@ var addressPoints = [
    "Latitude": 40.756095,
    "Longitude": -111.900719,
    "blurb": "<a href=\"https://www.aap.org/en-us/Pages/Default.aspx\" target=\"_blank\">AAP</a>, Utah Chapter: 20 sites",
-   "pin_number": 3,
-   "FIELD13": "0"
+   "pin_number": 3
  },
  {
    "ID": 5,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "headquarters",
-   "address": "4300 Montgomery Ave",
-   "city": "Bethesda",
-   "state": "MD",
-   "zip": 20814,
-   "Latitude": 38.985261,
-   "Longitude": -77.086562,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">The Addiction Medicine Foundation</a> is establishing the National Center for Physician Training in Addiction Medicine, to educate and train physicians in addiction medicine and prevention/early intervention of adolescent substance use.",
-   "pin_number": 0,
-   "FIELD13": "0"
- },
- {
-   "ID": 6,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Rancho Mirage",
-   "state": "CA",
-   "zip": 92270,
-   "Latitude": 33.73974,
-   "Longitude": -116.41279,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Betty Ford Center Addiction Medicine Fellowship Program",
-   "pin_number": 1,
-   "FIELD13": "0"
- },
- {
-   "ID": 7,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Stanford",
-   "state": "CA",
-   "zip": 94305,
-   "Latitude": 37.42509,
-   "Longitude": -122.1675,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Stanford University Addiction Medicine Fellowship Program",
-   "pin_number": 2,
-   "FIELD13": "0"
- },
- {
-   "ID": 8,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "995 Potrero Avenue",
-   "city": "San Francisco",
-   "state": "CA",
-   "zip": 94110,
-   "Latitude": 37.756805,
-   "Longitude": -122.406538,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: UCSF Primary Care Addiction Medicine Fellowship Program",
-   "pin_number": 3,
-   "FIELD13": "0"
- },
- {
-   "ID": 9,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "1693 N. Quentin St",
-   "city": "Aurora",
-   "state": "CO",
-   "zip": 80045,
-   "Latitude": 39.746953,
-   "Longitude": -104.844816,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Colorado Addiction Medicine Fellowship Program",
-   "pin_number": 4,
-   "FIELD13": "0"
- },
- {
-   "ID": 10,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Middletown",
-   "state": "CT",
-   "zip": 6457,
-   "Latitude": 41.550139,
-   "Longitude": -72.655357,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Rushford Addiction Medicine Residency Fellowship Program",
-   "pin_number": 5,
-   "FIELD13": "0"
- },
- {
-   "ID": 11,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "New Haven",
-   "state": "CT",
-   "zip": 6504,
-   "Latitude": 41.365709,
-   "Longitude": -72.927507,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Yale University Addiction Medicine Fellowship Program",
-   "pin_number": 6,
-   "FIELD13": "0"
- },
- {
-   "ID": 12,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "2400 Sixth St NW",
-   "city": "Washington",
-   "state": "DC",
-   "zip": 20059,
-   "Latitude": 38.893311,
-   "Longitude": -77.014647,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Howard University Addiction Medicine Fellowship Program",
-   "pin_number": 7,
-   "FIELD13": "0"
- },
- {
-   "ID": 13,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Largo",
-   "state": "FL",
-   "zip": 33770,
-   "Latitude": 27.916998,
-   "Longitude": -82.802668,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Largo Medical Center Fellowship Program in Addiction Medicine",
-   "pin_number": 8,
-   "FIELD13": "0"
- },
- {
-   "ID": 14,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Gainesville",
-   "state": "FL",
-   "zip": 32601,
-   "Latitude": 29.648993,
-   "Longitude": -82.324515,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Florida Addiction Medicine Fellowship Program",
-   "pin_number": 9,
-   "FIELD13": "0"
- },
- {
-   "ID": 15,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Augusta",
-   "state": "GA",
-   "zip": 30901,
-   "Latitude": 33.456687,
-   "Longitude": -81.969184,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Addiction medicinMedical College of Georgia Addiction Medicine Fellowship Program",
-   "pin_number": 10,
-   "FIELD13": "0"
- },
- {
-   "ID": 16,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Statesboro",
-   "state": "GA",
-   "zip": 30458,
-   "Latitude": 32.425,
-   "Longitude": -81.784956,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Willingway Addiction Medicine Fellowship Program",
-   "pin_number": 11,
-   "FIELD13": "0"
- },
- {
-   "ID": 17,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Hines",
-   "state": "IL",
-   "zip": 60141,
-   "Latitude": 41.85364,
-   "Longitude": -87.8395,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Loyola University Medical Center Addiction Medicine Fellowship Program",
-   "pin_number": 12,
-   "FIELD13": "0"
- },
- {
-   "ID": 18,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Lexington",
-   "state": "KY",
-   "zip": 40502,
-   "Latitude": 38.016674,
-   "Longitude": -84.486043,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Kentucky Addiction Medicine Fellowship Program",
-   "pin_number": 13,
-   "FIELD13": "0"
- },
- {
-   "ID": 19,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "300 Longwood Ave",
-   "city": "Boston",
-   "state": "MA",
-   "zip": 2115,
-   "Latitude": 42.337961,
-   "Longitude": -71.105847,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Boston Children?s Hospital Pediatric Addiction Medicine Fellowship",
-   "pin_number": 14,
-   "FIELD13": "1"
- },
- {
-   "ID": 20,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "801 Massachusetts Ave",
-   "city": "Boston",
-   "state": "MA",
-   "zip": 2118,
-   "Latitude": 42.333028,
-   "Longitude": -71.073036,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Boston University Addiction Medicine Fellowship",
-   "pin_number": 15,
-   "FIELD13": "1"
- },
- {
-   "ID": 21,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "6501 N. Charles Street",
-   "city": "Baltimore",
-   "state": "MD",
-   "zip": 21204,
-   "Latitude": 39.390726,
-   "Longitude": -76.620343,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Maryland Sheppard Pratt Training Fellowship Program",
-   "pin_number": 16,
-   "FIELD13": "0"
- },
- {
-   "ID": 22,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Ypsilanti",
-   "state": "MI",
-   "zip": 48197,
-   "Latitude": 42.202139,
-   "Longitude": -83.620494,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Saint Joseph Mercy Hospital Ann Arbor Addiction Medicine Fellowship Program",
-   "pin_number": 17,
-   "FIELD13": "0"
- },
- {
-   "ID": 23,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "West Minneapolis",
-   "state": "MN",
-   "zip": 55404,
-   "Latitude": 44.961998,
-   "Longitude": -93.261123,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Minnesota Addiction Medicine Residency Fellowship",
-   "pin_number": 18,
-   "FIELD13": "0"
- },
- {
-   "ID": 24,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "1000 Tenth Avenue",
-   "city": "New York",
-   "state": "NY",
-   "zip": 10019,
-   "Latitude": 40.770311,
-   "Longitude": -73.987609,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Addiction Institute of New York Fellowship in Addiction Medicine��",
-   "pin_number": 19,
-   "FIELD13": "1"
- },
- {
-   "ID": 25,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "550 First Ave",
-   "city": "New York",
-   "state": "NY",
-   "zip": 10016,
-   "Latitude": 40.742049,
-   "Longitude": -73.974486,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: The Addiction Medicine Fellowship Program at NYU School of Medicine",
-   "pin_number": 20,
-   "FIELD13": "1"
- },
- {
-   "ID": 26,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "2006 Madison Avenue",
-   "city": "New York",
-   "state": "NY",
-   "zip": 10035,
-   "Latitude": 40.807603,
-   "Longitude": -73.939678,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Institute for Family Health Fellowship in Addiction Medicine",
-   "pin_number": 21,
-   "FIELD13": "1"
- },
- {
-   "ID": 27,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Buffalo",
-   "state": "NY",
-   "zip": 14201,
-   "Latitude": 42.89606,
-   "Longitude": -78.886424,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University at Buffalo Addiction Medicine Fellowship Program",
-   "pin_number": 22,
-   "FIELD13": "0"
- },
- {
-   "ID": 28,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Rochester",
-   "state": "NY",
-   "zip": 14604,
-   "Latitude": 43.156612,
-   "Longitude": -77.604023,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Rochester Medical Center (URMC) Combined Addiction Fellowship Program",
-   "pin_number": 23,
-   "FIELD13": "0"
- },
- {
-   "ID": 29,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Cincinnati",
-   "state": "OH",
-   "zip": 45202,
-   "Latitude": 39.109356,
-   "Longitude": -84.502584,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Cincinnati Addiction Medicine Research Fellowship Program",
-   "pin_number": 24,
-   "FIELD13": "0"
- },
- {
-   "ID": 30,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "2351 E 22nd st",
-   "city": "Cleveland",
-   "state": "OH",
-   "zip": 44115,
-   "Latitude": 41.496415,
-   "Longitude": -81.674097,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: St. Vincent Charity Medical Center Addiction Medicine Fellowship Program",
-   "pin_number": 25,
-   "FIELD13": "0"
- },
- {
-   "ID": 31,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "525 East Market Street",
-   "city": "Akron",
-   "state": "OH",
-   "zip": 44304,
-   "Latitude": 41.078613,
-   "Longitude": -81.501238,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Summa Health System Addiction Medicine Fellowship Program ",
-   "pin_number": 26,
-   "FIELD13": "0"
- },
- {
-   "ID": 32,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Tulsa",
-   "state": "OK",
-   "zip": 74103,
-   "Latitude": 36.155392,
-   "Longitude": -95.994424,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Oklahoma Addiction Medicine Fellowship Program",
-   "pin_number": 27,
-   "FIELD13": "0"
- },
- {
-   "ID": 33,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "3181 SW Sam Jackson Park Rd",
-   "city": "Portland",
-   "state": "OR",
-   "zip": 97239,
-   "Latitude": 45.499077,
-   "Longitude": -122.688225,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Oregon Health & Science University Addiction Medicine Fellowship",
-   "pin_number": 28,
-   "FIELD13": "0"
- },
- {
-   "ID": 34,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Wernersville",
-   "state": "PA",
-   "zip": 19565,
-   "Latitude": 40.33009,
-   "Longitude": -76.0805,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Caron?Reading Health System Addiction Medicine�",
-   "pin_number": 29,
-   "FIELD13": "0"
- },
- {
-   "ID": 35,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Waverly",
-   "state": "PA",
-   "zip": 18471,
-   "Latitude": 41.523812,
-   "Longitude": -75.690608,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Geisinger Addiction Medicine Residency",
-   "pin_number": 30,
-   "FIELD13": "0"
- },
- {
-   "ID": 36,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Providence",
-   "state": "RI",
-   "zip": 2903,
-   "Latitude": 41.828597,
-   "Longitude": -71.423301,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Rhode Island Hospital Addiction Medicine Fellowship Program",
-   "pin_number": 31,
-   "FIELD13": "0"
- },
- {
-   "ID": 37,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Memphis",
-   "state": "TN",
-   "zip": 38103,
-   "Latitude": 35.154875,
-   "Longitude": -90.049631,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Tennessee Addiction Medicine Fellowship Program",
-   "pin_number": 32,
-   "FIELD13": "0"
- },
- {
-   "ID": 38,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Houston",
-   "state": "TX",
-   "zip": 77002,
-   "Latitude": 29.756845,
-   "Longitude": -95.365652,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Memorial Hermann Preventive and Recovery Center Cameron Addiction Medicine Fellowship",
-   "pin_number": 33,
-   "FIELD13": "0"
- },
- {
-   "ID": 39,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "907 Floyd Ave",
-   "city": "Richmond",
-   "state": "VA",
-   "zip": 23284,
-   "Latitude": 37.546811,
-   "Longitude": -77.453146,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Virginia Commonwealth University Health System Addiction Medicine Fellowship",
-   "pin_number": 34,
-   "FIELD13": "0"
- },
- {
-   "ID": 40,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Puyallup",
-   "state": "WA",
-   "zip": 98371,
-   "Latitude": 47.212822,
-   "Longitude": -122.317148,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: MultiCare Addiction Medicine Fellowship Program",
-   "pin_number": 35,
-   "FIELD13": "0"
- },
- {
-   "ID": 41,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Seattle",
-   "state": "WA",
-   "zip": 98101,
-   "Latitude": 47.610902,
-   "Longitude": -122.336422,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Swedish Addiction Medicine Fellowship Program",
-   "pin_number": 36,
-   "FIELD13": "0"
- },
- {
-   "ID": 42,
-   "grantee": "The Addiction Medicine Foundation",
-   "granteeAcronym": "abamf",
-   "type": "site",
-   "address": "",
-   "city": "Madison",
-   "state": "WI",
-   "zip": 53703,
-   "Latitude": 43.079575,
-   "Longitude": -89.378389,
-   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Wisconsin Addiction Medicine Fellowship",
-   "pin_number": 37,
-   "FIELD13": "0"
- },
- {
-   "ID": 43,
-   "grantee": "Children's Hospital Corp (CHC)",
-   "granteeAcronym": "chc",
-   "type": "headquarters",
-   "address": "500 Longwood Ave",
-   "city": "Boston",
-   "state": "MA",
-   "zip": 2115,
-   "Latitude": 42.336962,
-   "Longitude": -71.103403,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href='http://www.childrenshospital.org/' target='_blank'>CHC</a> is conducting a research study to develop outcome measures for real-world clinical settings to assess the short term impact of SBIRT for youth with chronic medical conditions.",
-   "pin_number": 0,
-   "FIELD13": "0"
- },
- {
-   "ID": 44,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "headquarters",
@@ -656,11 +67,10 @@ var addressPoints = [
    "Latitude": 39.296536,
    "Longitude": -76.623489,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">Behavioral Health Systems Baltimore (BHSB)</a> is leading a multi-jurisdictional, multi-partner initiative to integrate adolescent SBIRT into pediatric primary settings and SBHCs across Maryland.",
-   "pin_number": 0,
-   "FIELD13": "1"
+   "pin_number": 0
  },
  {
-   "ID": 45,
+   "ID": 6,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
@@ -671,11 +81,10 @@ var addressPoints = [
    "Latitude": 39.313035,
    "Longitude": -76.568404,
    "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a>, 5 sites, 2 clinics: Baltimore Medical Systems, Inc",
-   "pin_number": 1,
-   "FIELD13": "1"
+   "pin_number": 1
  },
  {
-   "ID": 46,
+   "ID": 7,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
@@ -686,11 +95,10 @@ var addressPoints = [
    "Latitude": 39.036289,
    "Longitude": -77.010948,
    "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Community Clinic, Inc",
-   "pin_number": 2,
-   "FIELD13": "0"
+   "pin_number": 2
  },
  {
-   "ID": 47,
+   "ID": 8,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
@@ -701,11 +109,10 @@ var addressPoints = [
    "Latitude": 38.994933,
    "Longitude": -76.88221,
    "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Community Clinic, Inc.",
-   "pin_number": 3,
-   "FIELD13": "0"
+   "pin_number": 3
  },
  {
-   "ID": 48,
+   "ID": 9,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
@@ -716,11 +123,10 @@ var addressPoints = [
    "Latitude": 38.98236,
    "Longitude": -77.005798,
    "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Community Clinic, Inc.",
-   "pin_number": 4,
-   "FIELD13": "0"
+   "pin_number": 4
  },
  {
-   "ID": 49,
+   "ID": 10,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
@@ -731,11 +137,10 @@ var addressPoints = [
    "Latitude": 39.039831,
    "Longitude": -77.055256,
    "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Community Clinic, Inc.",
-   "pin_number": 5,
-   "FIELD13": "0"
+   "pin_number": 5
  },
  {
-   "ID": 50,
+   "ID": 11,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
@@ -746,11 +151,10 @@ var addressPoints = [
    "Latitude": 39.147997,
    "Longitude": -77.186049,
    "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Community Clinic, Inc.",
-   "pin_number": 6,
-   "FIELD13": "0"
+   "pin_number": 6
  },
  {
-   "ID": 51,
+   "ID": 12,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
@@ -761,11 +165,10 @@ var addressPoints = [
    "Latitude": 38.85039,
    "Longitude": -76.59607,
    "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Owensville Primary Care",
-   "pin_number": 7,
-   "FIELD13": "0"
+   "pin_number": 7
  },
  {
-   "ID": 52,
+   "ID": 13,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
@@ -776,11 +179,10 @@ var addressPoints = [
    "Latitude": 39.293798,
    "Longitude": -76.609324,
    "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a>, 2 sites: Health Care for the Homeless ",
-   "pin_number": 8,
-   "FIELD13": "1"
+   "pin_number": 8
  },
  {
-   "ID": 53,
+   "ID": 14,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
@@ -791,11 +193,10 @@ var addressPoints = [
    "Latitude": 39.294237,
    "Longitude": -76.590618,
    "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Johns Hopkins Harriet Lane Clinic",
-   "pin_number": 9,
-   "FIELD13": "1"
+   "pin_number": 9
  },
  {
-   "ID": 54,
+   "ID": 15,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
@@ -806,11 +207,10 @@ var addressPoints = [
    "Latitude": 38.513875,
    "Longitude": -77.01034,
    "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Center for Children",
-   "pin_number": 10,
-   "FIELD13": "0"
+   "pin_number": 10
  },
  {
-   "ID": 55,
+   "ID": 16,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
@@ -821,11 +221,10 @@ var addressPoints = [
    "Latitude": 38.278757,
    "Longitude": -76.655917,
    "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Center for Children",
-   "pin_number": 11,
-   "FIELD13": "0"
+   "pin_number": 11
  },
  {
-   "ID": 56,
+   "ID": 17,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
@@ -836,26 +235,374 @@ var addressPoints = [
    "Latitude": 38.54571,
    "Longitude": -76.58949,
    "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Center for Children",
-   "pin_number": 12,
-   "FIELD13": "0"
+   "pin_number": 12
  },
  {
-   "ID": 57,
+   "ID": 18,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "1 North Main Street",
+   "city": "Bel Air",
+   "state": "MD",
+   "zip": 21014,
+   "Latitude": 39.536852,
+   "Longitude": -76.349421,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: HealthCare for the Homeless",
+   "pin_number": 13
+ },
+ {
+   "ID": 19,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "12850 Middlebrook Road",
+   "city": "Germantown",
+   "state": "MD",
+   "zip": 20874,
+   "Latitude": 39.17844,
+   "Longitude": -77.267196,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Community Clinic, Inc. ",
+   "pin_number": 14
+ },
+ {
+   "ID": 20,
    "grantee": "Behavioral Health System Baltimore (BHSB)",
    "granteeAcronym": "bhsb",
    "type": "site",
    "address": "",
-   "city": "Annapolis",
+   "city": "Baltimore",
    "state": "MD",
-   "zip": 21403,
-   "Latitude": 38.942123,
-   "Longitude": -76.489628,
-   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB </a>, 2 sites: Center for Children",
-   "pin_number": 13,
-   "FIELD13": "0"
+   "zip": 21218,
+   "Latitude": 39.328456,
+   "Longitude": -76.599139,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Merganthaler Vocational",
+   "pin_number": 15
  },
  {
-   "ID": 58,
+   "ID": 21,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Baltimore",
+   "state": "MD",
+   "zip": 21215,
+   "Latitude": 39.343306,
+   "Longitude": -76.681192,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Northwestern High",
+   "pin_number": 16
+ },
+ {
+   "ID": 22,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Essex",
+   "state": "MD",
+   "zip": 21221,
+   "Latitude": 39.30235,
+   "Longitude": -76.44434,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Chesapeake High",
+   "pin_number": 17
+ },
+ {
+   "ID": 23,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Baltimore",
+   "state": "MD",
+   "zip": 21222,
+   "Latitude": 39.258549,
+   "Longitude": -76.529753,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Dundalk High",
+   "pin_number": 18
+ },
+ {
+   "ID": 24,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Essex",
+   "state": "MD",
+   "zip": 21221,
+   "Latitude": 39.30235,
+   "Longitude": -76.44434,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Kenwood High",
+   "pin_number": 19
+ },
+ {
+   "ID": 25,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "3800 Hollins Ferry Rd",
+   "city": "Lansdowne",
+   "state": "MD",
+   "zip": 21227,
+   "Latitude": 39.244797,
+   "Longitude": -76.65069,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Lansdowne High",
+   "pin_number": 20
+ },
+ {
+   "ID": 26,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Owings Mills",
+   "state": "MD",
+   "zip": 21117,
+   "Latitude": 39.429055,
+   "Longitude": -76.787696,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Owings Mills High",
+   "pin_number": 21
+ },
+ {
+   "ID": 27,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Parkville",
+   "state": "MD",
+   "zip": 21234,
+   "Latitude": 39.413106,
+   "Longitude": -76.530044,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Parkville High",
+   "pin_number": 22
+ },
+ {
+   "ID": 28,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Gwynn Oak",
+   "state": "MD",
+   "zip": 21207,
+   "Latitude": 39.332607,
+   "Longitude": -76.692749,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Woodlawn High",
+   "pin_number": 23
+ },
+ {
+   "ID": 29,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Cambridge",
+   "state": "MD",
+   "zip": 21613,
+   "Latitude": 38.479813,
+   "Longitude": -76.079864,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Cambridge-South Dorchester High",
+   "pin_number": 24
+ },
+ {
+   "ID": 30,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Cambridge",
+   "state": "MD",
+   "zip": 21613,
+   "Latitude": 38.479813,
+   "Longitude": -76.079864,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Mace's Lane Middle",
+   "pin_number": 25
+ },
+ {
+   "ID": 31,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Hurlock",
+   "state": "MD",
+   "zip": 21643,
+   "Latitude": 38.643824,
+   "Longitude": -75.863003,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: North Dorchester High",
+   "pin_number": 26
+ },
+ {
+   "ID": 32,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Hurlock",
+   "state": "MD",
+   "zip": 21643,
+   "Latitude": 38.643824,
+   "Longitude": -75.863003,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: North Dorchester Middle",
+   "pin_number": 27
+ },
+ {
+   "ID": 33,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Hagerstown",
+   "state": "MD",
+   "zip": 21740,
+   "Latitude": 39.58887,
+   "Longitude": -77.700213,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: South Hagerstown High",
+   "pin_number": 28
+ },
+ {
+   "ID": 34,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "1300 Marshall St",
+   "city": "Hagerstown",
+   "state": "MD",
+   "zip": 21740,
+   "Latitude": 39.660308,
+   "Longitude": -77.730106,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Washington County - Western Heights",
+   "pin_number": 29
+ },
+ {
+   "ID": 35,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "St. Mary's City",
+   "state": "MD",
+   "zip": 20686,
+   "Latitude": 38.18707,
+   "Longitude": -76.4344,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: St. Mary's College of Maryland",
+   "pin_number": 30
+ },
+ {
+   "ID": 36,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Baltimore",
+   "state": "MD",
+   "zip": 21250,
+   "Latitude": 39.258226,
+   "Longitude": -76.713149,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: University of Maryland, Baltimore County",
+   "pin_number": 31
+ },
+ {
+   "ID": 37,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Owings Mills",
+   "state": "MD",
+   "zip": 21117,
+   "Latitude": 39.429055,
+   "Longitude": -76.787696,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Child and Teen Wellness Center",
+   "pin_number": 32
+ },
+ {
+   "ID": 38,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "2225 Defense Hwy",
+   "city": "Crofton",
+   "state": "MD",
+   "zip": 21114,
+   "Latitude": 39.00891,
+   "Longitude": -76.68438,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: The Pediatric Group",
+   "pin_number": 33
+ },
+ {
+   "ID": 39,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "2772 Rutland Rd",
+   "city": "Davidsonville",
+   "state": "MD",
+   "zip": 21035,
+   "Latitude": 38.95961,
+   "Longitude": -76.639424,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: The Pediatric Group",
+   "pin_number": 34
+ },
+ {
+   "ID": 40,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "692 Ritchine Hwy",
+   "city": "Severna Park",
+   "state": "MD",
+   "zip": 21146,
+   "Latitude": 39.08337,
+   "Longitude": -76.57197,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: The Pediatric Group",
+   "pin_number": 35
+ },
+ {
+   "ID": 41,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": " 200 N Wolfe St",
+   "city": "Baltimore",
+   "state": "MD",
+   "zip": 21287,
+   "Latitude": 39.297457,
+   "Longitude": -76.592738,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Johns Hopkins Harriet Lane Clinic",
+   "pin_number": 36
+ },
+ {
+   "ID": 42,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Dorchester County",
+   "state": "MD",
+   "zip": null,
+   "Latitude": 38.4153,
+   "Longitude": -76.1784,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: St. Mary’s Baltimore Health Systems",
+   "pin_number": 37
+ },
+ {
+   "ID": 43,
+   "grantee": "Behavioral Health System Baltimore (BHSB)",
+   "granteeAcronym": "bhsb",
+   "type": "site",
+   "address": "",
+   "city": "Washington County",
+   "state": "MD",
+   "zip": null,
+   "Latitude": 39.6418,
+   "Longitude": -77.72,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">BHSB</a> site: Leigh",
+   "pin_number": 38
+ },
+ {
+   "ID": 44,
    "grantee": "Boston University School of Public Health",
    "granteeAcronym": "busp",
    "type": "headquarters",
@@ -866,11 +613,10 @@ var addressPoints = [
    "Latitude": 42.335652,
    "Longitude": -71.070649,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.bu.edu/sph/\" target=\"_blank\">Boston University School of Public Health (BUSPH)</a> held a conference with experts in alcohol interventions, web/mobile enabled behavior change, application development and evaluation, and adolescent marketing to discuss the state of the field and provide guidance to the Foundation on fruitful areas of investment <em>(Grant expired)</em>.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 59,
+   "ID": 45,
    "grantee": "California Academy of Family Physicians (CAFP)",
    "granteeAcronym": "cafp",
    "type": "headquarters",
@@ -881,11 +627,10 @@ var addressPoints = [
    "Latitude": 37.795269,
    "Longitude": -122.420375,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.familydocs.org/node/451\" target=\"_blank\">California Academy of Family Physicians (CAFP)</a> is increasing practitioner awareness, competence, and confidence in identifying and addressing youth substance use through partners from five national primary care associations.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 60,
+   "ID": 46,
    "grantee": "California Community Foundation (CCF)",
    "granteeAcronym": "ccf",
    "type": "headquarters",
@@ -895,12 +640,11 @@ var addressPoints = [
    "zip": 90012,
    "Latitude": 34.05882,
    "Longitude": -118.250989,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.calfund.org/\" target=\"_blank\">California Community Foundation (CCF)</a> is increasing practitioner awareness, competence, and confidence in identifying and addressing youth substance use through partners from five national primary care associations.",
-   "pin_number": 0,
-   "FIELD13": "1"
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.calfund.org/\" target=\"_blank\">California Community Foundation (CCF)</a> received an initial planning grant to explore the feasibility of implementing SBIRT for adolescents in Los Angeles County, CA <em>(Grant expired)</em>. CCF is now implementing SBIRT in four schools in Los Angeles County, CA.",
+   "pin_number": 0
  },
  {
-   "ID": 61,
+   "ID": 47,
    "grantee": "California Community Foundation (CCF)",
    "granteeAcronym": "ccf",
    "type": "site",
@@ -911,11 +655,10 @@ var addressPoints = [
    "Latitude": 33.949164,
    "Longitude": -118.273156,
    "blurb": "<a href=\"http://www.calfund.org/\" target=\"_blank\">CCF</a> site: Fremont High School Wellness Center",
-   "pin_number": 1,
-   "FIELD13": "1"
+   "pin_number": 1
  },
  {
-   "ID": 62,
+   "ID": 48,
    "grantee": "California Community Foundation (CCF)",
    "granteeAcronym": "ccf",
    "type": "site",
@@ -926,11 +669,10 @@ var addressPoints = [
    "Latitude": 34.013046,
    "Longitude": -118.252,
    "blurb": "<a href=\"http://www.calfund.org/\" target=\"_blank\">CCF</a> site: Jefferson High School Wellness Center",
-   "pin_number": 2,
-   "FIELD13": "1"
+   "pin_number": 2
  },
  {
-   "ID": 63,
+   "ID": 49,
    "grantee": "California Community Foundation (CCF)",
    "granteeAcronym": "ccf",
    "type": "site",
@@ -941,11 +683,10 @@ var addressPoints = [
    "Latitude": 34.0093,
    "Longitude": -118.291689,
    "blurb": "<a href=\"http://www.calfund.org/\" target=\"_blank\">CCF</a> site: Manual Arts High School Wellness Center",
-   "pin_number": 3,
-   "FIELD13": "1"
+   "pin_number": 3
  },
  {
-   "ID": 64,
+   "ID": 50,
    "grantee": "California Community Foundation (CCF)",
    "granteeAcronym": "ccf",
    "type": "site",
@@ -956,72 +697,11 @@ var addressPoints = [
    "Latitude": 33.936236,
    "Longitude": -118.303167,
    "blurb": "<a href=\"http://www.calfund.org/\" target=\"_blank\">CCF</a> site: Washington Preparatory High School Wellness Center",
-   "pin_number": 4,
-   "FIELD13": "1"
+   "pin_number": 4
  },
  {
-   "ID": 65,
-   "grantee": "The CDC Foundation",
-   "granteeAcronym": "cdcf",
-   "type": "headquarters",
-   "address": "600 Peachtree St NE",
-   "city": "Atlanta",
-   "state": "GA",
-   "zip": 30308,
-   "Latitude": 33.770807,
-   "Longitude": -84.387899,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.cdcfoundation.org/\" target=\"_blank\">CDC</a> is conducting a comprehensive, regional substance use prevention and sexual risk behavior reduction program for communities with high substance use and/or HIV/STD rates among youth. ",
-   "pin_number": 0,
-   "FIELD13": "0"
- },
- {
-   "ID": 66,
-   "grantee": "The CDC Foundation",
-   "granteeAcronym": "cdcf",
-   "type": "site",
-   "address": "",
-   "city": "Austin",
-   "state": "IN",
-   "zip": 47102,
-   "Latitude": 38.748455,
-   "Longitude": -85.750469,
-   "blurb": "<a href=\"https://www.cdcfoundation.org/\" target=\"_blank\">CDC</a> site: Scott County School District #1",
-   "pin_number": 1,
-   "FIELD13": "0"
- },
- {
-   "ID": 67,
-   "grantee": "The CDC Foundation",
-   "granteeAcronym": "cdcf",
-   "type": "site",
-   "address": "",
-   "city": "Newport",
-   "state": "KY",
-   "zip": 41076,
-   "Latitude": 39.029015,
-   "Longitude": -84.440757,
-   "blurb": "<a href=\"https://www.cdcfoundation.org/\" target=\"_blank\">CDC</a> site: Brighton Center, Inc.",
-   "pin_number": 2,
-   "FIELD13": "0"
- },
- {
-   "ID": 68,
-   "grantee": "The CDC Foundation",
-   "granteeAcronym": "cdcf",
-   "type": "site",
-   "address": "",
-   "city": "Portsmouth",
-   "state": "OH",
-   "zip": 45663,
-   "Latitude": 38.749539,
-   "Longitude": -83.133477,
-   "blurb": "<a href=\"https://www.cdcfoundation.org/\" target=\"_blank\">CDC</a> site: Portsmouth City Health Department",
-   "pin_number": 3,
-   "FIELD13": "0"
- },
- {
-   "ID": 69,
-   "grantee": "Center for Health Care Strategies (CHCS)",
+   "ID": 51,
+   "grantee": "Center for Health Care Strategies (CHCS) - Grants 1 & 2",
    "granteeAcronym": "chcs",
    "type": "headquarters",
    "address": "",
@@ -1031,12 +711,11 @@ var addressPoints = [
    "Latitude": 40.220108,
    "Longitude": -74.764055,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.chcs.org/\" target=\"_blank\">Center for Health Care Strategies (CHCS)</a> initially convened a small group consultation, to identify opportunities for and challenges to implementation of a publicly financed primary care approach to the prevention of and early intervention for youth substance use disorders (Grant expired). Now, CHCS and ACAP conduct a learning collaborative to support a target of five participating health plans in developing and implementing a PCP training program on the use of SBIRT.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 70,
-   "grantee": "Center for Health Care Strategies (CHCS)",
+   "ID": 52,
+   "grantee": "Center for Health Care Strategies (CHCS) - Grants 1 & 2",
    "granteeAcronym": "chcs",
    "type": "site",
    "address": "1 Boston Medical Center Pl,",
@@ -1046,27 +725,11 @@ var addressPoints = [
    "Latitude": 42.334841,
    "Longitude": -71.07551,
    "blurb": "<a href=\"http://www.chcs.org/\" target=\"_blank\">CHCS</a> site: Boston Medical Center",
-   "pin_number": 1,
-   "FIELD13": "1"
+   "pin_number": 1
  },
  {
-   "ID": 71,
-   "grantee": "Center for Health Care Strategies (CHCS)",
-   "granteeAcronym": "chcs",
-   "type": "site",
-   "address": "200 State St",
-   "city": "Boston",
-   "state": "MA",
-   "zip": 2109,
-   "Latitude": 42.35982,
-   "Longitude": -71.051788,
-   "blurb": "<a href=\"http://www.chcs.org/\" target=\"_blank\">CHCS</a> site: Beacon Health Strategies",
-   "pin_number": 2,
-   "FIELD13": "1"
- },
- {
-   "ID": 72,
-   "grantee": "Center for Health Care Strategies (CHCS)",
+   "ID": 53,
+   "grantee": "Center for Health Care Strategies (CHCS) - Grants 1 & 2",
    "granteeAcronym": "chcs",
    "type": "site",
    "address": "",
@@ -1076,12 +739,11 @@ var addressPoints = [
    "Latitude": 38.25247,
    "Longitude": -85.753812,
    "blurb": "<a href=\"http://www.chcs.org/\" target=\"_blank\">CHCS</a> site: Passport Health Plan",
-   "pin_number": 3,
-   "FIELD13": "0"
+   "pin_number": 3
  },
  {
-   "ID": 73,
-   "grantee": "Center for Health Care Strategies (CHCS)",
+   "ID": 54,
+   "grantee": "Center for Health Care Strategies (CHCS) - Grants 1 & 2",
    "granteeAcronym": "chcs",
    "type": "site",
    "address": "",
@@ -1091,12 +753,11 @@ var addressPoints = [
    "Latitude": 25.811821,
    "Longitude": -80.384768,
    "blurb": "<a href=\"http://www.chcs.org/\" target=\"_blank\">CHCS</a> site: Prestige Health Choice",
-   "pin_number": 4,
-   "FIELD13": "0"
+   "pin_number": 4
  },
  {
-   "ID": 74,
-   "grantee": "Center for Health Care Strategies (CHCS)",
+   "ID": 55,
+   "grantee": "Center for Health Care Strategies (CHCS) - Grants 1 & 2",
    "granteeAcronym": "chcs",
    "type": "site",
    "address": "446 Main St",
@@ -1106,12 +767,11 @@ var addressPoints = [
    "Latitude": 42.886699,
    "Longitude": -78.874256,
    "blurb": "<a href=\"http://www.chcs.org/\" target=\"_blank\">CHCS</a> site: YourCare Health",
-   "pin_number": 5,
-   "FIELD13": "0"
+   "pin_number": 5
  },
  {
-   "ID": 75,
-   "grantee": "Center for Health Care Strategies (CHCS)",
+   "ID": 56,
+   "grantee": "Center for Health Care Strategies (CHCS) - Grants 1 & 2",
    "granteeAcronym": "chcs",
    "type": "site",
    "address": "",
@@ -1121,12 +781,11 @@ var addressPoints = [
    "Latitude": 40.447679,
    "Longitude": -79.993462,
    "blurb": "<a href=\"http://www.chcs.org/\" target=\"_blank\">CHCS</a> site: University of Pittsburgh Medical Center",
-   "pin_number": 6,
-   "FIELD13": "0"
+   "pin_number": 6
  },
  {
-   "ID": 76,
-   "grantee": "Center for Health Care Strategies (CHCS)",
+   "ID": 57,
+   "grantee": "Center for Health Care Strategies (CHCS) - Grants 1 & 2",
    "granteeAcronym": "chcs",
    "type": "site",
    "address": "",
@@ -1136,12 +795,11 @@ var addressPoints = [
    "Latitude": 29.704019,
    "Longitude": -95.460905,
    "blurb": "<a href=\"http://www.chcs.org/\" target=\"_blank\">CHCS</a> site: Texas Children?s Health Plan",
-   "pin_number": 7,
-   "FIELD13": "0"
+   "pin_number": 7
  },
  {
-   "ID": 77,
-   "grantee": "Center for Health Care Strategies (CHCS)",
+   "ID": 58,
+   "grantee": "Center for Health Care Strategies (CHCS) - Grants 1 & 2",
    "granteeAcronym": "chcs",
    "type": "site",
    "address": "600 E. Broad Street",
@@ -1151,11 +809,10 @@ var addressPoints = [
    "Latitude": 37.54236,
    "Longitude": -77.435997,
    "blurb": "<a href=\"http://www.chcs.org/\" target=\"_blank\">CHCS</a> site: VA Premier Health Plan",
-   "pin_number": 8,
-   "FIELD13": "0"
+   "pin_number": 8
  },
  {
-   "ID": 78,
+   "ID": 59,
    "grantee": "Center for Social Innovation (C4)",
    "granteeAcronym": "csi",
    "type": "headquarters",
@@ -1166,11 +823,10 @@ var addressPoints = [
    "Latitude": 42.299405,
    "Longitude": -71.232706,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://center4si.com/\" target=\"_blank\">Center for Social Innovation (C4)</a> partners with researchers, practitioners, and young people in recovery from substance use disorders to determine how peer-based interventions can be effective at motivating change and promoting healthy choices for adolescents.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 79,
+   "ID": 60,
    "grantee": "Center for Social Innovation (C4)",
    "granteeAcronym": "csi",
    "type": "site",
@@ -1181,11 +837,10 @@ var addressPoints = [
    "Latitude": 39.72866,
    "Longitude": -104.810138,
    "blurb": "<a href=\"http://center4si.com/\" target=\"_blank\">C4</a> site: Aurora Mental Health Center",
-   "pin_number": 1,
-   "FIELD13": "0"
+   "pin_number": 1
  },
  {
-   "ID": 80,
+   "ID": 61,
    "grantee": "Center for Social Innovation (C4)",
    "granteeAcronym": "csi",
    "type": "site",
@@ -1196,11 +851,10 @@ var addressPoints = [
    "Latitude": 33.897203,
    "Longitude": -84.591983,
    "blurb": "<a href=\"http://center4si.com/\" target=\"_blank\">C4</a> site: Marietta High School Student Success Center",
-   "pin_number": 2,
-   "FIELD13": "0"
+   "pin_number": 2
  },
  {
-   "ID": 81,
+   "ID": 62,
    "grantee": "Center for Social Innovation (C4)",
    "granteeAcronym": "csi",
    "type": "site",
@@ -1211,26 +865,24 @@ var addressPoints = [
    "Latitude": 35.300025,
    "Longitude": -80.733983,
    "blurb": "<a href=\"http://center4si.com/\" target=\"_blank\">C4</a> site: Teen Health Connection",
-   "pin_number": 3,
-   "FIELD13": "0"
+   "pin_number": 3
  },
  {
-   "ID": 82,
+   "ID": 63,
    "grantee": "Center for Social Innovation (C4)",
    "granteeAcronym": "csi",
    "type": "site",
-   "address": "495 E Main St�",
+   "address": "495 E Main St",
    "city": "Columbus",
    "state": "OH",
    "zip": 43215,
    "Latitude": 39.957545,
    "Longitude": -82.986079,
    "blurb": "<a href=\"http://center4si.com/\" target=\"_blank\">C4</a> site: Nationwide Children?s Hospital Adolescent Clinic",
-   "pin_number": 4,
-   "FIELD13": "0"
+   "pin_number": 4
  },
  {
-   "ID": 83,
+   "ID": 64,
    "grantee": "Center for Social Innovation (C4)",
    "granteeAcronym": "csi",
    "type": "site",
@@ -1241,11 +893,10 @@ var addressPoints = [
    "Latitude": 41.222885,
    "Longitude": -80.250704,
    "blurb": "<a href=\"http://center4si.com/\" target=\"_blank\">C4</a> site: Mercer County Behavioral Health Commission",
-   "pin_number": 5,
-   "FIELD13": "0"
+   "pin_number": 5
  },
  {
-   "ID": 84,
+   "ID": 65,
    "grantee": "Center for Social Innovation (C4)",
    "granteeAcronym": "csi",
    "type": "site",
@@ -1256,12 +907,25 @@ var addressPoints = [
    "Latitude": 39.952562,
    "Longitude": -75.166472,
    "blurb": "<a href=\"http://center4si.com/\" target=\"_blank\">C4</a> site: Public Health Management Corporation (PHMC)",
-   "pin_number": 6,
-   "FIELD13": "0"
+   "pin_number": 6
  },
  {
-   "ID": 85,
-   "grantee": "Community Anti-Drug Coalitions of America (CADCA)",
+   "ID": 66,
+   "grantee": "Children's Hospital Corp (CHC)",
+   "granteeAcronym": "chc",
+   "type": "headquarters",
+   "address": "500 Longwood Ave",
+   "city": "Boston",
+   "state": "MA",
+   "zip": 2115,
+   "Latitude": 42.336962,
+   "Longitude": -71.103403,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href='http://www.childrenshospital.org/' target='_blank'>CHC</a> is conducting a research study to develop outcome measures for real-world clinical settings to assess the short term impact of SBIRT for youth with chronic medical conditions.",
+   "pin_number": 0
+ },
+ {
+   "ID": 67,
+   "grantee": "Community Anti-Drug Coalitions of America (CADCA) - Grants 1 & 2",
    "granteeAcronym": "cadca",
    "type": "headquarters",
    "address": "",
@@ -1270,13 +934,110 @@ var addressPoints = [
    "zip": 22301,
    "Latitude": 38.819853,
    "Longitude": -77.059645,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.cadca.org/\" target=\"_blank\">Community Anti-Drug Coalitions of America (CADCA)</a> implemented a planning process to develop, pilot, and evaluate an approach to provide training and technical assistance to community coalitions to support the development and implementation of SBIRT in their communities <em>(Grant expired)</em>.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "blurb": "<p class='headquarters'>Headquarters</p>Initially, <a href=\"http://www.cadca.org/\" target=\"_blank\">Community Anti-Drug Coalitions of America (CADCA)</a> implemented a planning process to develop, pilot, and evaluate an approach to provide training and technical assistance to community coalitions to support the development and implementation of SBIRT in their communities <em>(Grant expired)</em>. Currently, CADCA is working with pilot demonstration coalitions to conduct continued trainings, establish a shared learning infrastructure, develop a tool-kit that applies the results of community health needs assessments, and increase policy support from key political agents of change at the local, state and federal levels.",
+   "pin_number": 0
  },
  {
-   "ID": 86,
-   "grantee": "Community Catalyst",
+   "ID": 68,
+   "grantee": "Community Anti-Drug Coalitions of America (CADCA) - Grants 1 & 2",
+   "granteeAcronym": "cadca",
+   "type": "site",
+   "address": "",
+   "city": "",
+   "state": "SD",
+   "zip": null,
+   "Latitude": 44.446796,
+   "Longitude": -100.238176,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">Community Anti-Drug Coalitions of America (CADCA)</a>, South Dakota",
+   "pin_number": 1
+ },
+ {
+   "ID": 69,
+   "grantee": "Community Anti-Drug Coalitions of America (CADCA) - Grants 1 & 2",
+   "granteeAcronym": "cadca",
+   "type": "site",
+   "address": "",
+   "city": "",
+   "state": "FL",
+   "zip": null,
+   "Latitude": 28.45743,
+   "Longitude": -82.409148,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">Community Anti-Drug Coalitions of America (CADCA)</a>, Florida",
+   "pin_number": 2
+ },
+ {
+   "ID": 70,
+   "grantee": "Community Anti-Drug Coalitions of America (CADCA) - Grants 1 & 2",
+   "granteeAcronym": "cadca",
+   "type": "site",
+   "address": "",
+   "city": "",
+   "state": "IN",
+   "zip": null,
+   "Latitude": 39.903026,
+   "Longitude": -86.28395,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">Community Anti-Drug Coalitions of America (CADCA)</a>, Indiana",
+   "pin_number": 3
+ },
+ {
+   "ID": 71,
+   "grantee": "Community Anti-Drug Coalitions of America (CADCA) - Grants 1 & 2",
+   "granteeAcronym": "cadca",
+   "type": "site",
+   "address": "",
+   "city": "",
+   "state": "AZ",
+   "zip": null,
+   "Latitude": 34.203936,
+   "Longitude": -111.606357,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">Community Anti-Drug Coalitions of America (CADCA)</a>, Arizona",
+   "pin_number": 4
+ },
+ {
+   "ID": 72,
+   "grantee": "Community Anti-Drug Coalitions of America (CADCA) - Grants 1 & 2",
+   "granteeAcronym": "cadca",
+   "type": "site",
+   "address": "",
+   "city": "",
+   "state": "NJ",
+   "zip": null,
+   "Latitude": 40.107274,
+   "Longitude": -74.665201,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">Community Anti-Drug Coalitions of America (CADCA)</a>, New Jersey",
+   "pin_number": 5
+ },
+ {
+   "ID": 73,
+   "grantee": "Community Anti-Drug Coalitions of America (CADCA) - Grants 1 & 2",
+   "granteeAcronym": "cadca",
+   "type": "site",
+   "address": "",
+   "city": "",
+   "state": "NY",
+   "zip": null,
+   "Latitude": 40.68863,
+   "Longitude": -74.018244,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">Community Anti-Drug Coalitions of America (CADCA)</a>, New York",
+   "pin_number": 6
+ },
+ {
+   "ID": 74,
+   "grantee": "Community Anti-Drug Coalitions of America (CADCA) - Grants 1 & 2",
+   "granteeAcronym": "cadca",
+   "type": "site",
+   "address": "",
+   "city": "",
+   "state": "MA",
+   "zip": null,
+   "Latitude": 42.15652,
+   "Longitude": -71.489592,
+   "blurb": "<a href=\"http://www.bhsbaltimore.org/\" target=\"_blank\">Community Anti-Drug Coalitions of America (CADCA)</a>, Massachusetts",
+   "pin_number": 7
+ },
+ {
+   "ID": 75,
+   "grantee": "Community Catalyst - Grants 1 & 2",
    "granteeAcronym": "ccat",
    "type": "headquarters",
    "address": "1 Federal St",
@@ -1285,13 +1046,12 @@ var addressPoints = [
    "zip": 2110,
    "Latitude": 42.356702,
    "Longitude": -71.05659,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.communitycatalyst.org/\" target=\"_blank\">Community Catalyst</a> developed consumer-led advocacy campaigns in five states to enact state policy change to increase access to SBIRT by improving reimbursement and expanding the settings/professionals that can provide it, with a focus on peer approaches <em>(Grant expired)</em>.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.communitycatalyst.org/\" target=\"_blank\">Community Catalyst</a> initially developed consumer-led advocacy campaigns in five states to enact state policy change to increase access to SBIRT by improving reimbursement and expanding the settings/professionals that can provide it, with a focus on peer approaches <em>(Grant expired)</em>. Now, Community Catalyst continues to work at the state and federal level to secure policy change and ensure policymakers continue to support efforts to expand access to youth SBIRT and other critical prevention, treatment and recovery support services.",
+   "pin_number": 0
  },
  {
-   "ID": 87,
-   "grantee": "Community Catalyst",
+   "ID": 76,
+   "grantee": "Community Catalyst - Grants 1 & 2",
    "granteeAcronym": "ccat",
    "type": "site",
    "address": "1335 N Crossing Dr NE",
@@ -1301,12 +1061,11 @@ var addressPoints = [
    "Latitude": 33.822731,
    "Longitude": -84.320382,
    "blurb": "<a href=\"http://www.communitycatalyst.org/\" target=\"_blank\">Community Catalyst</a> site: Georgians for a Healthy Future",
-   "pin_number": 1,
-   "FIELD13": "0"
+   "pin_number": 1
  },
  {
-   "ID": 88,
-   "grantee": "Community Catalyst",
+   "ID": 77,
+   "grantee": "Community Catalyst - Grants 1 & 2",
    "granteeAcronym": "ccat",
    "type": "site",
    "address": "",
@@ -1316,12 +1075,11 @@ var addressPoints = [
    "Latitude": 42.309661,
    "Longitude": -71.121097,
    "blurb": "<a href=\"http://www.communitycatalyst.org/\" target=\"_blank\">Community Catalyst</a> site: Massachusetts Society for the Protection of Children",
-   "pin_number": 2,
-   "FIELD13": "0"
+   "pin_number": 2
  },
  {
-   "ID": 89,
-   "grantee": "Community Catalyst",
+   "ID": 78,
+   "grantee": "Community Catalyst - Grants 1 & 2",
    "granteeAcronym": "ccat",
    "type": "site",
    "address": "",
@@ -1331,27 +1089,11 @@ var addressPoints = [
    "Latitude": 40.735642,
    "Longitude": -74.173988,
    "blurb": "<a href=\"http://www.communitycatalyst.org/\" target=\"_blank\">Community Catalyst</a> site: New Jersey Citizen Action Education Fund",
-   "pin_number": 3,
-   "FIELD13": "0"
+   "pin_number": 3
  },
  {
-   "ID": 90,
-   "grantee": "Community Catalyst",
-   "granteeAcronym": "ccat",
-   "type": "site",
-   "address": "2800 Euclid Ave",
-   "city": "Cleveland",
-   "state": "OH",
-   "zip": 44115,
-   "Latitude": 41.502219,
-   "Longitude": -81.669173,
-   "blurb": "<a href=\"http://www.communitycatalyst.org/\" target=\"_blank\">Community Catalyst</a> site: Universal Health Care Action Network",
-   "pin_number": 4,
-   "FIELD13": "0"
- },
- {
-   "ID": 91,
-   "grantee": "Community Catalyst",
+   "ID": 79,
+   "grantee": "Community Catalyst - Grants 1 & 2",
    "granteeAcronym": "ccat",
    "type": "site",
    "address": "",
@@ -1361,11 +1103,10 @@ var addressPoints = [
    "Latitude": 43.043213,
    "Longitude": -87.894734,
    "blurb": "<a href=\"http://www.communitycatalyst.org/\" target=\"_blank\">Community Catalyst</a> site: Citizen Action of Wisconsin Education Fund",
-   "pin_number": 5,
-   "FIELD13": "0"
+   "pin_number": 5
  },
  {
-   "ID": 92,
+   "ID": 80,
    "grantee": "Facing Addiction",
    "granteeAcronym": "facadd",
    "type": "headquarters",
@@ -1376,11 +1117,10 @@ var addressPoints = [
    "Latitude": 41.376242,
    "Longitude": -73.471416,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.facingaddiction.org/\" target=\"_blank\">Facing Addiction</a> is building and organizing a national grassroots advocacy movement of those affected by addiction to advance public health responses, including SBIRT.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 93,
+   "ID": 81,
    "grantee": "Fractured Atlas",
    "granteeAcronym": "fract",
    "type": "headquarters",
@@ -1391,11 +1131,10 @@ var addressPoints = [
    "Latitude": 40.752361,
    "Longitude": -73.992051,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.fracturedatlas.org/\" target=\"_blank\">Fractured Atlas</a> produced and conducted community discussion forums for Generation Found, a documentary film project about adolescents in recovery and the pediatric nature of the onset of addiction <em>(Grant expired)</em>.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 94,
+   "ID": 82,
    "grantee": "FrameWorks Institute",
    "granteeAcronym": "fin",
    "type": "headquarters",
@@ -1406,11 +1145,24 @@ var addressPoints = [
    "Latitude": 38.900357,
    "Longitude": -77.03079,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.frameworksinstitute.org/\" target=\"_blank\">FrameWorks Institute</a> initially explored how to effectively communicate with members of the public, practitioners, and policymakers about youth substance use and what it takes to improve outcomes for young people (Grant expired). Now they are creating a comprehensive framing strategy about adolescent substance use for these audiences to improve outcomes for young people misusing substances.",
-   "pin_number": 0,
-   "FIELD13": "1"
+   "pin_number": 0
  },
  {
-   "ID": 95,
+   "ID": 83,
+   "grantee": "Friends Research Institute",
+   "granteeAcronym": "fri",
+   "type": "headquarters",
+   "address": "1040 Park Avenue Suite 103",
+   "city": "Baltimore",
+   "state": "MD",
+   "zip": 21201,
+   "Latitude": 39.3033582,
+   "Longitude": -76.6191902,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.friendsresearch.org/\" target=\"_blank\">Friends Research Institute</a> is leading a research project on the effectiveness of the Adolescent SBIRT Change Package, a set of tools designed to implement SBIRT in community health centers developed by the National Council on Behavioral Health.",
+   "pin_number": 0
+ },
+ {
+   "ID": 84,
    "grantee": "Grantmakers in Health (GIH)",
    "granteeAcronym": "gih",
    "type": "headquarters",
@@ -1421,56 +1173,416 @@ var addressPoints = [
    "Latitude": 38.904072,
    "Longitude": -77.040638,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.gih.org/\" target=\"_blank\">Grantmakers in Health (GIH)</a> convened behavioral health funders, with an emphasis on SUD, to illuminate philanthropy?s current assets, gaps, and barriers to scaling behavioral health efforts, as well as opportunities for partnering with different sectors and government <em>(Grant expired)</em>.",
-   "pin_number": 0,
-   "FIELD13": "1"
+   "pin_number": 0
+ },
+ {
+   "ID": 85,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "headquarters",
+   "address": "",
+   "city": "Ames",
+   "state": "IA",
+   "zip": 50011,
+   "Latitude": 42.0266187,
+   "Longitude": -93.6486541,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">Iowa State University’s</a> <a href=\"http://helpingkidsprosper.org/\" target=\"_blank\">PROSPER Network Organization</a> (PROmoting School-community-university Partnerships to Enhance Resilience) is conducting a randomized control study of an expanded PROSPER delivery system that integrates SBIRT. The PROSPER Network uses a community-based continuum of prevention approach, increasing the range of prevention services.",
+   "pin_number": 0
+ },
+ {
+   "ID": 86,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "509 N Main Ave",
+   "city": "Huxley",
+   "state": "IA",
+   "zip": 50124,
+   "Latitude": 41.896259,
+   "Longitude": -93.606335,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Ballard Middle School",
+   "pin_number": 1
+ },
+ {
+   "ID": 87,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "300 Garfield St SW",
+   "city": "Bondurant",
+   "state": "IA",
+   "zip": 50035,
+   "Latitude": 41.698417,
+   "Longitude": -93.465406,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Bondurant - Farrar Middle School",
+   "pin_number": 2
+ },
+ {
+   "ID": 88,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "3075 Sunnyside Ave",
+   "city": "Burlington",
+   "state": "IA",
+   "zip": 52601,
+   "Latitude": 40.833391,
+   "Longitude": -91.13737,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Aldo Leopold Middle School",
+   "pin_number": 3
+ },
+ {
+   "ID": 89,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "3000 Mason Rd",
+   "city": "Burlington",
+   "state": "IA",
+   "zip": 52601,
+   "Latitude": 40.792641,
+   "Longitude": -91.123352,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Edward Stone Middle School",
+   "pin_number": 4
+ },
+ {
+   "ID": 90,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "1010 4th Ave E",
+   "city": "DeWitt",
+   "state": "IA",
+   "zip": 52742,
+   "Latitude": 41.825372,
+   "Longitude": -90.53582,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Central DeWitt Intermediate School",
+   "pin_number": 5
+ },
+ {
+   "ID": 91,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "2642 US-218",
+   "city": "Donnellson",
+   "state": "IA",
+   "zip": 52625,
+   "Latitude": 40.577515,
+   "Longitude": -91.520573,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Central Lee Middle School",
+   "pin_number": 6
+ },
+ {
+   "ID": 92,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "206 E Indian St",
+   "city": "Cherokee",
+   "state": "IA",
+   "zip": 51012,
+   "Latitude": 42.764036,
+   "Longitude": -95.556033,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Cherokee Middle School",
+   "pin_number": 7
+ },
+ {
+   "ID": 93,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "300 3rd Ave NE",
+   "city": "Clarion",
+   "state": "IA",
+   "zip": 50525,
+   "Latitude": 42.734602,
+   "Longitude": -93.728816,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Clarion-Goldfield-Dows Middle School",
+   "pin_number": 8
+ },
+ {
+   "ID": 94,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "2102 Durant St ",
+   "city": "Harlan",
+   "state": "IA",
+   "zip": 51537,
+   "Latitude": 41.657586,
+   "Longitude": -95.338871,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Harlan Community Middle School",
+   "pin_number": 9
+ },
+ {
+   "ID": 95,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "420 E Jefferson St",
+   "city": "Osceola",
+   "state": "IA",
+   "zip": 50213,
+   "Latitude": 41.033318,
+   "Longitude": -93.759756,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Clarke Elementary School",
+   "pin_number": 10
  },
  {
    "ID": 96,
-   "grantee": "Kaiser Permanente",
-   "granteeAcronym": "kip",
-   "type": "headquarters",
-   "address": "2150 Valdez Street",
-   "city": "Oakland",
-   "state": "CA",
-   "zip": 94612,
-   "Latitude": 37.810028,
-   "Longitude": -122.264428,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.dor.kaiser.org/external/dorexternal/index.aspx\" target=\"_blank\">Kaiser Permanente</a> in partnership with UMN, is conducting a randomized controlled study of a four-session intervention model for teens and parents adapted for adolescents referred from schools and pediatric settings, and testing a group intervention format.",
-   "pin_number": 0,
-   "FIELD13": "1"
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "311 W Marengo Rd",
+   "city": "Tiffin",
+   "state": "IA",
+   "zip": 52340,
+   "Latitude": 41.70712,
+   "Longitude": -91.667126,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Clear Creek Amana Middle School",
+   "pin_number": 11
  },
  {
    "ID": 97,
-   "grantee": "Kaiser Permanente",
-   "granteeAcronym": "kip",
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
    "type": "site",
-   "address": "3600 Broadway",
-   "city": "Oakland",
-   "state": "CA",
-   "zip": 94611,
-   "Latitude": 37.82341,
-   "Longitude": -122.25929,
-   "blurb": "<a href=\"https://www.dor.kaiser.org/\" target=\"_blank\">Kaiser Permanente</a> site: Northern California Oakland Medical Center Pediatrics Department",
-   "pin_number": 1,
-   "FIELD13": "1"
+   "address": "1015 NW 2nd St",
+   "city": "Eagle Grove",
+   "state": "IA",
+   "zip": 50533,
+   "Latitude": 42.666328,
+   "Longitude": -93.915439,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Robert Blue Middle School",
+   "pin_number": 12
  },
  {
    "ID": 98,
-   "grantee": "Kaiser Permanente",
-   "granteeAcronym": "kip",
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
    "type": "site",
-   "address": "",
-   "city": "San Leandro",
-   "state": "CA",
-   "zip": 94577,
-   "Latitude": 37.728262,
-   "Longitude": -122.164705,
-   "blurb": "<a href=\"https://www.dor.kaiser.org/\" target=\"_blank\">Kaiser Permanente</a> site: Northern California San Leandro Medical Center Pediatrics Department",
-   "pin_number": 3,
-   "FIELD13": "0"
+   "address": "405 12th St S",
+   "city": "Grand Junction",
+   "state": "IA",
+   "zip": 50107,
+   "Latitude": 42.028938,
+   "Longitude": -94.237125,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Greene County Intermediate School",
+   "pin_number": 13
  },
  {
    "ID": 99,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "445 E North St",
+   "city": "Truro",
+   "state": "IA",
+   "zip": 50257,
+   "Latitude": 41.210218,
+   "Longitude": -93.840679,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Interstate 35 Secondary School",
+   "pin_number": 14
+ },
+ {
+   "ID": 100,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "531 Prospect St",
+   "city": "Jesup",
+   "state": "IA",
+   "zip": 50648,
+   "Latitude": 42.479739,
+   "Longitude": -92.064751,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Jesup Middle School",
+   "pin_number": 15
+ },
+ {
+   "ID": 101,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "3820 Harry Langdon Blvd",
+   "city": "Council Bluffs",
+   "state": "IA",
+   "zip": 51503,
+   "Latitude": 41.232412,
+   "Longitude": -95.830244,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Lewis Central Middle School",
+   "pin_number": 16
+ },
+ {
+   "ID": 102,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "212 W Ingledue St",
+   "city": "Marshalltown",
+   "state": "IA",
+   "zip": 50158,
+   "Latitude": 42.031967,
+   "Longitude": -92.91572,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Lenihan Intermediate",
+   "pin_number": 17
+ },
+ {
+   "ID": 103,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "1625 S Pennsylvania Ave",
+   "city": "Mason City",
+   "state": "IA",
+   "zip": 50401,
+   "Latitude": 43.135497,
+   "Longitude": -93.198301,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Lincoln Intermediate",
+   "pin_number": 18
+ },
+ {
+   "ID": 104,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "315 NE 141st Ave",
+   "city": "Alleman",
+   "state": "IA",
+   "zip": 50007,
+   "Latitude": 41.817976,
+   "Longitude": -93.61396,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: North Polk Middle School",
+   "pin_number": 19
+ },
+ {
+   "ID": 105,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "820 Sawyer Dr",
+   "city": "Osage",
+   "state": "IA",
+   "zip": 50461,
+   "Latitude": 43.278129,
+   "Longitude": -92.810866,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Osage Middle School",
+   "pin_number": 20
+ },
+ {
+   "ID": 106,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "308-A Corning Street",
+   "city": "Red Oak",
+   "state": "IA",
+   "zip": 51566,
+   "Latitude": 41.011204,
+   "Longitude": -95.224059,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Red Oak Middle School",
+   "pin_number": 21
+ },
+ {
+   "ID": 107,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "",
+   "city": "Rock Valley",
+   "state": "IA",
+   "zip": 51247,
+   "Latitude": 43.20526,
+   "Longitude": -96.29503,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Rock Valley Middle School",
+   "pin_number": 22
+ },
+ {
+   "ID": 108,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "601 Dr Creighton Cir",
+   "city": "Shenandoah",
+   "state": "IA",
+   "zip": 51601,
+   "Latitude": 40.726129,
+   "Longitude": -95.349564,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Shenandoah Middle School",
+   "pin_number": 23
+ },
+ {
+   "ID": 109,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "313 S Iowa St",
+   "city": "Solon",
+   "state": "IA",
+   "zip": 52333,
+   "Latitude": 41.804762,
+   "Longitude": -91.49551,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Solon Middle School",
+   "pin_number": 24
+ },
+ {
+   "ID": 110,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "200 E Chestnut St",
+   "city": "Hubbard",
+   "state": "IA",
+   "zip": 50122,
+   "Latitude": 42.30424,
+   "Longitude": -93.301441,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: South Hardin Middle School",
+   "pin_number": 25
+ },
+ {
+   "ID": 111,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "30850 Paragon Ave",
+   "city": "Burnside",
+   "state": "IA",
+   "zip": 50521,
+   "Latitude": 42.34278,
+   "Longitude": -94.106752,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Southeast Valley Middle School",
+   "pin_number": 26
+ },
+ {
+   "ID": 112,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "609 28th St",
+   "city": "Spirit Lake",
+   "state": "IA",
+   "zip": 51360,
+   "Latitude": 43.414683,
+   "Longitude": -95.098967,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Spirit Lake Middle School",
+   "pin_number": 27
+ },
+ {
+   "ID": 113,
+   "grantee": "Iowa State University (ISU)",
+   "granteeAcronym": "isu",
+   "type": "site",
+   "address": "313 S 4th Ave",
+   "city": "Washington",
+   "state": "IA",
+   "zip": 52353,
+   "Latitude": 41.29653,
+   "Longitude": -91.688179,
+   "blurb": "<a href=\"http://www.ppsi.iastate.edu/\" target=\"_blank\">ISU</a> site: Washington Middle School",
+   "pin_number": 28
+ },
+ {
+   "ID": 114,
    "grantee": "Kaiser Foundation Research Institute",
    "granteeAcronym": "kfri",
    "type": "headquarters",
@@ -1481,11 +1593,10 @@ var addressPoints = [
    "Latitude": 37.808947,
    "Longitude": -122.268285,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://share.kaiserpermanente.org/article/kaiser-foundation-research-institute/\" target=\"_blank\">The Kaiser Foundation</a> is developing predictive statistical models (risk profiles) of clinical and demographic characteristics for health systems and other youth-serving organizations to identify children and adolescents at greatest risk of developing substance use problems for targeted prevention and early intervention efforts, including SBIRT.",
-   "pin_number": 0,
-   "FIELD13": "1"
+   "pin_number": 0
  },
  {
-   "ID": 100,
+   "ID": 115,
    "grantee": "Kaiser Foundation Research Institute",
    "granteeAcronym": "kfri",
    "type": "site",
@@ -1496,11 +1607,10 @@ var addressPoints = [
    "Latitude": 37.809899,
    "Longitude": -122.267732,
    "blurb": "<a href=\"https://share.kaiserpermanente.org/article/kaiser-foundation-research-institute/\" target=\"_blank\">Kaiser Foundation</a> site: Kaiser Permanente Division of Research at Kaiser Permanente Northern California",
-   "pin_number": 1,
-   "FIELD13": "1"
+   "pin_number": 1
  },
  {
-   "ID": 101,
+   "ID": 116,
    "grantee": "Kaiser Foundation Research Institute",
    "granteeAcronym": "kfri",
    "type": "site",
@@ -1511,11 +1621,10 @@ var addressPoints = [
    "Latitude": 21.316548,
    "Longitude": -157.845053,
    "blurb": "<a href=\"https://share.kaiserpermanente.org/article/kaiser-foundation-research-institute/\" target=\"_blank\">Kaiser Foundation</a> site: Center for Health Research Hawaii at Kaiser Permanente Hawaii",
-   "pin_number": 2,
-   "FIELD13": "0"
+   "pin_number": 2
  },
  {
-   "ID": 102,
+   "ID": 117,
    "grantee": "Kaiser Foundation Research Institute",
    "granteeAcronym": "kfri",
    "type": "site",
@@ -1526,11 +1635,10 @@ var addressPoints = [
    "Latitude": 42.347021,
    "Longitude": -83.060184,
    "blurb": "<a href=\"https://share.kaiserpermanente.org/article/kaiser-foundation-research-institute/\" target=\"_blank\">Kaiser Foundation</a> site: Center for Health Policy and Health Services at Henry Ford Health System",
-   "pin_number": 3,
-   "FIELD13": "0"
+   "pin_number": 3
  },
  {
-   "ID": 103,
+   "ID": 118,
    "grantee": "Kaiser Foundation Research Institute",
    "granteeAcronym": "kfri",
    "type": "site",
@@ -1541,11 +1649,52 @@ var addressPoints = [
    "Latitude": 40.991968,
    "Longitude": -76.647082,
    "blurb": "<a href=\"https://share.kaiserpermanente.org/article/kaiser-foundation-research-institute/\" target=\"_blank\">Kaiser Foundation</a> site: Geisenger Center for Health Research at the Geisenger Health System",
-   "pin_number": 4,
-   "FIELD13": "0"
+   "pin_number": 4
  },
  {
-   "ID": 104,
+   "ID": 119,
+   "grantee": "Kaiser Permanente",
+   "granteeAcronym": "kip",
+   "type": "headquarters",
+   "address": "2150 Valdez Street",
+   "city": "Oakland",
+   "state": "CA",
+   "zip": 94612,
+   "Latitude": 37.810028,
+   "Longitude": -122.264428,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.dor.kaiser.org/external/dorexternal/index.aspx\" target=\"_blank\">Kaiser Permanente</a> in partnership with UMN, is conducting a randomized controlled study of a four-session intervention model for teens and parents adapted for adolescents referred from schools and pediatric settings, and testing a group intervention format.",
+   "pin_number": 0
+ },
+ {
+   "ID": 120,
+   "grantee": "Kaiser Permanente",
+   "granteeAcronym": "kip",
+   "type": "site",
+   "address": "3600 Broadway",
+   "city": "Oakland",
+   "state": "CA",
+   "zip": 94611,
+   "Latitude": 37.82341,
+   "Longitude": -122.25929,
+   "blurb": "<a href=\"https://www.dor.kaiser.org/\" target=\"_blank\">Kaiser Permanente</a> site: Northern California Oakland Medical Center Pediatrics Department",
+   "pin_number": 1
+ },
+ {
+   "ID": 121,
+   "grantee": "Kaiser Permanente",
+   "granteeAcronym": "kip",
+   "type": "site",
+   "address": "",
+   "city": "San Leandro",
+   "state": "CA",
+   "zip": 94577,
+   "Latitude": 37.728262,
+   "Longitude": -122.164705,
+   "blurb": "<a href=\"https://www.dor.kaiser.org/\" target=\"_blank\">Kaiser Permanente</a> site: Northern California San Leandro Medical Center Pediatrics Department",
+   "pin_number": 3
+ },
+ {
+   "ID": 122,
    "grantee": "Legal Action Center (LAC)",
    "granteeAcronym": "lac",
    "type": "headquarters",
@@ -1556,12 +1705,11 @@ var addressPoints = [
    "Latitude": 38.900605,
    "Longitude": -77.007026,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://lac.org/\" target=\"_blank\">Legal Action Center</a> is analyzing implementation of ACA and MHPAEA to identify opportunities to improve access to preventive services, and provide technical assistance to state agencies, insurers, and advocates to improve policy and practice to expand access to prevention services.",
-   "pin_number": 0,
-   "FIELD13": "1"
+   "pin_number": 0
  },
  {
-   "ID": 105,
-   "grantee": "Mentor Foundation USA",
+   "ID": 123,
+   "grantee": "Mentor Foundation USA - Grants 1 & 2",
    "granteeAcronym": "mfu",
    "type": "headquarters",
    "address": "2900 K Street Northwest",
@@ -1570,13 +1718,12 @@ var addressPoints = [
    "zip": 20007,
    "Latitude": 38.910386,
    "Longitude": -77.058368,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://mentorfoundationusa.org/\" target=\"_blank\">Mentor Foundation USA</a> is analyzing implementation of ACA and MHPAEA to identify opportunities to improve access to preventive services, and provide technical assistance to state agencies, insurers, and advocates to improve policy and practice to expand access to prevention services.",
-   "pin_number": 0,
-   "FIELD13": "1"
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://mentorfoundationusa.org/\" target=\"_blank\">Mentor Foundation USA</a> created an interactive multi-media version of their Shattering the Myths model, STM 2.0, which incorporated messages promoting the benefits of prevention behaviors specifically designed to counteract the myths youth have about drugs and alcohol <em>(Grant expired)</em>. Now, Mentor is improving and further developing the LTE pilot program in four high schools.",
+   "pin_number": 0
  },
  {
-   "ID": 106,
-   "grantee": "Mentor Foundation USA",
+   "ID": 124,
+   "grantee": "Mentor Foundation USA - Grants 1 & 2",
    "granteeAcronym": "mfu",
    "type": "site",
    "address": "",
@@ -1586,12 +1733,11 @@ var addressPoints = [
    "Latitude": 42.122234,
    "Longitude": -73.858769,
    "blurb": "<a href=\"http://mentorfoundationusa.org/\" target=\"_blank\">Mentor Foundation USA</a> site: Germantown High School",
-   "pin_number": 1,
-   "FIELD13": "0"
+   "pin_number": 1
  },
  {
-   "ID": 107,
-   "grantee": "Mentor Foundation USA",
+   "ID": 125,
+   "grantee": "Mentor Foundation USA - Grants 1 & 2",
    "granteeAcronym": "mfu",
    "type": "site",
    "address": "",
@@ -1601,12 +1747,11 @@ var addressPoints = [
    "Latitude": 42.190488,
    "Longitude": -73.64465,
    "blurb": "<a href=\"http://mentorfoundationusa.org/\" target=\"_blank\">Mentor Foundation USA</a> site: Taconic Hills High School",
-   "pin_number": 2,
-   "FIELD13": "0"
+   "pin_number": 2
  },
  {
-   "ID": 108,
-   "grantee": "Mentor Foundation USA",
+   "ID": 126,
+   "grantee": "Mentor Foundation USA - Grants 1 & 2",
    "granteeAcronym": "mfu",
    "type": "site",
    "address": "",
@@ -1616,11 +1761,10 @@ var addressPoints = [
    "Latitude": 42.398503,
    "Longitude": -73.626548,
    "blurb": "<a href=\"http://mentorfoundationusa.org/\" target=\"_blank\">Mentor Foundation USA</a> site: Ichabod Crane High School",
-   "pin_number": 3,
-   "FIELD13": "0"
+   "pin_number": 3
  },
  {
-   "ID": 109,
+   "ID": 127,
    "grantee": "Montana Healthcare Foundation (MHCF)",
    "granteeAcronym": "mhcf",
    "type": "headquarters",
@@ -1631,11 +1775,10 @@ var addressPoints = [
    "Latitude": 45.82641,
    "Longitude": -110.898799,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.mthcf.org/\" target=\"_blank\">Montana Healthcare Foundation (MHCF)</a> is exploring the use of SBIRT in Montana to develop a detailed report with a statewide strategy and practical recommendations for promoting broader use of SBIRT.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 110,
+   "ID": 128,
    "grantee": "Mosaic Group",
    "granteeAcronym": "mgr",
    "type": "headquarters",
@@ -1646,11 +1789,10 @@ var addressPoints = [
    "Latitude": 39.414306,
    "Longitude": -76.576089,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.groupmosaic.com/\" target=\"_blank\">The Mosaic Group</a> developed an adolescent SBIRT checklist to support effective implementation of SBIRT for Foundation grantees and provided technical assistance to implement the checklist <em>(Grant expired)</em>.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 111,
+   "ID": 129,
    "grantee": "NASADAD",
    "granteeAcronym": "nasadad",
    "type": "headquarters",
@@ -1661,11 +1803,10 @@ var addressPoints = [
    "Latitude": 38.903312,
    "Longitude": -77.039337,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://nasadad.org/\" target=\"_blank\">NASADAD</a> conducted case studies of five state initiatives directed at identifying and providing interventions to youth that exhibit elevated risk for substance use disorders <em>(Grant expired).</em>",
-   "pin_number": 0,
-   "FIELD13": "1"
+   "pin_number": 0
  },
  {
-   "ID": 112,
+   "ID": 130,
    "grantee": "National Academy of Sciences",
    "granteeAcronym": "nas",
    "type": "headquarters",
@@ -1676,116 +1817,10 @@ var addressPoints = [
    "Latitude": 38.892959,
    "Longitude": -77.047643,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://sites.nationalacademies.org/DBASSE/BCYF/Forum_on_Promoting_Childrens_Cognitive_Affective_and_Behavioral_Health/index.htm\" target=\"_blank\">The National Academies</a> coordinates the Forum on Promoting Children's Cognitive, Affective, and Behavioral Health (C-CAB Forum), which consists of scientists, practitioners, government officials, and staff from private foundations to advance implementation that promotes the mental, emotional, and behavioral health of adolescents.",
-   "pin_number": 0,
-   "FIELD13": "1"
+   "pin_number": 0
  },
  {
-   "ID": 113,
-   "grantee": "The National Council for Behavioral Health",
-   "granteeAcronym": "ncbh",
-   "type": "headquarters",
-   "address": "1400 K St NW",
-   "city": "Washington",
-   "state": "DC",
-   "zip": 20005,
-   "Latitude": 38.902167,
-   "Longitude": -77.032409,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">The National Council</a> is piloting SBIRT in five states, working with the respective State Associations to implement the SBIRT projects and conduct advocacy to establish Medicaid reimbursement for SBIRT. They are also developing a SBIRT change package and a two-year national learning collaborative to provide expert consultation to 15 FQHCs focused on piloting, refining, and evaluating the change package.",
-   "pin_number": 0,
-   "FIELD13": "1"
- },
- {
-   "ID": 114,
-   "grantee": "The National Council for Behavioral Health",
-   "granteeAcronym": "ncbh",
-   "type": "site",
-   "address": "",
-   "city": "Sacramento",
-   "state": "CA",
-   "zip": 95814,
-   "Latitude": 38.580568,
-   "Longitude": -121.49559,
-   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: California Council of Community Mental Health Agencies",
-   "pin_number": 1,
-   "FIELD13": "0"
- },
- {
-   "ID": 115,
-   "grantee": "The National Council for Behavioral Health",
-   "granteeAcronym": "ncbh",
-   "type": "site",
-   "address": "",
-   "city": "Denver",
-   "state": "CO",
-   "zip": 80202,
-   "Latitude": 39.760189,
-   "Longitude": -104.996553,
-   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Colorado Behavioral Healthcare Council",
-   "pin_number": 2,
-   "FIELD13": "0"
- },
- {
-   "ID": 116,
-   "grantee": "The National Council for Behavioral Health",
-   "granteeAcronym": "ncbh",
-   "type": "site",
-   "address": "",
-   "city": "Topeka",
-   "state": "KS",
-   "zip": 66603,
-   "Latitude": 39.05215,
-   "Longitude": -95.675758,
-   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Association of Community Mental Health Centers of Kansas",
-   "pin_number": 3,
-   "FIELD13": "0"
- },
- {
-   "ID": 117,
-   "grantee": "The National Council for Behavioral Health",
-   "granteeAcronym": "ncbh",
-   "type": "site",
-   "address": "",
-   "city": "Albany",
-   "state": "NY",
-   "zip": 12202,
-   "Latitude": 42.636371,
-   "Longitude": -73.763564,
-   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: New York State Council for Community Behavioral Healthcare",
-   "pin_number": 4,
-   "FIELD13": "0"
- },
- {
-   "ID": 118,
-   "grantee": "The National Council for Behavioral Health",
-   "granteeAcronym": "ncbh",
-   "type": "site",
-   "address": "",
-   "city": "Warwick",
-   "state": "RI",
-   "zip": 2886,
-   "Latitude": 41.70247,
-   "Longitude": -71.47902,
-   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Rhode Island Council of Community Mental Health Organizations, Inc.",
-   "pin_number": 5,
-   "FIELD13": "0"
- },
- {
-   "ID": 119,
-   "grantee": "The National Council for Behavioral Health",
-   "granteeAcronym": "ncbh",
-   "type": "site",
-   "address": "",
-   "city": "Nashville",
-   "state": "TN",
-   "zip": 37201,
-   "Latitude": 36.165688,
-   "Longitude": -86.778098,
-   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Tennessee Association of Mental Health Organizations",
-   "pin_number": 6,
-   "FIELD13": "0"
- },
- {
-   "ID": 120,
+   "ID": 131,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "headquarters",
@@ -1796,11 +1831,10 @@ var addressPoints = [
    "Latitude": 43.202717,
    "Longitude": -71.538896,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.nhcf.org/\" target=\"_blank\">New Hampshire Charitable Foundation (NHCF)</a> is expanding SBIRT for adolescents in New Hampshire community health settings and advocating for state policy changes to sustain SBIRT financing.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 121,
+   "ID": 132,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1811,11 +1845,10 @@ var addressPoints = [
    "Latitude": 43.637148,
    "Longitude": -72.23546,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Dartmouth Hitchcock Medical Center - Lebanon Pediatrics",
-   "pin_number": 1,
-   "FIELD13": "0"
+   "pin_number": 1
  },
  {
-   "ID": 122,
+   "ID": 133,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1826,11 +1859,10 @@ var addressPoints = [
    "Latitude": 43.37674,
    "Longitude": -72.34676,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Valley Regional Hospital",
-   "pin_number": 2,
-   "FIELD13": "0"
+   "pin_number": 2
  },
  {
-   "ID": 123,
+   "ID": 134,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1841,11 +1873,10 @@ var addressPoints = [
    "Latitude": 43.59784,
    "Longitude": -71.74691,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Mid-State Health Center",
-   "pin_number": 3,
-   "FIELD13": "0"
+   "pin_number": 3
  },
  {
-   "ID": 124,
+   "ID": 135,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1856,11 +1887,10 @@ var addressPoints = [
    "Latitude": 43.857943,
    "Longitude": -71.605547,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Mid-State Health Center",
-   "pin_number": 4,
-   "FIELD13": "0"
+   "pin_number": 4
  },
  {
-   "ID": 125,
+   "ID": 136,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1871,11 +1901,10 @@ var addressPoints = [
    "Latitude": 43.26175,
    "Longitude": -70.86534,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Goodwin Community Health Center",
-   "pin_number": 5,
-   "FIELD13": "0"
+   "pin_number": 5
  },
  {
-   "ID": 126,
+   "ID": 137,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1886,11 +1915,10 @@ var addressPoints = [
    "Latitude": 43.14133,
    "Longitude": -70.92294,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Wentworth Douglass Hospital",
-   "pin_number": 6,
-   "FIELD13": "0"
+   "pin_number": 6
  },
  {
-   "ID": 127,
+   "ID": 138,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1901,11 +1929,10 @@ var addressPoints = [
    "Latitude": 44.149975,
    "Longitude": -71.787288,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Dartmouth OB/GYN -Lebanon",
-   "pin_number": 7,
-   "FIELD13": "0"
+   "pin_number": 7
  },
  {
-   "ID": 128,
+   "ID": 139,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1916,11 +1943,10 @@ var addressPoints = [
    "Latitude": 42.93743,
    "Longitude": -71.535515,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Dartmouth Hitchcock Bedford",
-   "pin_number": 8,
-   "FIELD13": "0"
+   "pin_number": 8
  },
  {
-   "ID": 129,
+   "ID": 140,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1931,11 +1957,10 @@ var addressPoints = [
    "Latitude": 43.009895,
    "Longitude": -71.422342,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Dartmouth Hitchcock Manchester",
-   "pin_number": 9,
-   "FIELD13": "0"
+   "pin_number": 9
  },
  {
-   "ID": 130,
+   "ID": 141,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1946,11 +1971,10 @@ var addressPoints = [
    "Latitude": 43.758807,
    "Longitude": -71.696748,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Dartmouth Hitchcock Plymouth",
-   "pin_number": 10,
-   "FIELD13": "0"
+   "pin_number": 10
  },
  {
-   "ID": 131,
+   "ID": 142,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1961,11 +1985,10 @@ var addressPoints = [
    "Latitude": 42.996035,
    "Longitude": -71.466007,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Manchester Community Health Center",
-   "pin_number": 11,
-   "FIELD13": "0"
+   "pin_number": 11
  },
  {
-   "ID": 132,
+   "ID": 143,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1976,11 +1999,10 @@ var addressPoints = [
    "Latitude": 43.98132,
    "Longitude": -71.12722,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: White Mountain Community Health Center",
-   "pin_number": 12,
-   "FIELD13": "0"
+   "pin_number": 12
  },
  {
-   "ID": 133,
+   "ID": 144,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -1991,11 +2013,10 @@ var addressPoints = [
    "Latitude": 43.196562,
    "Longitude": -71.562769,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Concord Hospital Family Health Center",
-   "pin_number": 13,
-   "FIELD13": "0"
+   "pin_number": 13
  },
  {
-   "ID": 134,
+   "ID": 145,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -2006,11 +2027,10 @@ var addressPoints = [
    "Latitude": 43.12295,
    "Longitude": -71.914287,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Concord Hospital Family Health Center",
-   "pin_number": 14,
-   "FIELD13": "0"
+   "pin_number": 14
  },
  {
-   "ID": 135,
+   "ID": 146,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -2021,11 +2041,10 @@ var addressPoints = [
    "Latitude": 44.476575,
    "Longitude": -71.561225,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Weeks Medical Center",
-   "pin_number": 15,
-   "FIELD13": "0"
+   "pin_number": 15
  },
  {
-   "ID": 136,
+   "ID": 147,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -2036,11 +2055,10 @@ var addressPoints = [
    "Latitude": 44.60486,
    "Longitude": -71.52007,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Weeks Medical Center",
-   "pin_number": 16,
-   "FIELD13": "0"
+   "pin_number": 16
  },
  {
-   "ID": 137,
+   "ID": 148,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -2051,11 +2069,10 @@ var addressPoints = [
    "Latitude": 44.363681,
    "Longitude": -71.610189,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Weeks Medical Center",
-   "pin_number": 17,
-   "FIELD13": "0"
+   "pin_number": 17
  },
  {
-   "ID": 138,
+   "ID": 149,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -2066,11 +2083,10 @@ var addressPoints = [
    "Latitude": 44.75172,
    "Longitude": -71.6287,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Weeks Medical Center",
-   "pin_number": 18,
-   "FIELD13": "0"
+   "pin_number": 18
  },
  {
-   "ID": 139,
+   "ID": 150,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -2081,11 +2097,10 @@ var addressPoints = [
    "Latitude": 43.44424,
    "Longitude": -71.6473,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Health First Family Care Center ",
-   "pin_number": 19,
-   "FIELD13": "0"
+   "pin_number": 19
  },
  {
-   "ID": 140,
+   "ID": 151,
    "grantee": "New Hampshire Charitable Foundation (NHCF)",
    "granteeAcronym": "nhcf",
    "type": "site",
@@ -2096,11 +2111,10 @@ var addressPoints = [
    "Latitude": 43.576423,
    "Longitude": -71.481025,
    "blurb": "<a href=\"https://www.nhcf.org/\" target=\"_blank\">NHCF</a> site: Health First Family Care Center",
-   "pin_number": 20,
-   "FIELD13": "0"
+   "pin_number": 20
  },
  {
-   "ID": 141,
+   "ID": 152,
    "grantee": "NORC at the University of Chicago",
    "granteeAcronym": "norc",
    "type": "headquarters",
@@ -2111,26 +2125,10 @@ var addressPoints = [
    "Latitude": 39.00452,
    "Longitude": -77.1046,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.norc.org/Pages/default.aspx\" target=\"_blank\">NORC at the University of Chicago</a> is developing an online, interactive SBIRT curriculum for baccalaureate and graduate social work and nursing schools.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 142,
-   "grantee": "The Ohio State University Foundation (OSU)",
-   "granteeAcronym": "osu",
-   "type": "headquarters",
-   "address": "1947 College Road",
-   "city": "Columbus",
-   "state": "OH",
-   "zip": 43210,
-   "Latitude": 40.002326,
-   "Longitude": -83.010623,
-   "blurb": "<p class='headquarters'>Headquarters</p>The Ohio State University Foundation (OSU) established the national <a href=\"http://hecaod.osu.edu/\" target=\"_blank\">Higher Education Center on Alcohol and Drug Prevention and Recovery</a> to operate as an information dissemination center promoting SBIRT and other evidence-based strategies to address alcohol and other drug use on college campuses.",
-   "pin_number": 0,
-   "FIELD13": "0"
- },
- {
-   "ID": 143,
+   "ID": 153,
    "grantee": "Partnership for Drug Free Kids",
    "granteeAcronym": "pdfk",
    "type": "headquarters",
@@ -2140,12 +2138,11 @@ var addressPoints = [
    "zip": 10010,
    "Latitude": 40.741831,
    "Longitude": -73.985397,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.drugfree.org/\" target=\"_blank\">The Partnership for Drug Free Kids</a> developed, piloted, and evaluated an approach to engage parents in SBIRT programs and build a national peer support network of parents to address adolescent substance use <em>(Grant expired)</em>.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.drugfree.org/\" target=\"_blank\">The Partnership</a> is developing, implementing, and evaluating strategies to engage parents in SBIRT programs and build a national peer support network of parents to address adolescent substance use.",
+   "pin_number": 0
  },
  {
-   "ID": 144,
+   "ID": 154,
    "grantee": "Policy Research Inc. (PRI)",
    "granteeAcronym": "pri",
    "type": "headquarters",
@@ -2156,11 +2153,10 @@ var addressPoints = [
    "Latitude": 42.605467,
    "Longitude": -73.8757,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://policyresearchinc.org/\" target=\"_blank\">Policy Research Inc. (PRI)</a> with the National Center for Mental Health and Juvenile Justice, developed and implements an SBIRT approach for youth involved in the juvenile justice system.",
-   "pin_number": 1,
-   "FIELD13": "0"
+   "pin_number": 1
  },
  {
-   "ID": 145,
+   "ID": 155,
    "grantee": "Policy Research Inc. (PRI)",
    "granteeAcronym": "pri",
    "type": "site",
@@ -2171,11 +2167,10 @@ var addressPoints = [
    "Latitude": 41.716394,
    "Longitude": -72.236175,
    "blurb": "<a href=\"https://policyresearchinc.org/\" target=\"_blank\">Policy Research Inc. (PRI)</a> site: Willmantic Juvenile Probation",
-   "pin_number": 2,
-   "FIELD13": "1"
+   "pin_number": 2
  },
  {
-   "ID": 146,
+   "ID": 156,
    "grantee": "Policy Research Inc. (PRI)",
    "granteeAcronym": "pri",
    "type": "site",
@@ -2186,41 +2181,10 @@ var addressPoints = [
    "Latitude": 41.714105,
    "Longitude": -72.215379,
    "blurb": "<a href=\"https://policyresearchinc.org/\" target=\"_blank\">Policy Research Inc. (PRI)</a> site: Willimantic Child, Youth and Family Support Center",
-   "pin_number": 3,
-   "FIELD13": "1"
+   "pin_number": 3
  },
  {
-   "ID": 147,
-   "grantee": "Policy Research Inc. (PRI)",
-   "granteeAcronym": "pri",
-   "type": "site",
-   "address": "123 Hoyt St",
-   "city": "Stamford",
-   "state": "CT",
-   "zip": 6905,
-   "Latitude": 41.06084,
-   "Longitude": -73.535821,
-   "blurb": "<a href=\"https://policyresearchinc.org/\" target=\"_blank\">Policy Research Inc. (PRI)</a> site: Stamford Adult Probation UNITY",
-   "pin_number": 4,
-   "FIELD13": "1"
- },
- {
-   "ID": 148,
-   "grantee": "Policy Research Inc. (PRI)",
-   "granteeAcronym": "pri",
-   "type": "site",
-   "address": "29 Fifth Street",
-   "city": "Stamford",
-   "state": "CT",
-   "zip": 6905,
-   "Latitude": 41.065981,
-   "Longitude": -73.543021,
-   "blurb": "<a href=\"https://policyresearchinc.org/\" target=\"_blank\">Policy Research Inc. (PRI)</a> site: Stamford Alternative Incarceration Center",
-   "pin_number": 5,
-   "FIELD13": "1"
- },
- {
-   "ID": 149,
+   "ID": 157,
    "grantee": "Policy Research Inc. (PRI)",
    "granteeAcronym": "pri",
    "type": "site",
@@ -2231,11 +2195,10 @@ var addressPoints = [
    "Latitude": 30.233355,
    "Longitude": -93.214903,
    "blurb": "<a href=\"https://policyresearchinc.org/\" target=\"_blank\">Policy Research Inc. (PRI)</a> site: Multi Agency Resource Center (Calcasieu Parish)",
-   "pin_number": 6,
-   "FIELD13": "0"
+   "pin_number": 6
  },
  {
-   "ID": 150,
+   "ID": 158,
    "grantee": "Policy Research Inc. (PRI)",
    "granteeAcronym": "pri",
    "type": "site",
@@ -2246,11 +2209,10 @@ var addressPoints = [
    "Latitude": 29.875555,
    "Longitude": -90.069558,
    "blurb": "<a href=\"https://policyresearchinc.org/\" target=\"_blank\">Policy Research Inc. (PRI)</a> site: Jefferson Parish Juvenile Diversion",
-   "pin_number": 7,
-   "FIELD13": "0"
+   "pin_number": 7
  },
  {
-   "ID": 151,
+   "ID": 159,
    "grantee": "Policy Research Inc. (PRI)",
    "granteeAcronym": "pri",
    "type": "site",
@@ -2261,11 +2223,10 @@ var addressPoints = [
    "Latitude": 44.984577,
    "Longitude": -93.269097,
    "blurb": "<a href=\"https://policyresearchinc.org/\" target=\"_blank\">Policy Research Inc. (PRI)</a> site: Community and Public Health Initiatives",
-   "pin_number": 8,
-   "FIELD13": "0"
+   "pin_number": 8
  },
  {
-   "ID": 152,
+   "ID": 160,
    "grantee": "Policy Research Inc. (PRI)",
    "granteeAcronym": "pri",
    "type": "site",
@@ -2276,116 +2237,10 @@ var addressPoints = [
    "Latitude": 39.68965,
    "Longitude": -82.609282,
    "blurb": "<a href=\"https://policyresearchinc.org/\" target=\"_blank\">Policy Research Inc. (PRI)</a> site: Fairfield County Juvenile Court",
-   "pin_number": 9,
-   "FIELD13": "0"
+   "pin_number": 9
  },
  {
-   "ID": 153,
-   "grantee": "Policy Research Inc. (PRI)",
-   "granteeAcronym": "pri",
-   "type": "site",
-   "address": "650 Dan Street",
-   "city": "Akron",
-   "state": "OH",
-   "zip": 44310,
-   "Latitude": 41.091898,
-   "Longitude": -81.496303,
-   "blurb": "<a href=\"https://policyresearchinc.org/\" target=\"_blank\">Policy Research Inc. (PRI)</a> site: Summit County Juvenile Court",
-   "pin_number": 10,
-   "FIELD13": "0"
- },
- {
-   "ID": 154,
-   "grantee": "Reclaiming Futures/Portland State University",
-   "granteeAcronym": "psurf",
-   "type": "headquarters",
-   "address": "1825 SW Broadway",
-   "city": "Portland",
-   "state": "OR",
-   "zip": 97201,
-   "Latitude": 45.512741,
-   "Longitude": -122.683263,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://reclaimingfutures.org/\" target=\"_blank\">Reclaiming Futures</a> is incorporating SBIRT into the model to expand early intervention and diversion opportunities for court-involved youth.",
-   "pin_number": 0,
-   "FIELD13": "0"
- },
- {
-   "ID": 155,
-   "grantee": "Reclaiming Futures/Portland State University",
-   "granteeAcronym": "psurf",
-   "type": "site",
-   "address": "",
-   "city": "Mineloa",
-   "state": "NY",
-   "zip": 11501,
-   "Latitude": 40.74927,
-   "Longitude": -73.64068,
-   "blurb": "<a href=\"http://reclaimingfutures.org/\" target=\"_blank\">Reclaiming Futures</a> site: Family & Children?s Association",
-   "pin_number": 1,
-   "FIELD13": "0"
- },
- {
-   "ID": 156,
-   "grantee": "Reclaiming Futures/Portland State University",
-   "granteeAcronym": "psurf",
-   "type": "site",
-   "address": "600 East 4th St",
-   "city": "Charlotte",
-   "state": "NC",
-   "zip": 28202,
-   "Latitude": 35.221189,
-   "Longitude": -80.838433,
-   "blurb": "<a href=\"http://reclaimingfutures.org/\" target=\"_blank\">Reclaiming Futures</a> site: Mecklenburg County Criminal Justice Services",
-   "pin_number": 2,
-   "FIELD13": "0"
- },
- {
-   "ID": 157,
-   "grantee": "Reclaiming Futures/Portland State University",
-   "granteeAcronym": "psurf",
-   "type": "site",
-   "address": "",
-   "city": "Hillsboro",
-   "state": "OR",
-   "zip": 97123,
-   "Latitude": 45.458397,
-   "Longitude": -122.977963,
-   "blurb": "<a href=\"http://reclaimingfutures.org/\" target=\"_blank\">Reclaiming Futures</a> site: Washington County Juvenile Dept., MHCADSD",
-   "pin_number": 3,
-   "FIELD13": "0"
- },
- {
-   "ID": 158,
-   "grantee": "Reclaiming Futures/Portland State University",
-   "granteeAcronym": "psurf",
-   "type": "site",
-   "address": "",
-   "city": "Montpelier",
-   "state": "VT",
-   "zip": 5602,
-   "Latitude": 44.26829,
-   "Longitude": -72.623619,
-   "blurb": "<a href=\"http://reclaimingfutures.org/\" target=\"_blank\">Reclaiming Futures</a> site: Vermont Attorney General?s Office",
-   "pin_number": 4,
-   "FIELD13": "0"
- },
- {
-   "ID": 159,
-   "grantee": "Reclaiming Futures/Portland State University",
-   "granteeAcronym": "psurf",
-   "type": "site",
-   "address": "",
-   "city": "King County",
-   "state": "WA",
-   "zip": 98032,
-   "Latitude": 47.391942,
-   "Longitude": -122.257192,
-   "blurb": "<a href=\"http://reclaimingfutures.org/\" target=\"_blank\">Reclaiming Futures</a> site: King County Middle Schools",
-   "pin_number": 5,
-   "FIELD13": "0"
- },
- {
-   "ID": 160,
+   "ID": 161,
    "grantee": "Project Hope",
    "granteeAcronym": "phope",
    "type": "headquarters",
@@ -2396,11 +2251,108 @@ var addressPoints = [
    "Latitude": 39.072518,
    "Longitude": -78.050929,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.projecthope.org/\" target=\"_blank\">Project Hope</a>, with Health Affairs, convened a Washington, DC briefing for a special theme issue on issues in behavioral health, health care, and policy of experts <em>(Grant expired)</em>.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 161,
+   "ID": 162,
+   "grantee": "Public Health Institute (PHI)",
+   "granteeAcronym": "phi",
+   "type": "headquarters",
+   "address": "555 12th St",
+   "city": "Oakland",
+   "state": "CA",
+   "zip": 94607,
+   "Latitude": 37.8036861,
+   "Longitude": -122.2752692,
+   "blurb": "<p class='headquarters'>Headquarters</p>The <a href=\"http://www.phi.org/\" target=\"_blank\">Public Health Institute's (PHI)</a> <a href=\"https://www.gettingitrightfromthestart.org/\" target=\"_blank\">Getting it Right from the Start</a> project is developing model ordinances and options for local jurisdictions to better balance protection of youth and strength social norms discouraging marijuana consumption, with the criminal justice benefits of legalization. PHI is working with California's 61 local health departments, experts in substance use, marijuana and tobacco control, legal experts and other interested city and county government officials to identify local priorities and concerns, develop tools, and inform city and county government and community stakeholders about options to protect public health.",
+   "pin_number": 0
+ },
+ {
+   "ID": 163,
+   "grantee": "Reclaiming Futures/Portland State University",
+   "granteeAcronym": "psurf",
+   "type": "headquarters",
+   "address": "1825 SW Broadway",
+   "city": "Portland",
+   "state": "OR",
+   "zip": 97201,
+   "Latitude": 45.512741,
+   "Longitude": -122.683263,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://reclaimingfutures.org/\" target=\"_blank\">Reclaiming Futures</a> is incorporating SBIRT into the model to expand early intervention and diversion opportunities for court-involved youth.",
+   "pin_number": 0
+ },
+ {
+   "ID": 164,
+   "grantee": "Reclaiming Futures/Portland State University",
+   "granteeAcronym": "psurf",
+   "type": "site",
+   "address": "",
+   "city": "Mineloa",
+   "state": "NY",
+   "zip": 11501,
+   "Latitude": 40.74927,
+   "Longitude": -73.64068,
+   "blurb": "<a href=\"http://reclaimingfutures.org/\" target=\"_blank\">Reclaiming Futures</a> site: Family & Children?s Association",
+   "pin_number": 1
+ },
+ {
+   "ID": 165,
+   "grantee": "Reclaiming Futures/Portland State University",
+   "granteeAcronym": "psurf",
+   "type": "site",
+   "address": "600 East 4th St",
+   "city": "Charlotte",
+   "state": "NC",
+   "zip": 28202,
+   "Latitude": 35.221189,
+   "Longitude": -80.838433,
+   "blurb": "<a href=\"http://reclaimingfutures.org/\" target=\"_blank\">Reclaiming Futures</a> site: Mecklenburg County Criminal Justice Services",
+   "pin_number": 2
+ },
+ {
+   "ID": 166,
+   "grantee": "Reclaiming Futures/Portland State University",
+   "granteeAcronym": "psurf",
+   "type": "site",
+   "address": "",
+   "city": "Hillsboro",
+   "state": "OR",
+   "zip": 97123,
+   "Latitude": 45.458397,
+   "Longitude": -122.977963,
+   "blurb": "<a href=\"http://reclaimingfutures.org/\" target=\"_blank\">Reclaiming Futures</a> site: Washington County Juvenile Dept., MHCADSD",
+   "pin_number": 3
+ },
+ {
+   "ID": 167,
+   "grantee": "Reclaiming Futures/Portland State University",
+   "granteeAcronym": "psurf",
+   "type": "site",
+   "address": "",
+   "city": "Montpelier",
+   "state": "VT",
+   "zip": 5602,
+   "Latitude": 44.26829,
+   "Longitude": -72.623619,
+   "blurb": "<a href=\"http://reclaimingfutures.org/\" target=\"_blank\">Reclaiming Futures</a> site: Vermont Attorney General?s Office",
+   "pin_number": 4
+ },
+ {
+   "ID": 168,
+   "grantee": "Reclaiming Futures/Portland State University",
+   "granteeAcronym": "psurf",
+   "type": "site",
+   "address": "",
+   "city": "King County",
+   "state": "WA",
+   "zip": 98032,
+   "Latitude": 47.391942,
+   "Longitude": -122.257192,
+   "blurb": "<a href=\"http://reclaimingfutures.org/\" target=\"_blank\">Reclaiming Futures</a> site: King County Middle Schools",
+   "pin_number": 5
+ },
+ {
+   "ID": 169,
    "grantee": "School Based Health Alliance (SBHA)",
    "granteeAcronym": "sbha",
    "type": "headquarters",
@@ -2410,12 +2362,11 @@ var addressPoints = [
    "zip": 20005,
    "Latitude": 38.903075,
    "Longitude": -77.033817,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.sbh4all.org/\" target=\"_blank\">School Based Health Alliance (SBHA)</a> conducted a two-year pilot project to provide adolescent-specific SBIRT training and technical assistance to 10 SBHCs <em>(Grant expired).</em>",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "blurb": "<p class='headquarters'>Headquarters</p>Initially, <a href=\"http://www.sbh4all.org/\" target=\"_blank\">School Based Health Alliance (SBHA)</a> conducted a two-year pilot project to provide adolescent-specific SBIRT training and technical assistance to 10 SBHCs <em>(Grant expired).</em>",
+   "pin_number": 0
  },
  {
-   "ID": 162,
+   "ID": 170,
    "grantee": "School Based Health Alliance (SBHA)",
    "granteeAcronym": "sbha",
    "type": "site",
@@ -2426,11 +2377,10 @@ var addressPoints = [
    "Latitude": 37.805905,
    "Longitude": -122.2776,
    "blurb": "<a href=\"http://www.sbh4all.org/\" target=\"_blank\">School Based Health Alliance (SBHA)</a> site: La Clinica de La Raza, Inc.",
-   "pin_number": 1,
-   "FIELD13": "0"
+   "pin_number": 1
  },
  {
-   "ID": 163,
+   "ID": 171,
    "grantee": "School Based Health Alliance (SBHA)",
    "granteeAcronym": "sbha",
    "type": "site",
@@ -2441,11 +2391,10 @@ var addressPoints = [
    "Latitude": 38.932822,
    "Longitude": -76.997862,
    "blurb": "<a href=\"http://www.sbh4all.org/\" target=\"_blank\">School Based Health Alliance (SBHA)</a> site: Catholic University",
-   "pin_number": 2,
-   "FIELD13": "1"
+   "pin_number": 2
  },
  {
-   "ID": 164,
+   "ID": 172,
    "grantee": "School Based Health Alliance (SBHA)",
    "granteeAcronym": "sbha",
    "type": "site",
@@ -2456,11 +2405,10 @@ var addressPoints = [
    "Latitude": 38.933161,
    "Longitude": -76.996348,
    "blurb": "<a href=\"http://www.sbh4all.org/\" target=\"_blank\">School Based Health Alliance (SBHA)</a> site: Howard University",
-   "pin_number": 3,
-   "FIELD13": "1"
+   "pin_number": 3
  },
  {
-   "ID": 165,
+   "ID": 173,
    "grantee": "School Based Health Alliance (SBHA)",
    "granteeAcronym": "sbha",
    "type": "site",
@@ -2471,11 +2419,10 @@ var addressPoints = [
    "Latitude": 41.88531,
    "Longitude": -87.62213,
    "blurb": "<a href=\"http://www.sbh4all.org/\" target=\"_blank\">School Based Health Alliance (SBHA)</a> site: University of Illinois Hospital and Health Science System",
-   "pin_number": 4,
-   "FIELD13": "0"
+   "pin_number": 4
  },
  {
-   "ID": 166,
+   "ID": 174,
    "grantee": "School Based Health Alliance (SBHA)",
    "granteeAcronym": "sbha",
    "type": "site",
@@ -2486,11 +2433,10 @@ var addressPoints = [
    "Latitude": 39.311822,
    "Longitude": -76.658367,
    "blurb": "<a href=\"http://www.sbh4all.org/\" target=\"_blank\">School Based Health Alliance (SBHA)</a> site: Coppin State University",
-   "pin_number": 5,
-   "FIELD13": "0"
+   "pin_number": 5
  },
  {
-   "ID": 167,
+   "ID": 175,
    "grantee": "School Based Health Alliance (SBHA)",
    "granteeAcronym": "sbha",
    "type": "site",
@@ -2501,11 +2447,10 @@ var addressPoints = [
    "Latitude": 39.142716,
    "Longitude": -77.188832,
    "blurb": "<a href=\"http://www.sbh4all.org/\" target=\"_blank\">School Based Health Alliance (SBHA)</a> site: Identity Inc.",
-   "pin_number": 6,
-   "FIELD13": "0"
+   "pin_number": 6
  },
  {
-   "ID": 168,
+   "ID": 176,
    "grantee": "School Based Health Alliance (SBHA)",
    "granteeAcronym": "sbha",
    "type": "site",
@@ -2516,11 +2461,10 @@ var addressPoints = [
    "Latitude": 35.080743,
    "Longitude": -106.706055,
    "blurb": "<a href=\"http://www.sbh4all.org/\" target=\"_blank\">School Based Health Alliance (SBHA)</a> site: Youth Development, Inc.",
-   "pin_number": 7,
-   "FIELD13": "0"
+   "pin_number": 7
  },
  {
-   "ID": 169,
+   "ID": 177,
    "grantee": "School Based Health Alliance (SBHA)",
    "granteeAcronym": "sbha",
    "type": "site",
@@ -2531,11 +2475,10 @@ var addressPoints = [
    "Latitude": 45.499073,
    "Longitude": -122.688452,
    "blurb": "<a href=\"http://www.sbh4all.org/\" target=\"_blank\">School Based Health Alliance (SBHA)</a> site: Oregon Health and Science University",
-   "pin_number": 8,
-   "FIELD13": "0"
+   "pin_number": 8
  },
  {
-   "ID": 170,
+   "ID": 178,
    "grantee": "School Based Health Alliance (SBHA)",
    "granteeAcronym": "sbha",
    "type": "site",
@@ -2546,11 +2489,598 @@ var addressPoints = [
    "Latitude": 45.496289,
    "Longitude": -122.800146,
    "blurb": "<a href=\"http://www.sbh4all.org/\" target=\"_blank\">School Based Health Alliance (SBHA)</a> site: Virginia Garcia Memorial Health Center",
-   "pin_number": 9,
-   "FIELD13": "0"
+   "pin_number": 9
  },
  {
-   "ID": 171,
+   "ID": 179,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "headquarters",
+   "address": "4300 Montgomery Ave",
+   "city": "Bethesda",
+   "state": "MD",
+   "zip": 20814,
+   "Latitude": 38.985261,
+   "Longitude": -77.086562,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">The Addiction Medicine Foundation</a> is establishing the National Center for Physician Training in Addiction Medicine, to educate and train physicians in addiction medicine and prevention/early intervention of adolescent substance use.",
+   "pin_number": 0
+ },
+ {
+   "ID": 180,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Rancho Mirage",
+   "state": "CA",
+   "zip": 92270,
+   "Latitude": 33.73974,
+   "Longitude": -116.41279,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Betty Ford Center Addiction Medicine Fellowship Program",
+   "pin_number": 1
+ },
+ {
+   "ID": 181,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Stanford",
+   "state": "CA",
+   "zip": 94305,
+   "Latitude": 37.42509,
+   "Longitude": -122.1675,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Stanford University Addiction Medicine Fellowship Program",
+   "pin_number": 2
+ },
+ {
+   "ID": 182,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "995 Potrero Avenue",
+   "city": "San Francisco",
+   "state": "CA",
+   "zip": 94110,
+   "Latitude": 37.756805,
+   "Longitude": -122.406538,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: UCSF Primary Care Addiction Medicine Fellowship Program",
+   "pin_number": 3
+ },
+ {
+   "ID": 183,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "1693 N. Quentin St",
+   "city": "Aurora",
+   "state": "CO",
+   "zip": 80045,
+   "Latitude": 39.746953,
+   "Longitude": -104.844816,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Colorado Addiction Medicine Fellowship Program",
+   "pin_number": 4
+ },
+ {
+   "ID": 184,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Middletown",
+   "state": "CT",
+   "zip": 6457,
+   "Latitude": 41.550139,
+   "Longitude": -72.655357,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Rushford Addiction Medicine Residency Fellowship Program",
+   "pin_number": 5
+ },
+ {
+   "ID": 185,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "New Haven",
+   "state": "CT",
+   "zip": 6504,
+   "Latitude": 41.365709,
+   "Longitude": -72.927507,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Yale University Addiction Medicine Fellowship Program",
+   "pin_number": 6
+ },
+ {
+   "ID": 186,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "2400 Sixth St NW",
+   "city": "Washington",
+   "state": "DC",
+   "zip": 20059,
+   "Latitude": 38.893311,
+   "Longitude": -77.014647,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Howard University Addiction Medicine Fellowship Program",
+   "pin_number": 7
+ },
+ {
+   "ID": 187,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Largo",
+   "state": "FL",
+   "zip": 33770,
+   "Latitude": 27.916998,
+   "Longitude": -82.802668,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Largo Medical Center Fellowship Program in Addiction Medicine",
+   "pin_number": 8
+ },
+ {
+   "ID": 188,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Gainesville",
+   "state": "FL",
+   "zip": 32601,
+   "Latitude": 29.648993,
+   "Longitude": -82.324515,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Florida Addiction Medicine Fellowship Program",
+   "pin_number": 9
+ },
+ {
+   "ID": 189,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Augusta",
+   "state": "GA",
+   "zip": 30901,
+   "Latitude": 33.456687,
+   "Longitude": -81.969184,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Addiction medicinMedical College of Georgia Addiction Medicine Fellowship Program",
+   "pin_number": 10
+ },
+ {
+   "ID": 190,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Statesboro",
+   "state": "GA",
+   "zip": 30458,
+   "Latitude": 32.425,
+   "Longitude": -81.784956,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Willingway Addiction Medicine Fellowship Program",
+   "pin_number": 11
+ },
+ {
+   "ID": 191,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Hines",
+   "state": "IL",
+   "zip": 60141,
+   "Latitude": 41.85364,
+   "Longitude": -87.8395,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Loyola University Medical Center Addiction Medicine Fellowship Program",
+   "pin_number": 12
+ },
+ {
+   "ID": 192,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Lexington",
+   "state": "KY",
+   "zip": 40502,
+   "Latitude": 38.016674,
+   "Longitude": -84.486043,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Kentucky Addiction Medicine Fellowship Program",
+   "pin_number": 13
+ },
+ {
+   "ID": 193,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "300 Longwood Ave",
+   "city": "Boston",
+   "state": "MA",
+   "zip": 2115,
+   "Latitude": 42.337961,
+   "Longitude": -71.105847,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Boston Children?s Hospital Pediatric Addiction Medicine Fellowship",
+   "pin_number": 14
+ },
+ {
+   "ID": 194,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "801 Massachusetts Ave",
+   "city": "Boston",
+   "state": "MA",
+   "zip": 2118,
+   "Latitude": 42.333028,
+   "Longitude": -71.073036,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Boston University Addiction Medicine Fellowship",
+   "pin_number": 15
+ },
+ {
+   "ID": 195,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "6501 N. Charles Street",
+   "city": "Baltimore",
+   "state": "MD",
+   "zip": 21204,
+   "Latitude": 39.390726,
+   "Longitude": -76.620343,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Maryland Sheppard Pratt Training Fellowship Program",
+   "pin_number": 16
+ },
+ {
+   "ID": 196,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Ypsilanti",
+   "state": "MI",
+   "zip": 48197,
+   "Latitude": 42.202139,
+   "Longitude": -83.620494,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Saint Joseph Mercy Hospital Ann Arbor Addiction Medicine Fellowship Program",
+   "pin_number": 17
+ },
+ {
+   "ID": 197,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "West Minneapolis",
+   "state": "MN",
+   "zip": 55404,
+   "Latitude": 44.961998,
+   "Longitude": -93.261123,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Minnesota Addiction Medicine Residency Fellowship",
+   "pin_number": 18
+ },
+ {
+   "ID": 198,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "1000 Tenth Avenue",
+   "city": "New York",
+   "state": "NY",
+   "zip": 10019,
+   "Latitude": 40.770311,
+   "Longitude": -73.987609,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Addiction Institute of New York Fellowship in Addiction Medicine",
+   "pin_number": 19
+ },
+ {
+   "ID": 199,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "550 First Ave",
+   "city": "New York",
+   "state": "NY",
+   "zip": 10016,
+   "Latitude": 40.742049,
+   "Longitude": -73.974486,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: The Addiction Medicine Fellowship Program at NYU School of Medicine",
+   "pin_number": 20
+ },
+ {
+   "ID": 200,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "2006 Madison Avenue",
+   "city": "New York",
+   "state": "NY",
+   "zip": 10035,
+   "Latitude": 40.807603,
+   "Longitude": -73.939678,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Institute for Family Health Fellowship in Addiction Medicine",
+   "pin_number": 21
+ },
+ {
+   "ID": 201,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Buffalo",
+   "state": "NY",
+   "zip": 14201,
+   "Latitude": 42.89606,
+   "Longitude": -78.886424,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University at Buffalo Addiction Medicine Fellowship Program",
+   "pin_number": 22
+ },
+ {
+   "ID": 202,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Rochester",
+   "state": "NY",
+   "zip": 14604,
+   "Latitude": 43.156612,
+   "Longitude": -77.604023,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Rochester Medical Center (URMC) Combined Addiction Fellowship Program",
+   "pin_number": 23
+ },
+ {
+   "ID": 203,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Cincinnati",
+   "state": "OH",
+   "zip": 45202,
+   "Latitude": 39.109356,
+   "Longitude": -84.502584,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Cincinnati Addiction Medicine Research Fellowship Program",
+   "pin_number": 24
+ },
+ {
+   "ID": 204,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "2351 E 22nd st",
+   "city": "Cleveland",
+   "state": "OH",
+   "zip": 44115,
+   "Latitude": 41.496415,
+   "Longitude": -81.674097,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: St. Vincent Charity Medical Center Addiction Medicine Fellowship Program",
+   "pin_number": 25
+ },
+ {
+   "ID": 205,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "525 East Market Street",
+   "city": "Akron",
+   "state": "OH",
+   "zip": 44304,
+   "Latitude": 41.078613,
+   "Longitude": -81.501238,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Summa Health System Addiction Medicine Fellowship Program ",
+   "pin_number": 26
+ },
+ {
+   "ID": 206,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Tulsa",
+   "state": "OK",
+   "zip": 74103,
+   "Latitude": 36.155392,
+   "Longitude": -95.994424,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Oklahoma Addiction Medicine Fellowship Program",
+   "pin_number": 27
+ },
+ {
+   "ID": 207,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "3181 SW Sam Jackson Park Rd",
+   "city": "Portland",
+   "state": "OR",
+   "zip": 97239,
+   "Latitude": 45.499077,
+   "Longitude": -122.688225,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Oregon Health & Science University Addiction Medicine Fellowship",
+   "pin_number": 28
+ },
+ {
+   "ID": 208,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Wernersville",
+   "state": "PA",
+   "zip": 19565,
+   "Latitude": 40.33009,
+   "Longitude": -76.0805,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Caron?Reading Health System Addiction Medicine",
+   "pin_number": 29
+ },
+ {
+   "ID": 209,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Waverly",
+   "state": "PA",
+   "zip": 18471,
+   "Latitude": 41.523812,
+   "Longitude": -75.690608,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Geisinger Addiction Medicine Residency",
+   "pin_number": 30
+ },
+ {
+   "ID": 210,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Providence",
+   "state": "RI",
+   "zip": 2903,
+   "Latitude": 41.828597,
+   "Longitude": -71.423301,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Rhode Island Hospital Addiction Medicine Fellowship Program",
+   "pin_number": 31
+ },
+ {
+   "ID": 211,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Memphis",
+   "state": "TN",
+   "zip": 38103,
+   "Latitude": 35.154875,
+   "Longitude": -90.049631,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Tennessee Addiction Medicine Fellowship Program",
+   "pin_number": 32
+ },
+ {
+   "ID": 212,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Houston",
+   "state": "TX",
+   "zip": 77002,
+   "Latitude": 29.756845,
+   "Longitude": -95.365652,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Memorial Hermann Preventive and Recovery Center Cameron Addiction Medicine Fellowship",
+   "pin_number": 33
+ },
+ {
+   "ID": 213,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "907 Floyd Ave",
+   "city": "Richmond",
+   "state": "VA",
+   "zip": 23284,
+   "Latitude": 37.546811,
+   "Longitude": -77.453146,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Virginia Commonwealth University Health System Addiction Medicine Fellowship",
+   "pin_number": 34
+ },
+ {
+   "ID": 214,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Puyallup",
+   "state": "WA",
+   "zip": 98371,
+   "Latitude": 47.212822,
+   "Longitude": -122.317148,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: MultiCare Addiction Medicine Fellowship Program",
+   "pin_number": 35
+ },
+ {
+   "ID": 215,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Seattle",
+   "state": "WA",
+   "zip": 98101,
+   "Latitude": 47.610902,
+   "Longitude": -122.336422,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: Swedish Addiction Medicine Fellowship Program",
+   "pin_number": 36
+ },
+ {
+   "ID": 216,
+   "grantee": "The Addiction Medicine Foundation",
+   "granteeAcronym": "amf",
+   "type": "site",
+   "address": "",
+   "city": "Madison",
+   "state": "WI",
+   "zip": 53703,
+   "Latitude": 43.079575,
+   "Longitude": -89.378389,
+   "blurb": "<a href=\"https://www.addictionmedicinefoundation.org/\" target=\"_blank\">Addiction Medicine Foundation</a> site: University of Wisconsin Addiction Medicine Fellowship",
+   "pin_number": 37
+ },
+ {
+   "ID": 217,
+   "grantee": "The CDC Foundation",
+   "granteeAcronym": "cdcf",
+   "type": "headquarters",
+   "address": "600 Peachtree St NE",
+   "city": "Atlanta",
+   "state": "GA",
+   "zip": 30308,
+   "Latitude": 33.770807,
+   "Longitude": -84.387899,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.cdcfoundation.org/\" target=\"_blank\">CDC</a> is conducting a comprehensive, regional substance use prevention and sexual risk behavior reduction program for communities with high substance use and/or HIV/STD rates among youth. ",
+   "pin_number": 0
+ },
+ {
+   "ID": 218,
+   "grantee": "The CDC Foundation",
+   "granteeAcronym": "cdcf",
+   "type": "site",
+   "address": "",
+   "city": "Austin",
+   "state": "IN",
+   "zip": 47102,
+   "Latitude": 38.748455,
+   "Longitude": -85.750469,
+   "blurb": "<a href=\"https://www.cdcfoundation.org/\" target=\"_blank\">CDC</a> site: Scott County School District #1",
+   "pin_number": 1
+ },
+ {
+   "ID": 219,
+   "grantee": "The CDC Foundation",
+   "granteeAcronym": "cdcf",
+   "type": "site",
+   "address": "",
+   "city": "Newport",
+   "state": "KY",
+   "zip": 41076,
+   "Latitude": 39.029015,
+   "Longitude": -84.440757,
+   "blurb": "<a href=\"https://www.cdcfoundation.org/\" target=\"_blank\">CDC</a> site: Brighton Center, Inc.",
+   "pin_number": 2
+ },
+ {
+   "ID": 220,
+   "grantee": "The CDC Foundation",
+   "granteeAcronym": "cdcf",
+   "type": "site",
+   "address": "",
+   "city": "Portsmouth",
+   "state": "OH",
+   "zip": 45663,
+   "Latitude": 38.749539,
+   "Longitude": -83.133477,
+   "blurb": "<a href=\"https://www.cdcfoundation.org/\" target=\"_blank\">CDC</a> site: Portsmouth City Health Department",
+   "pin_number": 3
+ },
+ {
+   "ID": 221,
    "grantee": "The Center for Sustainable Journalism",
    "granteeAcronym": "csjksu",
    "type": "headquarters",
@@ -2561,71 +3091,332 @@ var addressPoints = [
    "Latitude": 34.03384,
    "Longitude": -84.597433,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://sustainablejournalism.org/\" target=\"_blank\">The Center for Sustainable Journalism</a> developed media and communication materials to increase awareness among funders, policymakers, and practitioners about adolescent substance use prevention and foster care, and how the Strategic Initiative goals can promote opportunities and reduce barriers for these young people <em>(Grant expired).</em>",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 172,
-   "grantee": "Transforming Youth Recovery (TYR)",
-   "granteeAcronym": "tyr",
+   "ID": 222,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
    "type": "headquarters",
-   "address": "",
-   "city": "Reno",
-   "state": "NV",
-   "zip": 89501,
-   "Latitude": 39.525749,
-   "Longitude": -119.813051,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.transformingyouthrecovery.org/\" target=\"_blank\">Transforming Youth Recovery (TYR)</a> conducted a strategic planning process with a public awareness/stakeholder coalition campaign, research-based marketing and fundraising plan, and social media campaign to launch Facing Addiction <em>(Grant expired)</em>.",
-   "pin_number": 0,
-   "FIELD13": "0"
- },
- {
-   "ID": 173,
-   "grantee": "Treatment Research Institute (TRI)",
-   "granteeAcronym": "tri",
-   "type": "headquarters",
-   "address": "2191 3rd Ave",
-   "city": "New York",
-   "state": "NY",
-   "zip": 10035,
-   "Latitude": 40.800103,
-   "Longitude": -73.938224,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.tresearch.org/\" target=\"_blank\">Treatment Research Institute (TRI)</a> is piloting an SBIRT approach in four New York City metro area schools utilizing a computerized screening protocol and tailored brief intervention.",
-   "pin_number": 0,
-   "FIELD13": "0"
- },
- {
-   "ID": 174,
-   "grantee": "Trust for America's Health (TFAH)",
-   "granteeAcronym": "tah",
-   "type": "headquarters",
-   "address": "1730 M St NW",
+   "address": "1400 K St NW",
    "city": "Washington",
    "state": "DC",
-   "zip": 20036,
-   "Latitude": 38.905347,
-   "Longitude": -77.039899,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://healthyamericans.org/\" target=\"_blank\">Trust for America's Health (TFAH)</a> conducted an expert convening to identify best practices and emerging models related to primary prevention and early intervention, and developed a set of indicators to serve as an agenda for advocates to pursue in their states <em>(Grant expired)</em>.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "zip": 20005,
+   "Latitude": 38.902167,
+   "Longitude": -77.032409,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">The National Council</a> is piloting SBIRT in five states, working with the respective State Associations to implement the SBIRT projects and conduct advocacy to establish Medicaid reimbursement for SBIRT. They are also developing a SBIRT change package and a two-year national learning collaborative to provide expert consultation to 15 FQHCs focused on piloting, refining, and evaluating the change package.",
+   "pin_number": 0
  },
  {
-   "ID": 175,
-   "grantee": "UCLA Integrated Substance Abuse Programs",
-   "granteeAcronym": "uisap",
-   "type": "headquarters",
-   "address": "11075 Santa Monica Blvd",
-   "city": "Los Angeles",
+   "ID": 223,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Sacramento",
    "state": "CA",
-   "zip": 90025,
-   "Latitude": 34.047989,
-   "Longitude": -118.443973,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.uclaisap.org/\" target=\"_blank\">UCLA</a> provides training and technical assistance to Foundation grantees.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "zip": 95814,
+   "Latitude": 38.580568,
+   "Longitude": -121.49559,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: California Council of Community Mental Health Agencies",
+   "pin_number": 1
  },
  {
-   "ID": 176,
+   "ID": 224,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Denver",
+   "state": "CO",
+   "zip": 80202,
+   "Latitude": 39.760189,
+   "Longitude": -104.996553,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Colorado Behavioral Healthcare Council",
+   "pin_number": 2
+ },
+ {
+   "ID": 225,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Topeka",
+   "state": "KS",
+   "zip": 66603,
+   "Latitude": 39.05215,
+   "Longitude": -95.675758,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Association of Community Mental Health Centers of Kansas",
+   "pin_number": 3
+ },
+ {
+   "ID": 226,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Albany",
+   "state": "NY",
+   "zip": 12202,
+   "Latitude": 42.636371,
+   "Longitude": -73.763564,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: New York State Council for Community Behavioral Healthcare",
+   "pin_number": 4
+ },
+ {
+   "ID": 227,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Warwick",
+   "state": "RI",
+   "zip": 2886,
+   "Latitude": 41.70247,
+   "Longitude": -71.47902,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Rhode Island Council of Community Mental Health Organizations, Inc.",
+   "pin_number": 5
+ },
+ {
+   "ID": 228,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Nashville",
+   "state": "TN",
+   "zip": 37201,
+   "Latitude": 36.165688,
+   "Longitude": -86.778098,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Tennessee Association of Mental Health Organizations",
+   "pin_number": 6
+ },
+ {
+   "ID": 229,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "La Grange",
+   "state": "IL",
+   "zip": null,
+   "Latitude": 41.78443,
+   "Longitude": -87.868953,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Community Nurse",
+   "pin_number": 21
+ },
+ {
+   "ID": 230,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "York",
+   "state": "PA",
+   "zip": null,
+   "Latitude": 39.962998,
+   "Longitude": -76.727139,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Family First Health",
+   "pin_number": 7
+ },
+ {
+   "ID": 231,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Miami",
+   "state": "FL",
+   "zip": null,
+   "Latitude": 25.558428,
+   "Longitude": -80.458168,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Community Health South Florida",
+   "pin_number": 8
+ },
+ {
+   "ID": 232,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Caguas",
+   "state": "PR",
+   "zip": null,
+   "Latitude": 18.218819,
+   "Longitude": -66.042375,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Corporacion SANOS",
+   "pin_number": 9
+ },
+ {
+   "ID": 233,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Montgomery",
+   "state": "AL",
+   "zip": null,
+   "Latitude": 32.356988,
+   "Longitude": -86.257817,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Health Services Inc",
+   "pin_number": 10
+ },
+ {
+   "ID": 234,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Delhi",
+   "state": "LA",
+   "zip": null,
+   "Latitude": 32.45764,
+   "Longitude": -91.49317,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Delhi Community",
+   "pin_number": 11
+ },
+ {
+   "ID": 235,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "El Paso",
+   "state": "TX",
+   "zip": null,
+   "Latitude": 31.763608,
+   "Longitude": -106.484592,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Project Vida",
+   "pin_number": 12
+ },
+ {
+   "ID": 236,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Bisbee",
+   "state": "AZ",
+   "zip": null,
+   "Latitude": 31.44815,
+   "Longitude": -109.92841,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Copper Queen",
+   "pin_number": 13
+ },
+ {
+   "ID": 237,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Marana",
+   "state": "AZ",
+   "zip": null,
+   "Latitude": 32.43674,
+   "Longitude": -111.22538,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: MHC Healthcare",
+   "pin_number": 14
+ },
+ {
+   "ID": 238,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Phoenix",
+   "state": "AZ",
+   "zip": null,
+   "Latitude": 33.703967,
+   "Longitude": -112.351835,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Native Health",
+   "pin_number": 15
+ },
+ {
+   "ID": 239,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Vista",
+   "state": "CA",
+   "zip": null,
+   "Latitude": 33.19784,
+   "Longitude": -117.248203,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Vista Community Clinic",
+   "pin_number": 16
+ },
+ {
+   "ID": 240,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Moreno Valley",
+   "state": "CA",
+   "zip": null,
+   "Latitude": 33.88274,
+   "Longitude": -117.224878,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Community Health Systems, Inc.",
+   "pin_number": 17
+ },
+ {
+   "ID": 241,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Venice",
+   "state": "CA",
+   "zip": null,
+   "Latitude": 33.993396,
+   "Longitude": -118.465193,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Venice Family Clinic",
+   "pin_number": 18
+ },
+ {
+   "ID": 242,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Butte",
+   "state": "MT",
+   "zip": null,
+   "Latitude": 45.997895,
+   "Longitude": -112.598765,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Southwest Montana",
+   "pin_number": 19
+ },
+ {
+   "ID": 243,
+   "grantee": "The National Council for Behavioral Health",
+   "granteeAcronym": "ncbh",
+   "type": "site",
+   "address": "",
+   "city": "Springfield",
+   "state": "MO",
+   "zip": null,
+   "Latitude": 37.25807,
+   "Longitude": -93.343673,
+   "blurb": "<a href=\"https://www.thenationalcouncil.org/\" target=\"_blank\">National Council</a> site: Jordan Valley",
+   "pin_number": 20
+ },
+ {
+   "ID": 244,
+   "grantee": "The Ohio State University Foundation (OSU)",
+   "granteeAcronym": "osu",
+   "type": "headquarters",
+   "address": "1947 College Road",
+   "city": "Columbus",
+   "state": "OH",
+   "zip": 43210,
+   "Latitude": 40.002326,
+   "Longitude": -83.010623,
+   "blurb": "<p class='headquarters'>Headquarters</p>The Ohio State University Foundation (OSU) established the national <a href=\"http://hecaod.osu.edu/\" target=\"_blank\">Higher Education Center on Alcohol and Drug Prevention and Recovery</a> to operate as an information dissemination center promoting SBIRT and other evidence-based strategies to address alcohol and other drug use on college campuses.",
+   "pin_number": 0
+ },
+ {
+   "ID": 245,
    "grantee": "The University of Minnesota (UMN)",
    "granteeAcronym": "uom",
    "type": "headquarters",
@@ -2636,11 +3427,10 @@ var addressPoints = [
    "Latitude": 44.971814,
    "Longitude": -93.233696,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.psychiatry.umn.edu/research/center-adolescent-substance-abuse-research-casar\" target=\"_blank\">The University of Minnesota (UMN)</a>, with Kaiser Permanente, conducts a randomized controlled study of a four-session intervention model for teens and parents that has been adapted for adolescents referred from schools and pediatric settings, and a group intervention format.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 177,
+   "ID": 246,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "headquarters",
@@ -2650,12 +3440,11 @@ var addressPoints = [
    "zip": 87131,
    "Latitude": 35.086327,
    "Longitude": -106.606763,
-   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://casaa.unm.edu/\" target=\"_blank\">UNM?s Center on Alcoholism, Substance Abuse, and Addictions </a> is implementing SBIRT in school-based health clinics throughout the state of New Mexico.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://casaa.unm.edu/\" target=\"_blank\">UNM's Center on Alcoholism, Substance Abuse, and Addictions </a> is implementing SBIRT in school-based health clinics throughout the state of New Mexico.",
+   "pin_number": 0
  },
  {
-   "ID": 178,
+   "ID": 247,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2666,11 +3455,10 @@ var addressPoints = [
    "Latitude": 33.347226,
    "Longitude": -105.680284,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Ruidoso High School",
-   "pin_number": 1,
-   "FIELD13": "0"
+   "pin_number": 1
  },
  {
-   "ID": 179,
+   "ID": 248,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2681,11 +3469,10 @@ var addressPoints = [
    "Latitude": 35.037645,
    "Longitude": -106.721571,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Robert F. Kennedy Charter School",
-   "pin_number": 2,
-   "FIELD13": "0"
+   "pin_number": 2
  },
  {
-   "ID": 180,
+   "ID": 249,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2696,11 +3483,10 @@ var addressPoints = [
    "Latitude": 35.30004,
    "Longitude": -106.55114,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Bernalillo High School",
-   "pin_number": 3,
-   "FIELD13": "0"
+   "pin_number": 3
  },
  {
-   "ID": 181,
+   "ID": 250,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2711,11 +3497,10 @@ var addressPoints = [
    "Latitude": 36.331253,
    "Longitude": -106.002778,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Mesa Vista Middle/High School",
-   "pin_number": 4,
-   "FIELD13": "0"
+   "pin_number": 4
  },
  {
-   "ID": 182,
+   "ID": 251,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2726,11 +3511,10 @@ var addressPoints = [
    "Latitude": 35.656638,
    "Longitude": -105.946155,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Pojoaque Valley High School ",
-   "pin_number": 5,
-   "FIELD13": "0"
+   "pin_number": 5
  },
  {
-   "ID": 183,
+   "ID": 252,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2741,11 +3525,10 @@ var addressPoints = [
    "Latitude": 32.853738,
    "Longitude": -108.330764,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Silver High School",
-   "pin_number": 6,
-   "FIELD13": "0"
+   "pin_number": 6
  },
  {
-   "ID": 184,
+   "ID": 253,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2756,11 +3539,10 @@ var addressPoints = [
    "Latitude": 32.76174,
    "Longitude": -108.1306,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Cobre High School",
-   "pin_number": 7,
-   "FIELD13": "0"
+   "pin_number": 7
  },
  {
-   "ID": 185,
+   "ID": 254,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2771,11 +3553,10 @@ var addressPoints = [
    "Latitude": 32.315951,
    "Longitude": -108.723047,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Lordsburg High School",
-   "pin_number": 8,
-   "FIELD13": "0"
+   "pin_number": 8
  },
  {
-   "ID": 186,
+   "ID": 255,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2786,11 +3567,10 @@ var addressPoints = [
    "Latitude": 35.10756,
    "Longitude": -103.32856,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: San Jon School Based Health Center",
-   "pin_number": 9,
-   "FIELD13": "0"
+   "pin_number": 9
  },
  {
-   "ID": 187,
+   "ID": 256,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2801,11 +3581,10 @@ var addressPoints = [
    "Latitude": 34.531467,
    "Longitude": -104.174298,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Fort Sumner High School ",
-   "pin_number": 10,
-   "FIELD13": "0"
+   "pin_number": 10
  },
  {
-   "ID": 188,
+   "ID": 257,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2816,26 +3595,24 @@ var addressPoints = [
    "Latitude": 36.90336,
    "Longitude": -104.43915,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Raton High School",
-   "pin_number": 11,
-   "FIELD13": "0"
+   "pin_number": 11
  },
  {
-   "ID": 189,
+   "ID": 258,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
    "address": "1111 El Llano Rd",
-   "city": "Espa�ola",
+   "city": "Española",
    "state": "NM",
    "zip": 87532,
    "Latitude": 36.007491,
    "Longitude": -106.040884,
-   "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Espa�ola Valley High School",
-   "pin_number": 12,
-   "FIELD13": "0"
+   "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Española Valley High School",
+   "pin_number": 12
  },
  {
-   "ID": 190,
+   "ID": 259,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2846,11 +3623,10 @@ var addressPoints = [
    "Latitude": 36.429239,
    "Longitude": -105.554532,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Taos High School",
-   "pin_number": 13,
-   "FIELD13": "0"
+   "pin_number": 13
  },
  {
-   "ID": 191,
+   "ID": 260,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2861,11 +3637,10 @@ var addressPoints = [
    "Latitude": 35.593414,
    "Longitude": -105.224446,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: West Las Vegas High School",
-   "pin_number": 14,
-   "FIELD13": "1"
+   "pin_number": 14
  },
  {
-   "ID": 192,
+   "ID": 261,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2876,11 +3651,10 @@ var addressPoints = [
    "Latitude": 35.602414,
    "Longitude": -105.218236,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Robertson High School",
-   "pin_number": 15,
-   "FIELD13": "1"
+   "pin_number": 15
  },
  {
-   "ID": 193,
+   "ID": 262,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2889,13 +3663,12 @@ var addressPoints = [
    "state": "NM",
    "zip": 87743,
    "Latitude": 35.93873,
-   "Longitude": -104.195805,
+   "Longitude": -104.19580500000001,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Roy Public School",
-   "pin_number": 16,
-   "FIELD13": "0"
+   "pin_number": 16
  },
  {
-   "ID": 194,
+   "ID": 263,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2906,11 +3679,10 @@ var addressPoints = [
    "Latitude": 36.539682,
    "Longitude": -104.559057,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Maxwell High School",
-   "pin_number": 17,
-   "FIELD13": "0"
+   "pin_number": 17
  },
  {
-   "ID": 195,
+   "ID": 264,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2921,11 +3693,10 @@ var addressPoints = [
    "Latitude": 36.176327,
    "Longitude": -105.710451,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Penasco Middle School ",
-   "pin_number": 18,
-   "FIELD13": "0"
+   "pin_number": 18
  },
  {
-   "ID": 196,
+   "ID": 265,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2936,11 +3707,10 @@ var addressPoints = [
    "Latitude": 31.87044,
    "Longitude": -106.67023,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Santa Teresa High School",
-   "pin_number": 19,
-   "FIELD13": "0"
+   "pin_number": 19
  },
  {
-   "ID": 197,
+   "ID": 266,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2951,11 +3721,10 @@ var addressPoints = [
    "Latitude": 32.258348,
    "Longitude": -106.823126,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Rio Grande Preparatory Institute",
-   "pin_number": 20,
-   "FIELD13": "1"
+   "pin_number": 20
  },
  {
-   "ID": 198,
+   "ID": 267,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2966,11 +3735,10 @@ var addressPoints = [
    "Latitude": 32.342225,
    "Longitude": -106.73397,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Centennial High School",
-   "pin_number": 21,
-   "FIELD13": "1"
+   "pin_number": 21
  },
  {
-   "ID": 199,
+   "ID": 268,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2981,11 +3749,10 @@ var addressPoints = [
    "Latitude": 33.372354,
    "Longitude": -104.52888,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Roswell High School",
-   "pin_number": 22,
-   "FIELD13": "1"
+   "pin_number": 22
  },
  {
-   "ID": 200,
+   "ID": 269,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -2996,11 +3763,10 @@ var addressPoints = [
    "Latitude": 33.637061,
    "Longitude": -104.377926,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Goddard High School",
-   "pin_number": 23,
-   "FIELD13": "1"
+   "pin_number": 23
  },
  {
-   "ID": 201,
+   "ID": 270,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -3011,11 +3777,10 @@ var addressPoints = [
    "Latitude": 31.951887,
    "Longitude": -107.016272,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Chaparral High School",
-   "pin_number": 24,
-   "FIELD13": "0"
+   "pin_number": 24
  },
  {
-   "ID": 202,
+   "ID": 271,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -3026,11 +3791,10 @@ var addressPoints = [
    "Latitude": 31.997837,
    "Longitude": -106.658471,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Gadsden High School",
-   "pin_number": 25,
-   "FIELD13": "0"
+   "pin_number": 25
  },
  {
-   "ID": 203,
+   "ID": 272,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -3041,11 +3805,10 @@ var addressPoints = [
    "Latitude": 33.386789,
    "Longitude": -104.50108,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Mesa Middle School",
-   "pin_number": 26,
-   "FIELD13": "0"
+   "pin_number": 26
  },
  {
-   "ID": 204,
+   "ID": 273,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -3056,11 +3819,10 @@ var addressPoints = [
    "Latitude": 34.852639,
    "Longitude": -104.589897,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Santa Rosa High School",
-   "pin_number": 27,
-   "FIELD13": "0"
+   "pin_number": 27
  },
  {
-   "ID": 205,
+   "ID": 274,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -3071,11 +3833,10 @@ var addressPoints = [
    "Latitude": 35.075527,
    "Longitude": -106.592512,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Highland High School",
-   "pin_number": 28,
-   "FIELD13": "1"
+   "pin_number": 28
  },
  {
-   "ID": 206,
+   "ID": 275,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -3086,11 +3847,10 @@ var addressPoints = [
    "Latitude": 35.098225,
    "Longitude": -106.634589,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Albuquerque High School",
-   "pin_number": 29,
-   "FIELD13": "1"
+   "pin_number": 29
  },
  {
-   "ID": 207,
+   "ID": 276,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -3101,11 +3861,10 @@ var addressPoints = [
    "Latitude": 35.9742,
    "Longitude": -105.33001,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Mora High School",
-   "pin_number": 30,
-   "FIELD13": "0"
+   "pin_number": 30
  },
  {
-   "ID": 208,
+   "ID": 277,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
@@ -3116,26 +3875,24 @@ var addressPoints = [
    "Latitude": 35.086543,
    "Longitude": -106.511986,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Manzano High School",
-   "pin_number": 31,
-   "FIELD13": "0"
+   "pin_number": 31
  },
  {
-   "ID": 209,
+   "ID": 278,
    "grantee": "The University of New Mexico (UNM)",
    "granteeAcronym": "uonm",
    "type": "site",
    "address": "1260 Industrial Park Rd",
-   "city": "Espa�ola",
+   "city": "Española",
    "state": "NM",
    "zip": 87532,
    "Latitude": 35.993867,
    "Longitude": -106.088977,
    "blurb": "<a href=\"http://casaa.unm.edu/\" target=\"_blank\">University of New Mexico (UNM)</a> site: Carlos F. Vigil Middle School ",
-   "pin_number": 32,
-   "FIELD13": "0"
+   "pin_number": 32
  },
  {
-   "ID": 210,
+   "ID": 279,
    "grantee": "The University of Vermont (UVM)",
    "granteeAcronym": "uvm",
    "type": "headquarters",
@@ -3146,11 +3903,94 @@ var addressPoints = [
    "Latitude": 44.476622,
    "Longitude": -73.209998,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.uvm.edu/we\" target=\"_blank\">The University of Vermont (UVM)</a> is developing an Apple Watch app to monitor health and fitness goals and provide program impact data to support the incentivized behavioral change components of their Wellness Environment (WE).",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 211,
+   "ID": 280,
+   "grantee": "Transforming Youth Recovery (TYR)",
+   "granteeAcronym": "tyr",
+   "type": "headquarters",
+   "address": "",
+   "city": "Reno",
+   "state": "NV",
+   "zip": 89501,
+   "Latitude": 39.525749,
+   "Longitude": -119.813051,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.transformingyouthrecovery.org/\" target=\"_blank\">Transforming Youth Recovery (TYR)</a> conducted a strategic planning process with a public awareness/stakeholder coalition campaign, research-based marketing and fundraising plan, and social media campaign to launch Facing Addiction <em>(Grant expired)</em>.",
+   "pin_number": 0
+ },
+ {
+   "ID": 281,
+   "grantee": "Treatment Research Institute (TRI)",
+   "granteeAcronym": "tri",
+   "type": "headquarters",
+   "address": "2191 3rd Ave",
+   "city": "New York",
+   "state": "NY",
+   "zip": 10035,
+   "Latitude": 40.800103,
+   "Longitude": -73.938224,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.tresearch.org/\" target=\"_blank\">Treatment Research Institute (TRI)</a> is piloting an SBIRT approach in four New York City metro area schools utilizing a computerized screening protocol and tailored brief intervention.",
+   "pin_number": 0
+ },
+ {
+   "ID": 282,
+   "grantee": "Trust for America's Health (TFAH)",
+   "granteeAcronym": "tah",
+   "type": "headquarters",
+   "address": "1730 M St NW",
+   "city": "Washington",
+   "state": "DC",
+   "zip": 20036,
+   "Latitude": 38.905347,
+   "Longitude": -77.039899,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://healthyamericans.org/\" target=\"_blank\">Trust for America's Health (TFAH)</a> conducted an expert convening to identify best practices and emerging models related to primary prevention and early intervention, and developed a set of indicators to serve as an agenda for advocates to pursue in their states <em>(Grant expired)</em>.",
+   "pin_number": 0
+ },
+ {
+   "ID": 283,
+   "grantee": "UC Berkeley Center on the Developing Adolescent",
+   "granteeAcronym": "ucb",
+   "type": "headquarters",
+   "address": "",
+   "city": "Berkeley",
+   "state": "CA",
+   "zip": 94720,
+   "Latitude": 37.8718992,
+   "Longitude": -122.2607286,
+   "blurb": "<p class='headquarters'>Headquarters</p>The UC Berkeley <a href=\"http://developingadolescent.berkeley.edu/\" target=\"_blank\">Center on the Developing Adolescent</a> is strengthening its core infrastructure to enhance its capacity to serve as a national and international research and policy resource for understanding adolescent development.",
+   "pin_number": 0
+ },
+ {
+   "ID": 284,
+   "grantee": "UCLA Integrated Substance Abuse Programs",
+   "granteeAcronym": "uisap",
+   "type": "headquarters",
+   "address": "11075 Santa Monica Blvd",
+   "city": "Los Angeles",
+   "state": "CA",
+   "zip": 90025,
+   "Latitude": 34.047989,
+   "Longitude": -118.443973,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://www.uclaisap.org/\" target=\"_blank\">UCLA</a> provides training and technical assistance to Foundation grantees.",
+   "pin_number": 0
+ },
+ {
+   "ID": 285,
+   "grantee": "Young People in Recovery (YPR)",
+   "granteeAcronym": "ypr",
+   "type": "headquarters",
+   "address": "201 Milwaukee St #200",
+   "city": "Denver",
+   "state": "CO",
+   "zip": 80206,
+   "Latitude": 39.7196797,
+   "Longitude": -104.9525563,
+   "blurb": "<p class='headquarters'>Headquarters</p><a href=\"http://youngpeopleinrecovery.org/\" target=\"_blank\">Young People in Recovery (YPR)</a> is organizing young people in recovery and their allies to conduct advocacy and communication activities to increase access to SUD services for youth.",
+   "pin_number": 0
+ },
+ {
+   "ID": 286,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "headquarters",
@@ -3161,11 +4001,10 @@ var addressPoints = [
    "Latitude": 42.38092,
    "Longitude": -71.098896,
    "blurb": "<p class='headquarters'>Headquarters</p><a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild, USA</a> is implementing an SBIRT model in community-based YouthBuild programs.",
-   "pin_number": 0,
-   "FIELD13": "0"
+   "pin_number": 0
  },
  {
-   "ID": 212,
+   "ID": 287,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3176,11 +4015,10 @@ var addressPoints = [
    "Latitude": 33.289682,
    "Longitude": -88.117113,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Pickens County CAC & CDC Inc.",
-   "pin_number": 1,
-   "FIELD13": "0#REF!"
+   "pin_number": 1
  },
  {
-   "ID": 213,
+   "ID": 288,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3191,11 +4029,10 @@ var addressPoints = [
    "Latitude": 32.509136,
    "Longitude": -114.746669,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: PPEP YouthBuild",
-   "pin_number": 2,
-   "FIELD13": "0#REF!"
+   "pin_number": 2
  },
  {
-   "ID": 214,
+   "ID": 289,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3206,11 +4043,10 @@ var addressPoints = [
    "Latitude": 32.217975,
    "Longitude": -110.970869,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: PPEP YouthBuild",
-   "pin_number": 3,
-   "FIELD13": "0#REF!"
+   "pin_number": 3
  },
  {
-   "ID": 215,
+   "ID": 290,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3221,11 +4057,10 @@ var addressPoints = [
    "Latitude": 32.724103,
    "Longitude": -117.170912,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Able-Disabled Advocacy YouthBuild",
-   "pin_number": 4,
-   "FIELD13": "0#REF!"
+   "pin_number": 4
  },
  {
-   "ID": 216,
+   "ID": 291,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3236,11 +4071,10 @@ var addressPoints = [
    "Latitude": 34.570867,
    "Longitude": -118.023744,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Antelope Valley YouthBuild",
-   "pin_number": 5,
-   "FIELD13": "0#REF!"
+   "pin_number": 5
  },
  {
-   "ID": 217,
+   "ID": 292,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3251,11 +4085,10 @@ var addressPoints = [
    "Latitude": 40.600342,
    "Longitude": -122.455016,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: California Heritage YouthBuild",
-   "pin_number": 6,
-   "FIELD13": "0#REF!"
+   "pin_number": 6
  },
  {
-   "ID": 218,
+   "ID": 293,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3266,11 +4099,10 @@ var addressPoints = [
    "Latitude": 33.93807,
    "Longitude": -118.352575,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: CCEO YouthBuild",
-   "pin_number": 7,
-   "FIELD13": "0#REF!"
+   "pin_number": 7
  },
  {
-   "ID": 219,
+   "ID": 294,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3281,11 +4113,10 @@ var addressPoints = [
    "Latitude": 34.178483,
    "Longitude": -118.431791,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Cloud & Fire YouthBuild",
-   "pin_number": 8,
-   "FIELD13": "0#REF!"
+   "pin_number": 8
  },
  {
-   "ID": 220,
+   "ID": 295,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3296,11 +4127,10 @@ var addressPoints = [
    "Latitude": 33.874815,
    "Longitude": -118.240208,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Compton YouthBuild",
-   "pin_number": 9,
-   "FIELD13": "0#REF!"
+   "pin_number": 9
  },
  {
-   "ID": 221,
+   "ID": 296,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3311,11 +4141,10 @@ var addressPoints = [
    "Latitude": 33.906763,
    "Longitude": -118.076549,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Field of Dreams Learning",
-   "pin_number": 10,
-   "FIELD13": "0#REF!"
+   "pin_number": 10
  },
  {
-   "ID": 222,
+   "ID": 297,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3326,11 +4155,10 @@ var addressPoints = [
    "Latitude": 34.01506,
    "Longitude": -118.155195,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: LA CAUSA YouthBuild",
-   "pin_number": 11,
-   "FIELD13": "1#REF!"
+   "pin_number": 11
  },
  {
-   "ID": 223,
+   "ID": 298,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3341,11 +4169,10 @@ var addressPoints = [
    "Latitude": 34.075728,
    "Longitude": -118.217309,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: LEAD YouthBuild",
-   "pin_number": 12,
-   "FIELD13": "1#REF!"
+   "pin_number": 12
  },
  {
-   "ID": 224,
+   "ID": 299,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3356,11 +4183,10 @@ var addressPoints = [
    "Latitude": 34.078573,
    "Longitude": -118.043456,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: San Gabriel CC YouthBuild",
-   "pin_number": 13,
-   "FIELD13": "0#REF!"
+   "pin_number": 13
  },
  {
-   "ID": 225,
+   "ID": 300,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3371,11 +4197,10 @@ var addressPoints = [
    "Latitude": 33.998214,
    "Longitude": -118.394059,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Field of Dreams Learning",
-   "pin_number": 14,
-   "FIELD13": "0#REF!"
+   "pin_number": 14
  },
  {
-   "ID": 226,
+   "ID": 301,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3386,11 +4211,10 @@ var addressPoints = [
    "Latitude": 37.346608,
    "Longitude": -121.909871,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: San Jose Youth Corps",
-   "pin_number": 15,
-   "FIELD13": "0#REF!"
+   "pin_number": 15
  },
  {
-   "ID": 227,
+   "ID": 302,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3401,11 +4225,10 @@ var addressPoints = [
    "Latitude": 34.195275,
    "Longitude": -118.137227,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Pasadena YouthBuild",
-   "pin_number": 16,
-   "FIELD13": "0#REF!"
+   "pin_number": 16
  },
  {
-   "ID": 228,
+   "ID": 303,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3416,11 +4239,10 @@ var addressPoints = [
    "Latitude": 34.198292,
    "Longitude": -118.600914,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: R.U.T.H. YouthBuild",
-   "pin_number": 17,
-   "FIELD13": "0#REF!"
+   "pin_number": 17
  },
  {
-   "ID": 229,
+   "ID": 304,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3431,11 +4253,10 @@ var addressPoints = [
    "Latitude": 33.88274,
    "Longitude": -117.224878,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Rising Stars Business Academy",
-   "pin_number": 18,
-   "FIELD13": "0#REF!"
+   "pin_number": 18
  },
  {
-   "ID": 230,
+   "ID": 305,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3446,11 +4267,10 @@ var addressPoints = [
    "Latitude": 33.99504,
    "Longitude": -117.373184,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Riverside County YouthBuild",
-   "pin_number": 19,
-   "FIELD13": "0#REF!"
+   "pin_number": 19
  },
  {
-   "ID": 231,
+   "ID": 306,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3461,11 +4281,10 @@ var addressPoints = [
    "Latitude": 38.580568,
    "Longitude": -121.49559,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Sacramento Regional Conservation Corps",
-   "pin_number": 20,
-   "FIELD13": "0#REF!"
+   "pin_number": 20
  },
  {
-   "ID": 232,
+   "ID": 307,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3476,11 +4295,10 @@ var addressPoints = [
    "Latitude": 34.022352,
    "Longitude": -118.27508,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: South Los Angeles YouthBuild CRCD",
-   "pin_number": 21,
-   "FIELD13": "1#REF!"
+   "pin_number": 21
  },
  {
-   "ID": 233,
+   "ID": 308,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3491,11 +4309,10 @@ var addressPoints = [
    "Latitude": 33.988995,
    "Longitude": -118.302936,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Home Sweet Home YB",
-   "pin_number": 22,
-   "FIELD13": "1#REF!"
+   "pin_number": 22
  },
  {
-   "ID": 234,
+   "ID": 309,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3506,11 +4323,10 @@ var addressPoints = [
    "Latitude": 33.993396,
    "Longitude": -118.465193,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Venice YouthBuild",
-   "pin_number": 23,
-   "FIELD13": "0#REF!"
+   "pin_number": 23
  },
  {
-   "ID": 235,
+   "ID": 310,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3521,11 +4337,10 @@ var addressPoints = [
    "Latitude": 33.756024,
    "Longitude": -118.201101,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: WINTER YouthBuild",
-   "pin_number": 24,
-   "FIELD13": "0#REF!"
+   "pin_number": 24
  },
  {
-   "ID": 236,
+   "ID": 311,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3536,11 +4351,10 @@ var addressPoints = [
    "Latitude": 34.097821,
    "Longitude": -118.331248,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Youth Policy Institute YouthBuild",
-   "pin_number": 25,
-   "FIELD13": "0#REF!"
+   "pin_number": 25
  },
  {
-   "ID": 237,
+   "ID": 312,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3551,11 +4365,10 @@ var addressPoints = [
    "Latitude": 36.74966,
    "Longitude": -119.787684,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Fresno",
-   "pin_number": 26,
-   "FIELD13": "0#REF!"
+   "pin_number": 26
  },
  {
-   "ID": 238,
+   "ID": 313,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3566,11 +4379,10 @@ var addressPoints = [
    "Latitude": 37.958573,
    "Longitude": -121.289206,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild San Joaquin",
-   "pin_number": 27,
-   "FIELD13": "0#REF!"
+   "pin_number": 27
  },
  {
-   "ID": 239,
+   "ID": 314,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3581,11 +4393,10 @@ var addressPoints = [
    "Latitude": 39.760189,
    "Longitude": -104.996553,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Mile High Youth Corps YouthBuild",
-   "pin_number": 28,
-   "FIELD13": "0#REF!"
+   "pin_number": 28
  },
  {
-   "ID": 240,
+   "ID": 315,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3596,11 +4407,10 @@ var addressPoints = [
    "Latitude": 38.911936,
    "Longitude": -77.016719,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Sasha Bruce YouthBuild",
-   "pin_number": 29,
-   "FIELD13": "0#REF!"
+   "pin_number": 29
  },
  {
-   "ID": 241,
+   "ID": 316,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3611,11 +4421,10 @@ var addressPoints = [
    "Latitude": 26.140453,
    "Longitude": -80.121179,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: OIC of South Florida YouthBuild",
-   "pin_number": 30,
-   "FIELD13": "0#REF!"
+   "pin_number": 30
  },
  {
-   "ID": 242,
+   "ID": 317,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3626,11 +4435,10 @@ var addressPoints = [
    "Latitude": 27.950898,
    "Longitude": -82.461517,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: THA YouthBuild Program",
-   "pin_number": 31,
-   "FIELD13": "0#REF!"
+   "pin_number": 31
  },
  {
-   "ID": 243,
+   "ID": 318,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3641,11 +4449,10 @@ var addressPoints = [
    "Latitude": 28.035908,
    "Longitude": -81.899669,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Lakeland",
-   "pin_number": 32,
-   "FIELD13": "0#REF!"
+   "pin_number": 32
  },
  {
-   "ID": 244,
+   "ID": 319,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3656,11 +4463,10 @@ var addressPoints = [
    "Latitude": 33.772554,
    "Longitude": -84.291723,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: CHRIS 180 YouthBuild",
-   "pin_number": 33,
-   "FIELD13": "0#REF!"
+   "pin_number": 33
  },
  {
-   "ID": 245,
+   "ID": 320,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3671,11 +4477,10 @@ var addressPoints = [
    "Latitude": 33.748395,
    "Longitude": -84.395444,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Urban League of Greater Atlanta YouthBuild",
-   "pin_number": 34,
-   "FIELD13": "1#REF!"
+   "pin_number": 34
  },
  {
-   "ID": 246,
+   "ID": 321,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3686,11 +4491,10 @@ var addressPoints = [
    "Latitude": 33.824371,
    "Longitude": -84.349239,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Atlanta",
-   "pin_number": 35,
-   "FIELD13": "1#REF!"
+   "pin_number": 35
  },
  {
-   "ID": 247,
+   "ID": 322,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3701,11 +4505,10 @@ var addressPoints = [
    "Latitude": 38.9556,
    "Longitude": -90.18678,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Lewis and Clark Building Futures",
-   "pin_number": 36,
-   "FIELD13": "0#REF!"
+   "pin_number": 36
  },
  {
-   "ID": 248,
+   "ID": 323,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3716,11 +4519,10 @@ var addressPoints = [
    "Latitude": 41.88531,
    "Longitude": -87.62213,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Prologue YouthBuild",
-   "pin_number": 37,
-   "FIELD13": "0#REF!"
+   "pin_number": 37
  },
  {
-   "ID": 249,
+   "ID": 324,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3731,11 +4533,10 @@ var addressPoints = [
    "Latitude": 38.8906,
    "Longitude": -90.18428,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Building Futures",
-   "pin_number": 38,
-   "FIELD13": "0#REF!"
+   "pin_number": 38
  },
  {
-   "ID": 250,
+   "ID": 325,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3746,11 +4547,10 @@ var addressPoints = [
    "Latitude": 42.403085,
    "Longitude": -87.850836,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YCC YouthBuild Waukegan",
-   "pin_number": 39,
-   "FIELD13": "0#REF!"
+   "pin_number": 39
  },
  {
-   "ID": 251,
+   "ID": 326,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3761,11 +4561,10 @@ var addressPoints = [
    "Latitude": 42.309272,
    "Longitude": -87.85427,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Lake County",
-   "pin_number": 40,
-   "FIELD13": "0#REF!"
+   "pin_number": 40
  },
  {
-   "ID": 252,
+   "ID": 327,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3776,11 +4575,10 @@ var addressPoints = [
    "Latitude": 40.516073,
    "Longitude": -88.991532,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild McLean County",
-   "pin_number": 41,
-   "FIELD13": "0#REF!"
+   "pin_number": 41
  },
  {
-   "ID": 253,
+   "ID": 328,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3791,11 +4589,10 @@ var addressPoints = [
    "Latitude": 38.293269,
    "Longitude": -88.892273,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild of Jefferson and Marion County",
-   "pin_number": 42,
-   "FIELD13": "0#REF!"
+   "pin_number": 42
  },
  {
-   "ID": 254,
+   "ID": 329,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3806,11 +4603,10 @@ var addressPoints = [
    "Latitude": 38.603109,
    "Longitude": -90.159202,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild St. Clair County",
-   "pin_number": 43,
-   "FIELD13": "0#REF!"
+   "pin_number": 43
  },
  {
-   "ID": 255,
+   "ID": 330,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3821,11 +4617,10 @@ var addressPoints = [
    "Latitude": 41.599336,
    "Longitude": -87.336338,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Gary",
-   "pin_number": 44,
-   "FIELD13": "0#REF!"
+   "pin_number": 44
  },
  {
-   "ID": 256,
+   "ID": 331,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3836,11 +4631,10 @@ var addressPoints = [
    "Latitude": 39.775092,
    "Longitude": -86.13216,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Indy",
-   "pin_number": 45,
-   "FIELD13": "0#REF!"
+   "pin_number": 45
  },
  {
-   "ID": 257,
+   "ID": 332,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3851,11 +4645,10 @@ var addressPoints = [
    "Latitude": 39.103053,
    "Longitude": -94.630384,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Kansas City Kansas YouthBuild",
-   "pin_number": 46,
-   "FIELD13": "0#REF!"
+   "pin_number": 46
  },
  {
-   "ID": 258,
+   "ID": 333,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3866,11 +4659,10 @@ var addressPoints = [
    "Latitude": 38.25247,
    "Longitude": -85.753812,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Louisville",
-   "pin_number": 47,
-   "FIELD13": "0#REF!"
+   "pin_number": 47
  },
  {
-   "ID": 259,
+   "ID": 334,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3881,11 +4673,10 @@ var addressPoints = [
    "Latitude": 39.05906,
    "Longitude": -84.542748,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild of Northern Kentucky",
-   "pin_number": 48,
-   "FIELD13": "0#REF!"
+   "pin_number": 48
  },
  {
-   "ID": 260,
+   "ID": 335,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3896,11 +4687,10 @@ var addressPoints = [
    "Latitude": 30.533587,
    "Longitude": -90.455381,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: QUAD YouthBuild",
-   "pin_number": 49,
-   "FIELD13": "0#REF!"
+   "pin_number": 49
  },
  {
-   "ID": 261,
+   "ID": 336,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3911,11 +4701,10 @@ var addressPoints = [
    "Latitude": 29.578671,
    "Longitude": -90.805402,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Start Corporation YouthBuild",
-   "pin_number": 50,
-   "FIELD13": "0#REF!"
+   "pin_number": 50
  },
  {
-   "ID": 262,
+   "ID": 337,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3926,11 +4715,10 @@ var addressPoints = [
    "Latitude": 32.498202,
    "Longitude": -93.750228,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: SU Shreveport YouthBuild",
-   "pin_number": 51,
-   "FIELD13": "0#REF!"
+   "pin_number": 51
  },
  {
-   "ID": 263,
+   "ID": 338,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3941,11 +4729,10 @@ var addressPoints = [
    "Latitude": 30.744198,
    "Longitude": -89.912079,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Bogalusa",
-   "pin_number": 52,
-   "FIELD13": "0#REF!"
+   "pin_number": 52
  },
  {
-   "ID": 264,
+   "ID": 339,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3956,11 +4743,10 @@ var addressPoints = [
    "Latitude": 42.515769,
    "Longitude": -70.89124,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YB North Shore",
-   "pin_number": 53,
-   "FIELD13": "0#REF!"
+   "pin_number": 53
  },
  {
-   "ID": 265,
+   "ID": 340,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3971,11 +4757,10 @@ var addressPoints = [
    "Latitude": 42.380442,
    "Longitude": -71.132947,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: JAS YouthBuild",
-   "pin_number": 54,
-   "FIELD13": "0#REF!"
+   "pin_number": 54
  },
  {
-   "ID": 266,
+   "ID": 341,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -3986,11 +4771,10 @@ var addressPoints = [
    "Latitude": 43.015127,
    "Longitude": -83.694756,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Metro Flint YouthBuild",
-   "pin_number": 55,
-   "FIELD13": "0#REF!"
+   "pin_number": 55
  },
  {
-   "ID": 267,
+   "ID": 342,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4001,11 +4785,10 @@ var addressPoints = [
    "Latitude": 43.41242,
    "Longitude": -83.886873,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: SVRC YouthBuild",
-   "pin_number": 56,
-   "FIELD13": "0#REF!"
+   "pin_number": 56
  },
  {
-   "ID": 268,
+   "ID": 343,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4016,11 +4799,10 @@ var addressPoints = [
    "Latitude": 42.956176,
    "Longitude": -85.660693,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Grand Rapids",
-   "pin_number": 57,
-   "FIELD13": "0#REF!"
+   "pin_number": 57
  },
  {
-   "ID": 269,
+   "ID": 344,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4031,11 +4813,10 @@ var addressPoints = [
    "Latitude": 47.327719,
    "Longitude": -94.476853,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Leech Lake YouthBuild",
-   "pin_number": 58,
-   "FIELD13": "0#REF!"
+   "pin_number": 58
  },
  {
-   "ID": 270,
+   "ID": 345,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4046,11 +4827,10 @@ var addressPoints = [
    "Latitude": 44.951483,
    "Longitude": -93.090649,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Guadalupe Alternative Programs (GAP) - St. Paul",
-   "pin_number": 59,
-   "FIELD13": "0#REF!"
+   "pin_number": 59
  },
  {
-   "ID": 271,
+   "ID": 346,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4061,11 +4841,10 @@ var addressPoints = [
    "Latitude": 38.894165,
    "Longitude": -92.274145,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Job Point YouthBuild",
-   "pin_number": 60,
-   "FIELD13": "0#REF!"
+   "pin_number": 60
  },
  {
-   "ID": 272,
+   "ID": 347,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4076,11 +4855,10 @@ var addressPoints = [
    "Latitude": 38.611401,
    "Longitude": -90.214461,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: St. Louis YouthBuild",
-   "pin_number": 61,
-   "FIELD13": "0#REF!"
+   "pin_number": 61
  },
  {
-   "ID": 273,
+   "ID": 348,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4091,11 +4869,10 @@ var addressPoints = [
    "Latitude": 37.434218,
    "Longitude": -89.634617,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Jackson YouthBuild",
-   "pin_number": 62,
-   "FIELD13": "0#REF!"
+   "pin_number": 62
  },
  {
-   "ID": 274,
+   "ID": 349,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4106,11 +4883,10 @@ var addressPoints = [
    "Latitude": 33.314539,
    "Longitude": -91.02297,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: MACE YouthBuild",
-   "pin_number": 63,
-   "FIELD13": "0#REF!"
+   "pin_number": 63
  },
  {
-   "ID": 275,
+   "ID": 350,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4121,11 +4897,10 @@ var addressPoints = [
    "Latitude": 33.443446,
    "Longitude": -90.608662,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: MACE YouthBuild",
-   "pin_number": 64,
-   "FIELD13": "0#REF!"
+   "pin_number": 64
  },
  {
-   "ID": 276,
+   "ID": 351,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4136,11 +4911,10 @@ var addressPoints = [
    "Latitude": 30.367933,
    "Longitude": -89.097408,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Climb YouthBuild",
-   "pin_number": 65,
-   "FIELD13": "1#REF!"
+   "pin_number": 65
  },
  {
-   "ID": 277,
+   "ID": 352,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4151,11 +4925,10 @@ var addressPoints = [
    "Latitude": 30.426606,
    "Longitude": -89.087644,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: IRD Gulf Coast YouthBuild",
-   "pin_number": 66,
-   "FIELD13": "1#REF!"
+   "pin_number": 66
  },
  {
-   "ID": 278,
+   "ID": 353,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4166,11 +4939,10 @@ var addressPoints = [
    "Latitude": 32.289656,
    "Longitude": -90.184201,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: West Jackson CDC YouthBuild",
-   "pin_number": 67,
-   "FIELD13": "0#REF!"
+   "pin_number": 67
  },
  {
-   "ID": 279,
+   "ID": 354,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4181,11 +4953,10 @@ var addressPoints = [
    "Latitude": 46.527398,
    "Longitude": -112.21037,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Helena",
-   "pin_number": 68,
-   "FIELD13": "0#REF!"
+   "pin_number": 68
  },
  {
-   "ID": 280,
+   "ID": 355,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4196,11 +4967,10 @@ var addressPoints = [
    "Latitude": 35.773632,
    "Longitude": -78.634457,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Telamon YouthBuild",
-   "pin_number": 69,
-   "FIELD13": "0#REF!"
+   "pin_number": 69
  },
  {
-   "ID": 281,
+   "ID": 356,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4211,11 +4981,10 @@ var addressPoints = [
    "Latitude": 36.293633,
    "Longitude": -76.271958,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: River City YouthBuild",
-   "pin_number": 70,
-   "FIELD13": "0#REF!"
+   "pin_number": 70
  },
  {
-   "ID": 282,
+   "ID": 357,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4226,11 +4995,10 @@ var addressPoints = [
    "Latitude": 39.950912,
    "Longitude": -75.118869,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Housing Authority of the City of Camden",
-   "pin_number": 71,
-   "FIELD13": "0#REF!"
+   "pin_number": 71
  },
  {
-   "ID": 283,
+   "ID": 358,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4241,11 +5009,10 @@ var addressPoints = [
    "Latitude": 40.220108,
    "Longitude": -74.764055,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Isles YouthBuild",
-   "pin_number": 72,
-   "FIELD13": "0#REF!"
+   "pin_number": 72
  },
  {
-   "ID": 284,
+   "ID": 359,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4256,11 +5023,10 @@ var addressPoints = [
    "Latitude": 40.735642,
    "Longitude": -74.173988,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Newark",
-   "pin_number": 73,
-   "FIELD13": "0#REF!"
+   "pin_number": 73
  },
  {
-   "ID": 285,
+   "ID": 360,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4271,11 +5037,10 @@ var addressPoints = [
    "Latitude": 35.656638,
    "Longitude": -105.946155,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Santa Fe Community College YouthBuild",
-   "pin_number": 74,
-   "FIELD13": "0#REF!"
+   "pin_number": 74
  },
  {
-   "ID": 286,
+   "ID": 361,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4286,26 +5051,24 @@ var addressPoints = [
    "Latitude": 35.080638,
    "Longitude": -106.706845,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Youth Development INC",
-   "pin_number": 75,
-   "FIELD13": "1#REF!"
+   "pin_number": 75
  },
  {
-   "ID": 287,
+   "ID": 362,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
-   "address": "5101 Copper NE�",
+   "address": "5101 Copper NE",
    "city": "Albuquerque",
    "state": "NM",
    "zip": 87108,
    "Latitude": 35.080282,
    "Longitude": -106.588338,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YB Rio Arriba HELP New Mexico",
-   "pin_number": 76,
-   "FIELD13": "1#REF!"
+   "pin_number": 76
  },
  {
-   "ID": 288,
+   "ID": 363,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4316,11 +5079,10 @@ var addressPoints = [
    "Latitude": 39.525749,
    "Longitude": -119.813051,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Washoe YouthBuild",
-   "pin_number": 77,
-   "FIELD13": "0#REF!"
+   "pin_number": 77
  },
  {
-   "ID": 289,
+   "ID": 364,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4331,11 +5093,10 @@ var addressPoints = [
    "Latitude": 36.17372,
    "Longitude": -115.10647,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Las Vegas",
-   "pin_number": 78,
-   "FIELD13": "0#REF!"
+   "pin_number": 78
  },
  {
-   "ID": 290,
+   "ID": 365,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4346,11 +5107,10 @@ var addressPoints = [
    "Latitude": 42.646141,
    "Longitude": -73.69784,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: CEO YouthBuild",
-   "pin_number": 79,
-   "FIELD13": "0#REF!"
+   "pin_number": 79
  },
  {
-   "ID": 291,
+   "ID": 366,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4361,11 +5121,10 @@ var addressPoints = [
    "Latitude": 40.632167,
    "Longitude": -73.941757,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: D.R.E.A.M.S. YouthBuild and Young Adult Training Program",
-   "pin_number": 80,
-   "FIELD13": "0#REF!"
+   "pin_number": 80
  },
  {
-   "ID": 292,
+   "ID": 367,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4376,11 +5135,10 @@ var addressPoints = [
    "Latitude": 43.077369,
    "Longitude": -75.233208,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Mohawk Valley YouthBuild",
-   "pin_number": 81,
-   "FIELD13": "0#REF!"
+   "pin_number": 81
  },
  {
-   "ID": 293,
+   "ID": 368,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4391,11 +5149,10 @@ var addressPoints = [
    "Latitude": 41.703946,
    "Longitude": -73.928846,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: New Directions YouthBuild Partnerships",
-   "pin_number": 82,
-   "FIELD13": "0#REF!"
+   "pin_number": 82
  },
  {
-   "ID": 294,
+   "ID": 369,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4406,11 +5163,10 @@ var addressPoints = [
    "Latitude": 42.89606,
    "Longitude": -78.886424,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: The Service Collaborative of WNY: Western New York YouthBuild",
-   "pin_number": 83,
-   "FIELD13": "0#REF!"
+   "pin_number": 83
  },
  {
-   "ID": 295,
+   "ID": 370,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4421,11 +5177,10 @@ var addressPoints = [
    "Latitude": 40.655246,
    "Longitude": -73.797769,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Y Roads Jamaica YouthBuild",
-   "pin_number": 84,
-   "FIELD13": "0#REF!"
+   "pin_number": 84
  },
  {
-   "ID": 296,
+   "ID": 371,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4436,11 +5191,10 @@ var addressPoints = [
    "Latitude": 40.750422,
    "Longitude": -73.996328,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Youth Action YouthBuild",
-   "pin_number": 85,
-   "FIELD13": "0#REF!"
+   "pin_number": 85
  },
  {
-   "ID": 297,
+   "ID": 372,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4451,11 +5205,10 @@ var addressPoints = [
    "Latitude": 40.762574,
    "Longitude": -73.323061,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Long Island",
-   "pin_number": 86,
-   "FIELD13": "0#REF!"
+   "pin_number": 86
  },
  {
-   "ID": 298,
+   "ID": 373,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4466,11 +5219,10 @@ var addressPoints = [
    "Latitude": 42.788176,
    "Longitude": -73.899917,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Schenectady @ SEAT",
-   "pin_number": 87,
-   "FIELD13": "0#REF!"
+   "pin_number": 87
  },
  {
-   "ID": 299,
+   "ID": 374,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4481,11 +5233,10 @@ var addressPoints = [
    "Latitude": 41.703929,
    "Longitude": -73.928809,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Nubian Directions YouthBuild",
-   "pin_number": 88,
-   "FIELD13": "0#REF!"
+   "pin_number": 88
  },
  {
-   "ID": 300,
+   "ID": 375,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4496,11 +5247,10 @@ var addressPoints = [
    "Latitude": 40.819329,
    "Longitude": -73.920355,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild SoBRO",
-   "pin_number": 89,
-   "FIELD13": "0#REF!"
+   "pin_number": 89
  },
  {
-   "ID": 301,
+   "ID": 376,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4511,11 +5261,10 @@ var addressPoints = [
    "Latitude": 39.539509,
    "Longitude": -83.428753,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: CAC of Fayette County YouthBuild",
-   "pin_number": 90,
-   "FIELD13": "0#REF!"
+   "pin_number": 90
  },
  {
-   "ID": 302,
+   "ID": 377,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4526,11 +5275,10 @@ var addressPoints = [
    "Latitude": 41.47225,
    "Longitude": -81.740305,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Ohio Guidestone YouthBuild",
-   "pin_number": 91,
-   "FIELD13": "0#REF!"
+   "pin_number": 91
  },
  {
-   "ID": 303,
+   "ID": 378,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4541,11 +5289,10 @@ var addressPoints = [
    "Latitude": 39.989551,
    "Longitude": -82.98762,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Columbus",
-   "pin_number": 92,
-   "FIELD13": "0#REF!"
+   "pin_number": 92
  },
  {
-   "ID": 304,
+   "ID": 379,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4556,11 +5303,10 @@ var addressPoints = [
    "Latitude": 40.79979,
    "Longitude": -81.375811,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Project REBUILD",
-   "pin_number": 93,
-   "FIELD13": "0#REF!"
+   "pin_number": 93
  },
  {
-   "ID": 305,
+   "ID": 380,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4571,11 +5317,10 @@ var addressPoints = [
    "Latitude": 39.989546,
    "Longitude": -82.987772,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Columbus Community School",
-   "pin_number": 94,
-   "FIELD13": "0#REF!"
+   "pin_number": 94
  },
  {
-   "ID": 306,
+   "ID": 381,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4586,11 +5331,10 @@ var addressPoints = [
    "Latitude": 39.761244,
    "Longitude": -84.2083,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Dayton CountyCorp",
-   "pin_number": 95,
-   "FIELD13": "0#REF!"
+   "pin_number": 95
  },
  {
-   "ID": 307,
+   "ID": 382,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4601,11 +5345,10 @@ var addressPoints = [
    "Latitude": 36.402681,
    "Longitude": -97.843091,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: CDSA YouthBuild",
-   "pin_number": 96,
-   "FIELD13": "0#REF!"
+   "pin_number": 96
  },
  {
-   "ID": 308,
+   "ID": 383,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4616,11 +5359,10 @@ var addressPoints = [
    "Latitude": 44.082037,
    "Longitude": -121.227125,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Heart of Oregon YouthBuild",
-   "pin_number": 97,
-   "FIELD13": "0#REF!"
+   "pin_number": 97
  },
  {
-   "ID": 309,
+   "ID": 384,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4631,11 +5373,10 @@ var addressPoints = [
    "Latitude": 45.507856,
    "Longitude": -122.690794,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Portland YouthBuilders",
-   "pin_number": 98,
-   "FIELD13": "0#REF!"
+   "pin_number": 98
  },
  {
-   "ID": 310,
+   "ID": 385,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4646,11 +5387,10 @@ var addressPoints = [
    "Latitude": 39.962998,
    "Longitude": -76.727139,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Crispus Attucks YouthBuild",
-   "pin_number": 99,
-   "FIELD13": "0#REF!"
+   "pin_number": 99
  },
  {
-   "ID": 311,
+   "ID": 386,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4661,11 +5401,10 @@ var addressPoints = [
    "Latitude": 40.447679,
    "Longitude": -79.993462,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Garfield Jubilee Association",
-   "pin_number": 100,
-   "FIELD13": "0#REF!"
+   "pin_number": 100
  },
  {
-   "ID": 312,
+   "ID": 387,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4676,11 +5415,10 @@ var addressPoints = [
    "Latitude": 40.003559,
    "Longitude": -75.166976,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Project YES YouthBuild",
-   "pin_number": 101,
-   "FIELD13": "0#REF!"
+   "pin_number": 101
  },
  {
-   "ID": 313,
+   "ID": 388,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4691,11 +5429,10 @@ var addressPoints = [
    "Latitude": 40.357242,
    "Longitude": -75.940153,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: United Community Services YouthBuild",
-   "pin_number": 102,
-   "FIELD13": "0#REF!"
+   "pin_number": 102
  },
  {
-   "ID": 314,
+   "ID": 389,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4706,11 +5443,10 @@ var addressPoints = [
    "Latitude": 40.328742,
    "Longitude": -78.914292,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Johnstown",
-   "pin_number": 103,
-   "FIELD13": "0#REF!"
+   "pin_number": 103
  },
  {
-   "ID": 315,
+   "ID": 390,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4721,11 +5457,10 @@ var addressPoints = [
    "Latitude": 39.944884,
    "Longitude": -79.770063,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Fayette",
-   "pin_number": 104,
-   "FIELD13": "0#REF!"
+   "pin_number": 104
  },
  {
-   "ID": 316,
+   "ID": 391,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4736,11 +5471,10 @@ var addressPoints = [
    "Latitude": 39.972405,
    "Longitude": -75.15908,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Philadelphia Charter School",
-   "pin_number": 105,
-   "FIELD13": "0#REF!"
+   "pin_number": 105
  },
  {
-   "ID": 317,
+   "ID": 392,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4751,11 +5485,10 @@ var addressPoints = [
    "Latitude": 41.828597,
    "Longitude": -71.423301,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Providence",
-   "pin_number": 106,
-   "FIELD13": "0#REF!"
+   "pin_number": 106
  },
  {
-   "ID": 318,
+   "ID": 393,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4766,11 +5499,10 @@ var addressPoints = [
    "Latitude": 33.987454,
    "Longitude": -81.024864,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Benedict-Allen CDC",
-   "pin_number": 107,
-   "FIELD13": "0#REF!"
+   "pin_number": 107
  },
  {
-   "ID": 319,
+   "ID": 394,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4781,11 +5513,10 @@ var addressPoints = [
    "Latitude": 34.934028,
    "Longitude": -82.010697,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Housing Authority of Spartanburg",
-   "pin_number": 108,
-   "FIELD13": "0#REF!"
+   "pin_number": 108
  },
  {
-   "ID": 320,
+   "ID": 395,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4796,11 +5527,10 @@ var addressPoints = [
    "Latitude": 34.717915,
    "Longitude": -80.683935,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Lancaster YouthBuild",
-   "pin_number": 109,
-   "FIELD13": "0#REF!"
+   "pin_number": 109
  },
  {
-   "ID": 321,
+   "ID": 396,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4811,11 +5541,10 @@ var addressPoints = [
    "Latitude": 34.848567,
    "Longitude": -82.402871,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Greenville SC",
-   "pin_number": 110,
-   "FIELD13": "0#REF!"
+   "pin_number": 110
  },
  {
-   "ID": 322,
+   "ID": 397,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4826,11 +5555,10 @@ var addressPoints = [
    "Latitude": 35.154875,
    "Longitude": -90.049631,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: WIN- City of Memphis YouthBuild",
-   "pin_number": 111,
-   "FIELD13": "0#REF!"
+   "pin_number": 111
  },
  {
-   "ID": 323,
+   "ID": 398,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4841,11 +5569,10 @@ var addressPoints = [
    "Latitude": 30.268335,
    "Longitude": -97.741382,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Austin YouthWorks",
-   "pin_number": 112,
-   "FIELD13": "0#REF!"
+   "pin_number": 112
  },
  {
-   "ID": 324,
+   "ID": 399,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4856,11 +5583,10 @@ var addressPoints = [
    "Latitude": 31.763608,
    "Longitude": -106.484592,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: El Paso CC YouthBuild",
-   "pin_number": 113,
-   "FIELD13": "0#REF!"
+   "pin_number": 113
  },
  {
-   "ID": 325,
+   "ID": 400,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4871,11 +5597,10 @@ var addressPoints = [
    "Latitude": 25.963264,
    "Longitude": -97.550453,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: CDCB/YouthBuild Brownsville",
-   "pin_number": 114,
-   "FIELD13": "0#REF!"
+   "pin_number": 114
  },
  {
-   "ID": 326,
+   "ID": 401,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4886,11 +5611,10 @@ var addressPoints = [
    "Latitude": 32.759104,
    "Longitude": -97.329756,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: CLC, Inc. YouthBuild",
-   "pin_number": 115,
-   "FIELD13": "0#REF!"
+   "pin_number": 115
  },
  {
-   "ID": 327,
+   "ID": 402,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4901,11 +5625,10 @@ var addressPoints = [
    "Latitude": 31.340783,
    "Longitude": -94.82617,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild of the Piney Woods",
-   "pin_number": 116,
-   "FIELD13": "0#REF!"
+   "pin_number": 116
  },
  {
-   "ID": 328,
+   "ID": 403,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4916,11 +5639,10 @@ var addressPoints = [
    "Latitude": 29.44302,
    "Longitude": -98.463176,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild San Antonio",
-   "pin_number": 117,
-   "FIELD13": "1#REF!"
+   "pin_number": 117
  },
  {
-   "ID": 329,
+   "ID": 404,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4931,11 +5653,10 @@ var addressPoints = [
    "Latitude": 29.491183,
    "Longitude": -98.428241,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: George Gervin Youth center YB",
-   "pin_number": 118,
-   "FIELD13": "1#REF!"
+   "pin_number": 118
  },
  {
-   "ID": 330,
+   "ID": 405,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4946,11 +5667,10 @@ var addressPoints = [
    "Latitude": 41.251872,
    "Longitude": -111.880399,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: OWATC YouthBuild",
-   "pin_number": 119,
-   "FIELD13": "0#REF!"
+   "pin_number": 119
  },
  {
-   "ID": 331,
+   "ID": 406,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4961,11 +5681,10 @@ var addressPoints = [
    "Latitude": 37.23526,
    "Longitude": -77.380606,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Pathways YouthBuild",
-   "pin_number": 120,
-   "FIELD13": "1#REF!"
+   "pin_number": 120
  },
  {
-   "ID": 332,
+   "ID": 407,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4976,11 +5695,10 @@ var addressPoints = [
    "Latitude": 37.222337,
    "Longitude": -77.423107,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Shalom Homes YouthBuild",
-   "pin_number": 121,
-   "FIELD13": "1#REF!"
+   "pin_number": 121
  },
  {
-   "ID": 333,
+   "ID": 408,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -4991,11 +5709,10 @@ var addressPoints = [
    "Latitude": 37.270237,
    "Longitude": -79.941586,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Plus of Roanoke",
-   "pin_number": 122,
-   "FIELD13": "0#REF!"
+   "pin_number": 122
  },
  {
-   "ID": 334,
+   "ID": 409,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -5006,11 +5723,10 @@ var addressPoints = [
    "Latitude": 44.476622,
    "Longitude": -73.209998,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: ReSOURCE YouthBuild",
-   "pin_number": 123,
-   "FIELD13": "0#REF!"
+   "pin_number": 123
  },
  {
-   "ID": 335,
+   "ID": 410,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -5021,11 +5737,10 @@ var addressPoints = [
    "Latitude": 47.250158,
    "Longitude": -122.43903,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Tacoma Goodwill YouthBuild",
-   "pin_number": 124,
-   "FIELD13": "0#REF!"
+   "pin_number": 124
  },
  {
-   "ID": 336,
+   "ID": 411,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -5036,11 +5751,10 @@ var addressPoints = [
    "Latitude": 47.66264,
    "Longitude": -117.435997,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Spokane",
-   "pin_number": 125,
-   "FIELD13": "0#REF!"
+   "pin_number": 125
  },
  {
-   "ID": 337,
+   "ID": 412,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -5051,11 +5765,10 @@ var addressPoints = [
    "Latitude": 45.678996,
    "Longitude": -122.720499,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Vancouver (Partners in Careers)",
-   "pin_number": 126,
-   "FIELD13": "0#REF!"
+   "pin_number": 126
  },
  {
-   "ID": 338,
+   "ID": 413,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -5066,11 +5779,10 @@ var addressPoints = [
    "Latitude": 46.596673,
    "Longitude": -120.533851,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Yakima",
-   "pin_number": 127,
-   "FIELD13": "0#REF!"
+   "pin_number": 127
  },
  {
-   "ID": 339,
+   "ID": 414,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -5081,11 +5793,10 @@ var addressPoints = [
    "Latitude": 47.610902,
    "Longitude": -122.336422,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthCare YouthBuild",
-   "pin_number": 128,
-   "FIELD13": "0#REF!"
+   "pin_number": 128
  },
  {
-   "ID": 340,
+   "ID": 415,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -5096,11 +5807,10 @@ var addressPoints = [
    "Latitude": 48.754092,
    "Longitude": -122.508129,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Lummi YouthBuild",
-   "pin_number": 129,
-   "FIELD13": "0#REF!"
+   "pin_number": 129
  },
  {
-   "ID": 341,
+   "ID": 416,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -5111,11 +5821,10 @@ var addressPoints = [
    "Latitude": 42.562039,
    "Longitude": -89.086045,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: Beloit Fresh Start",
-   "pin_number": 130,
-   "FIELD13": "0#REF!"
+   "pin_number": 130
  },
  {
-   "ID": 342,
+   "ID": 417,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -5126,11 +5835,10 @@ var addressPoints = [
    "Latitude": 44.062886,
    "Longitude": -88.535694,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Oshkosh",
-   "pin_number": 131,
-   "FIELD13": "0#REF!"
+   "pin_number": 131
  },
  {
-   "ID": 343,
+   "ID": 418,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -5141,11 +5849,10 @@ var addressPoints = [
    "Latitude": 43.080185,
    "Longitude": -88.264875,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild Building Futures",
-   "pin_number": 132,
-   "FIELD13": "0#REF!"
+   "pin_number": 132
  },
  {
-   "ID": 344,
+   "ID": 419,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -5156,11 +5863,10 @@ var addressPoints = [
    "Latitude": 38.04066,
    "Longitude": -81.27011,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: SALS YouthBuild",
-   "pin_number": 133,
-   "FIELD13": "0#REF!"
+   "pin_number": 133
  },
  {
-   "ID": 345,
+   "ID": 420,
    "grantee": "YouthBuild, USA",
    "granteeAcronym": "ybu",
    "type": "site",
@@ -5171,7 +5877,5 @@ var addressPoints = [
    "Latitude": 38.92594,
    "Longitude": -79.84673,
    "blurb": "<a href=\"https://www.youthbuild.org/\" target=\"_blank\">YouthBuild USA</a> site: YouthBuild North Central West Virginia",
-   "pin_number": 134,
-   "FIELD13": "0#REF!"
- }
-];
+   "pin_number": 134
+ }];

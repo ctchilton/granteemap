@@ -16,7 +16,7 @@ $(document).ready(function(){
 
 
     if (hashAttr == 'all') {
-        showAllGrantees();
+        L.Understated.showAllGrantees(granteeData);
         L.Understated.resetStateOpacity(stateData, mapSettings);
         $(".info.legend.leaflet-control").show(); // Show legend
         $(".programcount").show(); // Show programcount
@@ -69,26 +69,10 @@ $(document).ready(function(){
 
 
 
-
 /*********************************************************************************************
 *
 *********************************************************************************************/
-function showAllGrantees() {
-    $("#stateName").html("All Grantees");
-
-    var granteesUl = '';
-    for (var key in granteeData) {
-        granteesUl = granteesUl + '<option value="'+key+'" data-group="'+key+'" data-key="'+key+'" data-op="addLayer">' + granteeData[key]['name'] + '</option>';
-    }     
-    $("#stateGrantees").html('<option value="all">All Grantees</option>'+granteesUl);
-    $("#stateInfo").show();
-    L.Understated.resetStateFill(stateData);
-}
-
-/*********************************************************************************************
-*
-*********************************************************************************************/
-showAllGrantees(); // on default load
+L.Understated.showAllGrantees(granteeData); // on default load
 
 /** leaflet */
 // replace density with grantees
@@ -171,10 +155,10 @@ for (i = 0; i < fullCount; i++) {
     
     // add marker to map
     marker.addTo(
-                a.granteeAcronym == 'aap' ?  group[1] :
-                a.granteeAcronym == 'abamf' ?  group[2] :
-                a.granteeAcronym == 'bhsb' ?  group[3] :
-                a.granteeAcronym == 'busp' ?  group[4] :
+                a.granteeAcronym == 'aap' ?  group[1] : 
+                a.granteeAcronym == 'amf' ?  group[2] : 
+                a.granteeAcronym == 'bhsb' ?  group[3] : 
+                a.granteeAcronym == 'busp' ?  group[4] : 
                 a.granteeAcronym == 'cadca' ?  group[5] :
                 a.granteeAcronym == 'cafp' ?  group[6] :
                 a.granteeAcronym == 'ccat' ?  group[7] :
@@ -187,32 +171,37 @@ for (i = 0; i < fullCount; i++) {
                 a.granteeAcronym == 'facadd' ?  group[14] :
                 a.granteeAcronym == 'fin' ?  group[15] :
                 a.granteeAcronym == 'fract' ?  group[16] :
-                a.granteeAcronym == 'gih' ?  group[17] :
-                a.granteeAcronym == 'kfri' ?  group[18] :
-                a.granteeAcronym == 'kip' ?  group[19] :
-                a.granteeAcronym == 'lac' ?  group[20] :
-                a.granteeAcronym == 'mfu' ?  group[21] :
-                a.granteeAcronym == 'mgr' ?  group[22] :
-                a.granteeAcronym == 'mhcf' ?  group[23] :
-                a.granteeAcronym == 'nas' ?  group[24] :
-                a.granteeAcronym == 'nasadad' ?  group[25] :
-                a.granteeAcronym == 'ncbh' ?  group[26] :
-                a.granteeAcronym == 'nhcf' ?  group[27] :
-                a.granteeAcronym == 'norc' ?  group[28] :
-                a.granteeAcronym == 'osu' ?  group[29] :
-                a.granteeAcronym == 'pdfk' ?  group[30] :
-                a.granteeAcronym == 'phope' ?  group[31] :
-                a.granteeAcronym == 'pri' ?  group[32] :
-                a.granteeAcronym == 'psurf' ?  group[33] :
-                a.granteeAcronym == 'sbha' ?  group[34] : 
-                a.granteeAcronym == 'tah' ?  group[35] :
-                a.granteeAcronym == 'tri' ?  group[36] :
-                a.granteeAcronym == 'tyr' ?  group[37] :
-                a.granteeAcronym == 'uisap' ?  group[38] :
-                a.granteeAcronym == 'uom' ?  group[39] : 
-                a.granteeAcronym == 'uonm' ?  group[40] :
-                a.granteeAcronym == 'uvm' ?  group[41] : 
-                a.granteeAcronym == 'ybu' ? group [42]: group[42]
+                a.granteeAcronym == 'fri' ?  group[17] :
+                a.granteeAcronym == 'gih' ?  group[18] :
+                a.granteeAcronym == 'isu' ?  group[19] :
+                a.granteeAcronym == 'kfri' ?  group[20] :
+                a.granteeAcronym == 'kip' ?  group[21] :
+                a.granteeAcronym == 'lac' ?  group[22] :
+                a.granteeAcronym == 'mfu' ?  group[23] :
+                a.granteeAcronym == 'mgr' ?  group[24] :
+                a.granteeAcronym == 'mhcf' ?  group[25] :
+                a.granteeAcronym == 'nas' ?  group[26] :
+                a.granteeAcronym == 'nasadad' ?  group[27] :
+                a.granteeAcronym == 'ncbh' ?  group[28] :
+                a.granteeAcronym == 'nhcf' ?  group[29] :
+                a.granteeAcronym == 'norc' ?  group[30] :
+                a.granteeAcronym == 'osu' ?  group[31] :
+                a.granteeAcronym == 'pdfk' ?  group[32] :
+                a.granteeAcronym == 'phi' ?  group[33] :
+                a.granteeAcronym == 'phope' ?  group[34] :
+                a.granteeAcronym == 'pri' ?  group[35] :
+                a.granteeAcronym == 'psurf' ?  group[36] :
+                a.granteeAcronym == 'sbha' ?  group[37] :            
+                a.granteeAcronym == 'tah' ?  group[38] :
+                a.granteeAcronym == 'tri' ?  group[39] :
+                a.granteeAcronym == 'tyr' ?  group[40] :
+                a.granteeAcronym == 'ucb' ?  group[41] :
+                a.granteeAcronym == 'uisap' ?  group[42] :
+                a.granteeAcronym == 'uom' ?  group[43] : 
+                a.granteeAcronym == 'uonm' ?  group[44] :
+                a.granteeAcronym == 'uvm' ?  group[45] : 
+                a.granteeAcronym == 'ybu' ? group [46]: 
+                a.granteeAcronym == 'ypr' ? group [47]:  group[47]
 
                 );
 }
@@ -227,12 +216,6 @@ addGranteeToMap();
 function resetMap(){
     granteesLayerGroup['addLayers'](arryGroups);
 }
-
-/*
-function clearMap(){
-    granteesLayerGroup['clearLayers'](arryGroups);
-}
-*/
 
 function addGranteeToMap(){
         // Adding to map.
@@ -258,56 +241,59 @@ function toggleGroup(event) {
         var data = event.currentTarget.selectedOptions[0].dataset;
         var op      = data.op;
         var groupNo = data.group;
-        var group2  =   groupNo == 'aap' ?  group[1] :
-                        groupNo == 'abamf' ?  group[2] :
-                        groupNo == 'bhsb' ?  group[3] :
-                        groupNo == 'busp' ?  group[4] :
-                        groupNo == 'cadca' ?  group[5] :
-                        groupNo == 'cafp' ?  group[6] :
-                        groupNo == 'ccat' ?  group[7] :
-                        groupNo == 'ccf' ?  group[8] :
-                        groupNo == 'cdcf' ?  group[9] :
-                        groupNo == 'chc' ?  group[10] :
-                        groupNo == 'chcs' ?  group[11] :
-                        groupNo == 'csi' ?  group[12] :
-                        groupNo == 'csjksu' ?  group[13] :
-                        groupNo == 'facadd' ?  group[14] :
-                        groupNo == 'fin' ?  group[15] :
-                        groupNo == 'fract' ?  group[16] :
-                        groupNo == 'gih' ?  group[17] :
-                        groupNo == 'kfri' ?  group[18] :
-                        groupNo == 'kip' ?  group[19] :
-                        groupNo == 'lac' ?  group[20] :
-                        groupNo == 'mfu' ?  group[21] :
-                        groupNo == 'mgr' ?  group[22] :
-                        groupNo == 'mhcf' ?  group[23] :
-                        groupNo == 'nas' ?  group[24] :
-                        groupNo == 'nasadad' ?  group[25] :
-                        groupNo == 'ncbh' ?  group[26] :
-                        groupNo == 'nhcf' ?  group[27] :
-                        groupNo == 'norc' ?  group[28] :
-                        groupNo == 'osu' ?  group[29] :
-                        groupNo == 'pdfk' ?  group[30] :
-                        groupNo == 'phope' ?  group[31] :
-                        groupNo == 'pri' ?  group[32] :
-                        groupNo == 'psurf' ?  group[33] :
-                        groupNo == 'sbha' ?  group[34] :
-                        groupNo == 'tah' ?  group[35] :
-                        groupNo == 'tri' ?  group[36] :
-                        groupNo == 'tyr' ?  group[37] :
-                        groupNo == 'uisap' ?  group[38] :
-                        groupNo == 'uom' ?  group[39] :
-                        groupNo == 'uonm' ?  group[40] :
-                        groupNo == 'uvm' ?  group[41] :
-                        groupNo == 'ybu' ?  group[42] : group[43];
+        var group2  =   
+
+                groupNo == 'aap' ?  group[1] : 
+                groupNo == 'amf' ?  group[2] : 
+                groupNo == 'bhsb' ?  group[3] : 
+                groupNo == 'busp' ?  group[4] : 
+                groupNo == 'cadca' ?  group[5] :
+                groupNo == 'cafp' ?  group[6] :
+                groupNo == 'ccat' ?  group[7] :
+                groupNo == 'ccf' ?  group[8] :
+                groupNo == 'cdcf' ?  group[9] :
+                groupNo == 'chc' ?  group[10] :
+                groupNo == 'chcs' ?  group[11] :
+                groupNo == 'csi' ?  group[12] :
+                groupNo == 'csjksu' ?  group[13] :
+                groupNo == 'facadd' ?  group[14] :
+                groupNo == 'fin' ?  group[15] :
+                groupNo == 'fract' ?  group[16] :
+                groupNo == 'fri' ?  group[17] :
+                groupNo == 'gih' ?  group[18] :
+                groupNo == 'isu' ?  group[19] :
+                groupNo == 'kfri' ?  group[20] :
+                groupNo == 'kip' ?  group[21] :
+                groupNo == 'lac' ?  group[22] :
+                groupNo == 'mfu' ?  group[23] :
+                groupNo == 'mgr' ?  group[24] :
+                groupNo == 'mhcf' ?  group[25] :
+                groupNo == 'nas' ?  group[26] :
+                groupNo == 'nasadad' ?  group[27] :
+                groupNo == 'ncbh' ?  group[28] :
+                groupNo == 'nhcf' ?  group[29] :
+                groupNo == 'norc' ?  group[30] :
+                groupNo == 'osu' ?  group[31] :
+                groupNo == 'pdfk' ?  group[32] :
+                groupNo == 'phi' ?  group[33] :
+                groupNo == 'phope' ?  group[34] :
+                groupNo == 'pri' ?  group[35] :
+                groupNo == 'psurf' ?  group[36] :
+                groupNo == 'sbha' ?  group[37] :            
+                groupNo == 'tah' ?  group[38] :
+                groupNo == 'tri' ?  group[39] :
+                groupNo == 'tyr' ?  group[40] :
+                groupNo == 'ucb' ?  group[41] :
+                groupNo == 'uisap' ?  group[42] :
+                groupNo == 'uom' ?  group[43] : 
+                groupNo == 'uonm' ?  group[44] :
+                groupNo == 'uvm' ?  group[45] : 
+                groupNo == 'ybu' ? group [46]: 
+                groupNo == 'ypr' ? group [47]: group[48] ;
 
 
-        //granteesLayerGroup[op](group);
         granteesLayerGroup['clearLayers'](group2);
         granteesLayerGroup[op](group2);
-        //granteesLayerGroup.refreshClusters(); 
-        //console.log(granteesLayerGroup.refreshClusters());
-        //console.log(op + " " + groupNo);
     }
 }
 
@@ -442,7 +428,7 @@ function zoomToFeature(e) {
 
       if ( $("#stateName").html() == stateInfo['name']){
           // show All Grantees
-          showAllGrantees();
+          L.Understated.showAllGrantees(granteeData);
       }
       else {
           // show only grantees for one state
@@ -500,13 +486,7 @@ legend.onAdd = function (map) {
 
 $(document).ready(function(){
     $('<p class="legend-title"><strong>Active Grantees</strong><p class="legend-note">shading represents # active grantees, rather than a count of each site.</p>').insertBefore('.info.legend.leaflet-control i:nth-child(1)');
-  //  $('<p class="legend-note">grantee note</p>').insertAfter('.info.legend.leaflet-control i:nth-child(12)');
 });
 
 
 legend.addTo(map);
-
-function onOptionClick () {
-    alert(e.value);
-}
-
