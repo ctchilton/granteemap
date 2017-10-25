@@ -38,4 +38,20 @@ L.Understated = {
             $( ".state-" + stateKey  ).attr( 'fill', fillColor );
         }   
     }
+    
+        /**
+     * Show all Grantees (after a dropdown select, for example)
+     */
+    showAllGrantees: function(granteeData) {
+        $("#stateName").html("All Grantees");
+
+        var granteesUl = '';
+        for (var key in granteeData) {
+            granteesUl = granteesUl + '<option value="' + key + '" data-group="' + key + '" data-key="'+key+'" data-op="addLayer">' + granteeData[key]['name'] + '</option>';
+        }     
+        $("#stateGrantees").html('<option value="all">All Grantees</option>' + granteesUl);
+        $("#stateInfo").show();
+
+        L.Understated.resetStateFill(stateData);
+    }
 }
