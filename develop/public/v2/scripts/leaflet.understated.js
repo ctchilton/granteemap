@@ -37,9 +37,9 @@ L.Understated = {
             var fillColor = getColor(granteeCount);
             $( ".state-" + stateKey  ).attr( 'fill', fillColor );
         }   
-    }
+    },
     
-        /**
+    /**
      * Show all Grantees (after a dropdown select, for example)
      */
     showAllGrantees: function(granteeData) {
